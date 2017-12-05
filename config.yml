@@ -1,0 +1,33 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/workspace
+    docker:
+      - image: node:6
+    steps:
+      - run:
+          name: System information
+          command: |
+            echo "Node $(node -v)"
+            echo "NPM v$(npm -v)"
+      - checkout
+      - restore_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+      - run:
+          name: Setup
+          command: npm run setup
+      - save_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+          paths:
+            - ./node_modules
+      - run:
+          name: Validate
+          command: npm run validate
+      - run:
+          name: Build
+          command: npm run build
+      - run:
+          name: Test
+          command: npm test
+      - store_artifacts:
+          path: target/site
