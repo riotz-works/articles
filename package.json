@@ -22,8 +22,10 @@
   },
   "scripts": {
     "setup": "npm install && npm dedupe",
+    "validate": "echo skip validate",
     "build": "hexo clean && hexo generate",
     "test": "echo skip test",
-    "start": "hexo server -o"
+    "start": "hexo server -o",
+    "deploy": "hexo deploy"
   }
 }

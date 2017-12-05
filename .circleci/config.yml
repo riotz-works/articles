@@ -1,9 +1,11 @@
 version: 2
 jobs:
   build:
+    environment:
+      TZ: /usr/share/zoneinfo/Asia/Tokyo
     working_directory: ~/workspace
     docker:
-      - image: node:6
+      - image: node:8
     steps:
       - run:
           name: System information
@@ -29,5 +31,10 @@ jobs:
       - run:
           name: Test
           command: npm test
+      - deploy:
+          command: |
+            git config --global user.name "CircleCI"
+            git config --global user.email "riotz.works@gmail.com"
+            npm run deploy
       - store_artifacts:
           path: target/site
