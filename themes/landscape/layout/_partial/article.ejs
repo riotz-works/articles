@@ -21,6 +21,15 @@
       <% } else { %>
         <%- post.content %>
       <% } %>
+      <% if (post.author){ %>
+        <% if (!config.authors[post.author]){ %>
+          Author: <strong><%- post.author %></strong>
+        <% } else { %>
+          <% if (config.authors[post.author].name){ %>Author: <strong><%- config.authors[post.author].name %></strong><% } else { %>Author: <strong><%- post.author %></strong><% } %>
+          <% if (config.authors[post.author].github){ %><a href="https://github.com/<%- config.authors[post.author].github %>" class="article-link-github" target="_blank" title="GitHub"></a><% } %>
+          <% if (config.authors[post.author].twitter){ %><a href="https://twitter.com/<%- config.authors[post.author].twitter %>" class="article-link-twitter" target="_blank" title="Twitter"></a><% } %>
+        <% } %>
+      <% } %>
     </div>
     <footer class="article-footer">
       <a data-url="<%- post.permalink %>" data-id="<%= post._id %>" class="article-share-link"><%= __('share') %></a>

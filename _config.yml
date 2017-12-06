@@ -92,3 +92,14 @@ deploy:
   repo: git@github.com:riotz-works/articles.git
   branch: master
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }} [ci skip]"
+
+# Authors
+authors:
+  lulzneko:
+    name: lulzneko
+    github: lulzneko
+    twitter: lulzneko
+  lopburny:
+    name: lopburny
+    github: lopburny
+    twitter: lopburny
