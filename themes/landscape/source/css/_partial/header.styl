@@ -1,7 +1,7 @@
 #header
-  height: banner-height
+  height: 200px
   position: relative
-  border-bottom: 1px solid color-border
+  border-bottom: 1px solid rgba(170, 0, 0, .2)
   &:before, &:after
     content: ""
     position: absolute
@@ -53,6 +53,10 @@ $logo-text
   font-size: logo-size
   line-height: logo-size
   letter-spacing: 2px
+
+#logo img
+  max-width: 100%
+  width: 500px
 
 #subtitle
   @extend $logo-text
