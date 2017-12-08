@@ -1,0 +1,11 @@
+<% if (post.categories && post.categories.length){ %>
+  <div class="article-author">
+      <% if (post.author){ %>
+        <% if (!config.authors[post.author]){ %>
+          <%- post.author %>
+        <% } else { %>
+          <% if (config.authors[post.author].name){ %><%- config.authors[post.author].name %><% } else { %><%- post.author %><% } %>
+        <% } %>
+      <% } %>
+  </div>
+<% } %>

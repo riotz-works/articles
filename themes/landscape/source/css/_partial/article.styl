@@ -11,19 +11,31 @@
 .article-date
   @extend $block-caption
   float: left
+  margin-right: 12px
+  &:before
+    content: "\f133"
+    font-family: font-icon
 
 .article-category
+  @extend $block-caption
   float: left
-  line-height: 1em
-  color: #ccc
-  text-shadow: 0 1px #fff
-  margin-left: 8px
+  margin-right: 12px
   &:before
-    content: "\2022"
+    content: "\f114"
+    font-family: font-icon
 
 .article-category-link
   @extend $block-caption
-  margin: 0 12px 1em
+  margin: 0
+
+.article-author
+  @extend $block-caption
+  float: left
+  margin-right: 12px
+  text-transform: none
+  &:before
+    content: "\f2be"
+    font-family: font-icon
 
 .article-header
   padding: article-padding article-padding 0
