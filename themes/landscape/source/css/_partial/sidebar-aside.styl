@@ -7,6 +7,29 @@
 
 .widget-title
   @extend $block-caption
+  &:before
+    font-family: font-icon
+    margin-right: 4px
+
+.widget-title.archive
+  &:before
+    content: "\f187"
+
+.widget-title.category
+  &:before
+    content: "\f114"
+
+.widget-title.recent
+  &:before
+    content: "\f017"
+
+.widget-title.tag
+  &:before
+    content: "\f02c"
+
+.widget-title.tagcloud
+  &:before
+    content: "\f0c2"
 
 .widget
   color: color-sidebar-text
