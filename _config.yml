@@ -82,6 +82,9 @@ feed:
 sitemap:
   path: sitemap.xml
 
+### Disqus (https://disqus.com/)
+disqus_shortname: riotz
+
 ## Themes: https://hexo.io/themes/
 theme: landscape
 
