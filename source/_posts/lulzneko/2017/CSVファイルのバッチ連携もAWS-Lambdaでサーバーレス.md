@@ -18,7 +18,7 @@ categories: サーバーレス
 ざっくりと下図のようなシステムで AWS 上に作られています。
 スマートフォン などから IoT 機器を操作するようなクラウド・サービスがあり、そのバックグラウンド・プラットフォームになります。認証や機器のデータ管理を行うシステムです。
 このシステムは、図の [Amazon API Gateway](https://aws.amazon.com/jp/api-gateway/) と [AWS Lambda](https://aws.amazon.com/jp/lambda/) が ペアになっているアイコン毎が１つ１つのマイクロサービスとして作られています。つまり 10を超えるマイクロ・サービスの集合体になります！
-![](/articles/assets/lulzneko/serverless/01.png)
+![](/articles/assets/lulzneko/serverless/batch/01.png)
 
 今回の話は、この図の右上部分 "Traditional DC"、企業の伝統的なデータセンターからデータを受ける部分です。
 この部分は伝統とシキタリにのっとり CSV ファイル を 受け取り、処理する仕組みが必要となります。
@@ -41,7 +41,7 @@ categories: サーバーレス
 
 
 ## CSV ファイル 連携 の アーキテクチャ概要図
-![](/articles/assets/lulzneko/serverless/02.png)
+![](/articles/assets/lulzneko/serverless/batch/02.png)
 "Traditional DC" からは、[Amazon S3](https://aws.amazon.com/jp/s3/) に CSV を おいてもらうことにします。FTP/SFTP とのリクエストがありましたが、サーバーレス厨 とは言わずとも ここは S3 へのアップロードへお願いしたいところ、何としてでも承諾いただきます。(いただきました)
 
 S3 からは [Amazon SNS](https://aws.amazon.com/jp/sns/) へ イベント通知をし、Lambda を 起動します。その Lambda で CSV を パースして DynamoDB へ データを登録します。
@@ -61,7 +61,7 @@ Lambda は 設定するメモリの使用量によって処理速度が変わる
 
 では、どうするのか。
 
-![](/articles/assets/lulzneko/serverless/03.png)
+![](/articles/assets/lulzneko/serverless/batch/03.png)
 S3 に 置かれたファイルを DynamoDB へ 登録する前に、ファイル分割する処理をはさみます。
 １回の Lambda で DynamoDB へ 登録できるのは 余裕を見て 500件までとして、CSV ファイルを 500行ごとのファイルに分割して S3 へ 再アップロードします。その 500行ごとのファイルを Lambda で DynamoDB へ 登録する形にしました。
 
