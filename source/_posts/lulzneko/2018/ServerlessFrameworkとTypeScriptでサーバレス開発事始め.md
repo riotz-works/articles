@@ -6,6 +6,8 @@ author: lulzneko
 categories: サーバーレス
 tags:
 - AWS Lambda
+- Serverless Framework
+- TypeScript
 ---
 
 ![](/articles/assets/lulzneko/serverless/serverless.jpg "サーバーレス")
