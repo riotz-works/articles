@@ -4,6 +4,8 @@ permalink: ServerlessFrameworkとTypeScriptでサーバレス開発事始め
 date: 2018-02-01
 author: lulzneko
 categories: サーバーレス
+tags:
+- AWS Lambda
 ---
 
 ![](/articles/assets/lulzneko/serverless/serverless.jpg "サーバーレス")

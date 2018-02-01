@@ -4,6 +4,8 @@ permalink: CSVファイルのバッチ連携もAWS-Lambdaでサーバーレス
 date: 2017-12-07
 author: lulzneko
 categories: サーバーレス
+tags:
+- AWS Lambda
 ---
 
 ![](/articles/assets/lulzneko/serverless/serverless.jpg "サーバーレス")
