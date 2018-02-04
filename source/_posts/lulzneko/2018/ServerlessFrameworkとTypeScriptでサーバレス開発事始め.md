@@ -15,7 +15,11 @@ tags:
 [前回の記事](/articles/2017/12/07/CSVファイルのバッチ連携もAWS-Lambdaでサーバーレス/)から時間が空いてしまいましたが、ちょうど新しいプロダクトの開発を始めるところなので [Serverless Framework](https://serverless.com/) と [TypeScript](https://www.typescriptlang.org/) で 開発する際の事始めについてまとめます。
 例によって Hello World になりますが、こんな感じで作り始めますというところを お伝えできればと思います。
 
-## 環境
+### シリーズの記事
+- **Serverless Framework と TypeScript で サーバレス開発事始め]** (本記事)
+- [Serverless Framework と TypeScript で Hello と Version の Web API を 実装](/articles/2018/02/03/ServerlessFrameworkとTypeScriptでHelloとVersionのWebAPIを実装/)
+
+### 環境
 開発者の環境は以下となります。
 - Windows 10 64bit
 - Visual Studio Code
