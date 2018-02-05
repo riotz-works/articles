@@ -17,7 +17,7 @@ tags:
 例によって Hello World になりますが、こんな感じで作り始めますというところを お伝えできればと思います。
 
 ### シリーズの記事
-- **Serverless Framework と TypeScript で サーバレス開発事始め]** (本記事)
+- **Serverless Framework と TypeScript で サーバレス開発事始め** (本記事)
 - [Serverless Framework と TypeScript で Hello と Version の Web API を 実装](/articles/2018/02/03/ServerlessFrameworkとTypeScriptでHelloとVersionのWebAPIを実装/)
 
 ### 環境
