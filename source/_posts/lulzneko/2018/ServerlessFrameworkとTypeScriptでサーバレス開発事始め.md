@@ -1,6 +1,7 @@
 ---
 title: Serverless Framework と TypeScript で サーバレス開発事始め
-permalink: ServerlessFrameworkとTypeScriptでサーバレス開発事始め
+permalink: beginning-serverless-dev-with-serverless-framework-and-typescript
+alias: /2018/02/01/ServerlessFrameworkとTypeScriptでサーバレス開発事始め/
 date: 2018-02-01
 author: lulzneko
 categories: サーバーレス

@@ -1,6 +1,7 @@
 ---
 title: CSV ファイル の バッチ連携 も AWS Lambda で サーバーレス
-permalink: CSVファイルのバッチ連携もAWS-Lambdaでサーバーレス
+permalink: csv-batch-can-also-realized-with-serverless-impl-using-lambda
+alias: /2017/12/07/CSVファイルのバッチ連携もAWS-Lambdaでサーバーレス/
 date: 2017-12-07
 author: lulzneko
 categories: サーバーレス
