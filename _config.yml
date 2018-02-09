@@ -82,6 +82,23 @@ feed:
 sitemap:
   path: sitemap.xml
 
+## hexo-html-minifier (https://github.com/hexojs/hexo-html-minifier)
+html_minifier:
+  collapseBooleanAttributes: true
+  collapseInlineTagWhitespace: true
+  collapseWhitespace: true
+  decodeEntities: true
+  minifyCSS: true
+  minifyJS: true
+  removeComments: true
+  removeEmptyAttributes: true
+  removeEmptyElements: false  # Note: When this setting is enabled, the header image will not be displayed
+  removeOptionalTags: true
+  removeRedundantAttributes: true
+  removeScriptTypeAttributes: true
+  removeStyleLinkTypeAttributes: true
+  useShortDoctype: true
+
 ### Disqus (https://disqus.com/)
 disqus_shortname: riotz
 
