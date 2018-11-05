@@ -46,7 +46,7 @@ jobs:
       - deploy:
           command: |
             git config --global user.name "CircleCI"
-            git config --global user.email "riotz.works@gmail.com"
+            git config --global user.email "contact@riotz.works"
             npm run deploy
       - store_artifacts:
           path: target/site
