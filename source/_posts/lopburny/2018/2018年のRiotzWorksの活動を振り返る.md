@@ -9,6 +9,8 @@ tags:
 - 2018年
 ---
 
+![](/articles/assets/lopburny/img/what-we-did-in-2018-thumb.jpg "振り返り")
+
 どうも、Riotz Works のうさぎ（[@lopburny](https://twitter.com/lopburny)）です！
 
 昨日、年内予定していた全ての用事が終わり、年末の連休に突入しました。僕は例年クリスマスが終わった時点でそわそわして集中力が持たなくなりますが、今年は色々あって今日からやっと休暇に入ります。
