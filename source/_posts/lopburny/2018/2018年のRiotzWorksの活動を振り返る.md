@@ -55,7 +55,7 @@ AWS Lambda は、リリース当初から現在に至るまで、Java ランタ�
 
 @SPAJAM 2018 東京D予選、 発表資料は[こちら](https://riotz.works/slides/?2018-spajam-qualification#1)
 
-6月16日~17日。今回はカンファレンスではなくハッカソンです。[@lulzneko](https://twitter.com/lulzneko)、[@javapony](https://twitter.com/javapony)、[@lopburny](https://twitter.com/lopburny) ３人で出場しました。メンバー全員初めてのハッカソンで、Riotz Works としても初です。もともとこの SPAJAM というハッカソンには注目していて、Riotz Works 結成前から「出てみたい」と何度か話したことがありました。そして、思い切って、エントリーしたのです。
+6月16日~17日。今回はカンファレンスではなくハッカソンです。[@lulzneko](https://twitter.com/lulzneko)、[@javaponny](https://twitter.com/javaponny)、[@lopburny](https://twitter.com/lopburny) ３人で出場しました。メンバー全員初めてのハッカソンで、Riotz Works としても初です。もともとこの SPAJAM というハッカソンには注目していて、Riotz Works 結成前から「出てみたい」と何度か話したことがありました。そして、思い切って、エントリーしたのです。
 
 １日目の朝、そわそわしながら会場へ向かい、午前のアイディアソンを終えて、ハッカソンのテーマ（音楽）が発表されました。会場近くの築地市場で海鮮丼を食べながら、どうする？何作る？と議論をはじめ、私が思いついたのが、このラップバトルです。言ってみたものの、これどうやってつくるの、やばくね、みたいな感じでした💦
 
@@ -75,7 +75,7 @@ AWS Lambda は、リリース当初から現在に至るまで、Java ランタ�
 
 @Serverlessconf Tokyo 2018、 発表資料は[こちら](https://riotz.works/slides/?2018-serverless-conf#1)
 
-9月29日。[@lulzneko](https://twitter.com/lulzneko)、[@javapony](https://twitter.com/javapony)、[@lopburny](https://twitter.com/lopburny) ３人で発表しました。Serverlessconf Tokyo での発表は、去年に続き２回目となります。夏のハッカソンの余韻がまだ残っていて、この発表の準備にも気合が入りました。特に、会場スクリーンのアスペクト比が 48:9 という、ものすごく大きくて迫力のある会場だったため、わくわくしつつもかなり緊張していました😂
+9月29日。[@lulzneko](https://twitter.com/lulzneko)、[@javaponny](https://twitter.com/javaponny)、[@lopburny](https://twitter.com/lopburny) ３人で発表しました。Serverlessconf Tokyo での発表は、去年に続き２回目となります。夏のハッカソンの余韻がまだ残っていて、この発表の準備にも気合が入りました。特に、会場スクリーンのアスペクト比が 48:9 という、ものすごく大きくて迫力のある会場だったため、わくわくしつつもかなり緊張していました😂
 
 気合を入れて会場に着き、生でみる会場の広さとスクリーンの迫力にびっくりしながら、デモの準備をしました。ちゃんと動くのを確認してこれはいける！と思ったんですが、本番では開始とともにデモが固まって動かないことに。そういうことにならないよう、開始１０分前からアプリを立ち上げた状態で待機したのですが、なぜか開始のタイミングで 僕のスマホが固まってしまったんです。えーーー、なんで。。。ショック。。。とパニックになってしまった僕は、落ち着いて話すことができず、発表中に焦りを出してしまった気がして反省しています。
 
