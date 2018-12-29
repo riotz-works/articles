@@ -45,7 +45,7 @@ tags:
 
 @JJUG CCC 2018 Spring、 発表資料は[こちら](https://riotz.works/slides/?2018-jjug-ccc-spring#1)
 
-5月26日。[@lulzneko](https://twitter.com/lulzneko) の単独発表です。最初 [@lulzneko](https://twitter.com/lulzneko) からこの話を聞いた時、「まじでこのイベントでやるんですか？！」と叫びそうになりました💦 そう、国内有数の Java イベントの一つである JJUG にて、このテーマで発表したんです。
+5月26日。[@lulzneko](https://twitter.com/lulzneko) の単独発表です。
 
 AWS Lambda は、リリース当初から現在に至るまで、Java ランタイムを選択すると必然的に Cold Start に悩まされることになります（Cold Start を無視してもいいケースなら問題になりません）。この問題に対するアプローチはいくつかあると思いますが、私たちのチームが身をもって実践してみたことで、「Java 開発者において、TypeScript は良い選択になり得る」というのがポイントになります。
 
