@@ -8,7 +8,7 @@ tags:
 - JAMStack
 ---
 
-![](/articles/assets/lulzneko/serverless/serverless.jpg)
+![](/articles/assets/lulzneko/serverless/jamstack.jpg)
 
 "JAMStack" と 呼ばれる、新しい ウェブの開発手法で、より良いパフォーマンス、より高いセキュリティ、より安価で簡単なスケーリング、より良質な開発者エクスペリエンス を 提供するアーキテクチャ が 注目を集め始めています。
 
