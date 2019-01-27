@@ -3,7 +3,7 @@ title: JAMStack、それは ハイパフォーマンスなウェブフロント�
 permalink: jamstack-an-architecture-to-realize-fine-web-front
 date: 2019-01-23
 author: lulzneko
-categories: サーバーレス
+categories: フロントエンド
 tags:
 - JAMStack
 ---
