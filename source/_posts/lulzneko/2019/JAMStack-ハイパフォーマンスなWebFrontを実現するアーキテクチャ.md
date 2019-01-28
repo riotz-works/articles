@@ -6,6 +6,8 @@ author: lulzneko
 categories: フロントエンド
 tags:
 - JAMStack
+- Gridsome
+- Nuxt.js
 ---
 
 ![](/articles/assets/lulzneko/serverless/jamstack.jpg)
