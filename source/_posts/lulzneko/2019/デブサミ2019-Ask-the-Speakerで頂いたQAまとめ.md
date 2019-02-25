@@ -5,6 +5,8 @@ date: 2019-02-18
 author: lulzneko
 categories: サーバーレス
 tags:
+- AWS Lambda
+- DynamoDB
 ---
 
 ![](/articles/assets/lulzneko/presentation/devsumi-2019/01.png)
