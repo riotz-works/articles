@@ -6,6 +6,7 @@ author: lulzneko
 categories: サーバーレス
 tags:
 - AWS Lambda
+- DynamoDB
 - Serverless Framework
 ---
 

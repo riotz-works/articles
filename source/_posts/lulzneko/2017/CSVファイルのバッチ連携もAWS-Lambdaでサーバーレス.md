@@ -7,6 +7,7 @@ author: lulzneko
 categories: サーバーレス
 tags:
 - AWS Lambda
+- DynamoDB
 ---
 
 ![](/articles/assets/lulzneko/serverless/serverless.jpg "サーバーレス")
