@@ -20,6 +20,10 @@ JAWS DAYS での発表の朝を迎えて、発表者 lulzneko は 絶望して�
 
 2019年2月23日 に 開催された JAWS DAYS 2019 で『AWS x JAMStack で構築・運用するサーバーレスな Web Front』と題して JAMStack に まつわる発表をしました。その発表の舞台裏ということで、発表者が当日何をしていたのかを綴ります。
 
+**シリーズの記事**
+- **発表者は、その日何をしていたのか - 発表の舞台裏 JAWS DAYS 2019 編**（本記事）
+- [JAWS DAYS 2019 で 頂いた QA まとめ](/articles/2019/02/24/summary-of-qa-at-jawsdays2019/)
+
 
 ## JAWS DAYS 概要
 発表したイベント [JAWS DAYS 2019](https://jawsdays2019.jaws-ug.jp/) ですが、AWS の ユーザーコミュニティ [JAWS-UG](https://jaws-ug.jp/) 主催、後援 アマゾン ウェブ サービス ジャパン株式会社さん で 行われる JAWS-UG 最大のイベントです。
