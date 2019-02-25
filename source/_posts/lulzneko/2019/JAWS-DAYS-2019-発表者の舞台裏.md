@@ -1,5 +1,5 @@
 ---
-title: 発表者は、その日何をしていたのか - 発表の舞台裏 @JAWS DAYS 2019
+title: 発表者は、その日何をしていたのか - 発表の舞台裏 JAWS DAYS 2019 編
 permalink: backstage-of-presentation-at-jawsdays2019
 date: 2019-02-23
 author: lulzneko
