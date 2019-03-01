@@ -14,13 +14,14 @@ tags:
 
 ![](/articles/assets/lulzneko/presentation/jawsdays-2019/01.png)
 
-JAWS DAYS 2019 で『AWS x JAMStack で構築・運用するサーバーレスな Web Front』の お話をした後に頂きました QA を まとめます。
+JAWS DAYS 2019 で『AWS x JAMStack で構築・運用する サーバーレスな Web Front』の お話をした後に頂きました QA を まとめます。
 
 頂いた質問は要点のみを一般化して書いている部分がります。背景などが入っていないので若干わかりにくい部分がありますが、ご了承ください。
 
 **シリーズの記事**
-- [発表者は、その日何をしていたのか - 発表の舞台裏 JAWS DAYS 2019 編](/articles/2019/02/23/backstage-of-presentation-at-jawsdays2019/)
+- [JAWS DAYS 2019 で AWS x JAMStack な サーバーレス Web Front について発表をしました](/articles/2019/03/01/made-presentation-about-jamstack-with-aws-at-jawsdays2019/)
 - **JAWS DAYS 2019 で 頂いた QA まとめ**（本記事）
+- [発表者は、その日何をしていたのか - 発表の舞台裏 JAWS DAYS 2019 編](/articles/2019/02/23/backstage-of-presentation-at-jawsdays2019/)
 
 
 ## 発表資料 と Togetter
