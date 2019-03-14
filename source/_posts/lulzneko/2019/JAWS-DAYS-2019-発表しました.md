@@ -3,8 +3,9 @@ title: JAWS DAYS 2019 で AWS x JAMStack な サーバーレス Web Front につ
 permalink: made-presentation-about-jamstack-with-aws-at-jawsdays2019
 date: 2019-03-01
 author: lulzneko
-categories: フロントエンド
+categories: プレゼンテーション
 tags:
+- JAWS DAYS
 - JAMStack
 - Gridsome
 - Nuxt.js

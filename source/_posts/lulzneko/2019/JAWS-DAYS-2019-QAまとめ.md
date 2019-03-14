@@ -3,8 +3,9 @@ title: JAWS DAYS 2019 で 頂いた QA まとめ
 permalink: summary-of-qa-at-jawsdays2019
 date: 2019-02-24
 author: lulzneko
-categories: サーバーレス
+categories: プレゼンテーション
 tags:
+- JAWS DAYS
 - AWS Lambda
 - DynamoDB
 - Gridsome

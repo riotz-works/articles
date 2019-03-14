@@ -3,8 +3,9 @@ title: 発表者は、その日何をしていたのか - 発表の舞台裏 JAW
 permalink: backstage-of-presentation-at-jawsdays2019
 date: 2019-02-23
 author: lulzneko
-categories: ポエム
+categories: プレゼンテーション
 tags:
+- JAWS DAYS
 ---
 
 ![](/articles/assets/lulzneko/presentation/jawsdays-2019/01.png)
