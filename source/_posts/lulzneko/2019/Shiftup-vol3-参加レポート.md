@@ -148,7 +148,9 @@ WordCamp Tokyo 2019 11/1-2＠新宿
 
 ## はじめてのスタティックサイト ジェネレーター GatsbyとSurgeでHello World! スタティックサイト ホスティングって？
 発表者: [Seiji Akatsuka(@seijiakatsuka)さん](https://twitter.com/seijiakatsuka)
-発表資料: https://speakerdeck.com/digitalcube/hasimetefalsesutateitukusaito-sienereta
+
+発表資料
+<script async class="speakerdeck-embed" data-id="388840c4cff24fd28ac94efc889b282f" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 数ある静的サイトジェネレータから Gatsby で Hello World を 紹介。
 [青空俯角 / mimi(@miminari)さん](https://twitter.com/miminari) セッション の「こんなに簡単 Gridsome！」の Gridsome は Gatsby に インスパイアされて Vue.js ベースで作っているもので、基本となるフレキシブルワークが React か Vue.js かで、方向性は同じになるのですが、改め両方が詳細されるセッションのラインナップがすごくよかったです。
