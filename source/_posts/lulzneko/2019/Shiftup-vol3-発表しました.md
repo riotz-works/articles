@@ -10,7 +10,7 @@ tags:
 - Nuxt.js
 ---
 
-![](/articles/assets/lulzneko/seminar/shifter/sfhiter.png)
+![](/articles/assets/lulzneko/seminar/shifter/shifter.png)
 
 2019年4月3日 に 開催された「Shiftup! JP_Getshifter Vol3！はじめてのスタティックサイトジェネレーター」で『JAMStack で構築・運用する サーバーレスなウェブフロント』と題して、JAMStack の 世界について発表をしました。そのサマリーです。
 

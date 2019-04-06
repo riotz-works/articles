@@ -9,7 +9,7 @@ tags:
 - Gridsome
 ---
 
-![](/articles/assets/lulzneko/seminar/shifter/sfhiter.png)
+![](/articles/assets/lulzneko/seminar/shifter/shifter.png)
 
 
 2019年4月3日 に 開催された「Shiftup! JP_Getshifter Vol3！はじめてのスタティックサイトジェネレーター」に 参加したのでレポートです。
