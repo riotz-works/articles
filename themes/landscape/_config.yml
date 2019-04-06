@@ -30,7 +30,7 @@ show_count: true
 # Miscellaneous
 google_analytics: UA-109297390-1
 gauges_analytics:
-favicon: /favicon.png
+favicon: /articles/assets/favicon.ico
 twitter: '@riotz_works'
 google_plus:
 fb_admins:
