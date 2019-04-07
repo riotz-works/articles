@@ -22,6 +22,7 @@ tags:
 **シリーズの記事**
 - [Shiftup! JP_Getshifter Vol3！ で JAMStack な サーバーレス ウェブフロント に ついて発表をしました](/articles/2019/04/05/made-presentation-about-jamstack-at-shiftup-vol3/)
 - **Shiftup! JP_Getshifter Vol3！ 参加レポート** (本記事)
+- [Shiftup! JP_Getshifter Vol3！ 振り返り、Shifter の HeadlessCMS 化 に 思いを馳せる](/articles/2019/04/06/think-of-shifters-headlesscms-nize-on-shiftup-vol3)
 
 
 
