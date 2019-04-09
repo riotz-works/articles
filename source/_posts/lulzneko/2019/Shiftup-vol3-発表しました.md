@@ -74,7 +74,7 @@ WordPress を はじめ、リクエストのたびにサーバーで HTML を �
 
 つまりスライドに上がっているメリットが享受できることになります。
 
-では、JAMStack な サイトを作るための スタティ サイト ジェネレータ は どう入手するのかというと、StaticGen https://www.staticgen.com の サイトに沢山そろっています。
+では、JAMStack な サイトを作るための スタティック サイト ジェネレータ は どう入手するのかというと、StaticGen https://www.staticgen.com の サイトに沢山そろっています。
 おすすめとしては以下でしょうか（すごく個人的な主観です）
 - [GatsbyJS](https://www.gatsbyjs.org/):  JAMStack の コンテキストでも一番登場しますし、一番成熟していると思います
 - [Hexo](https://hexo.io/):               手ごろで使いやすい静的なブログ構築ツール、JAMStack を 謳ってないが JAMStack
@@ -87,7 +87,7 @@ JAMStack の 定義 や ベストプラクティス は AWS の サービスが�
 
 ![](/articles/assets/lulzneko/seminar/shifter/03-14.png)
 自前の Web API も 含めたフル構成のイメージになります。
-スタティ サイト ジェネレータ は Nuxt.js で 動的な Web API の データを利用する形になっています。
+スタティック サイト ジェネレータ は Nuxt.js で 動的な Web API の データを利用する形になっています。
 ウェブサイトではなく動的な要素をたくさん使うサービスやアプリを作る時には Nuxt.js を 使うと作りやすいです。
 
 
