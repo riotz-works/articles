@@ -8,6 +8,7 @@ tags:
 - JAMStack
 - Gridsome
 - Nuxt.js
+- Hexo
 ---
 
 ![](/articles/assets/lulzneko/serverless/jamstack.jpg)

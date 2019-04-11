@@ -9,6 +9,7 @@ tags:
 - AWS Lambda
 - DynamoDB
 - Gridsome
+- Hexo
 - JAMStack
 - Serverless Framework
 ---

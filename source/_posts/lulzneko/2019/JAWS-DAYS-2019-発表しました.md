@@ -9,6 +9,7 @@ tags:
 - JAMStack
 - Gridsome
 - Nuxt.js
+- Hexo
 - Serverless Framework
 ---
 
