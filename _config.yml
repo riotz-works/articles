@@ -100,7 +100,7 @@ html_minifier:
   useShortDoctype: true
 
 ### Disqus (https://disqus.com/)
-disqus_shortname: riotz
+disqus_shortname:
 
 ## Themes: https://hexo.io/themes/
 theme: landscape
