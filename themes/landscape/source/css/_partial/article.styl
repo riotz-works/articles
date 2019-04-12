@@ -181,14 +181,8 @@
     padding-right: 8px
 
 .article-share-link
-  cursor: pointer
   float: right
   margin-left: 20px
-  &:before
-    content: "\f064"
-    font-family: font-icon
-    font-weight: normal
-    padding-right: 6px
 
 #article-nav
   clearfix()
@@ -272,15 +266,16 @@
   background: color-background
 
 $article-share-link
-  width: 50px
-  height: 36px
+  width: 20px
+  height: 20px
   display: block
-  float: left
+  float: right
   position: relative
   color: #999
   text-shadow: 0 1px #fff
+  margin: 0 0 0 10px
   &:before
-    font-size: 20px
+    font-size: 18px
     font-family: font-icon
     font-weight: normal
     absolute-center(@font-size)
@@ -293,7 +288,7 @@ $article-share-link
   &:before
     content: "\f099"
   &:hover
-    background: color-twitter
+    color: color-twitter !important
     text-shadow: 0 1px darken(color-twitter, 20%)
 
 .article-share-facebook
@@ -301,7 +296,7 @@ $article-share-link
   &:before
     content: "\f09a"
   &:hover
-    background: color-facebook
+    color: color-facebook !important
     text-shadow: 0 1px darken(color-facebook, 20%)
 
 .article-share-pinterest
@@ -309,7 +304,7 @@ $article-share-link
   &:before
     content: "\f0d2"
   &:hover
-    background: color-pinterest
+    color: color-pinterest !important
     text-shadow: 0 1px darken(color-pinterest, 20%)
 
 .article-share-hatena
@@ -319,7 +314,7 @@ $article-share-link
     font-family: Verdana;
     font-weight: bold
   &:hover
-    background: #00a4de
+    color: #00a4de !important
     text-shadow: 0 1px darken(#00a4de, 20%)
 
 $article-link
