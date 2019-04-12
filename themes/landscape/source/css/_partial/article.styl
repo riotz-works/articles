@@ -312,13 +312,15 @@ $article-share-link
     background: color-pinterest
     text-shadow: 0 1px darken(color-pinterest, 20%)
 
-.article-share-google
+.article-share-hatena
   @extend $article-share-link
   &:before
-    content: "\f0d5"
+    content: "B!"
+    font-family: Verdana;
+    font-weight: bold
   &:hover
-    background: color-google
-    text-shadow: 0 1px darken(color-google, 20%)
+    background: #00a4de
+    text-shadow: 0 1px darken(#00a4de, 20%)
 
 $article-link
   &:before
