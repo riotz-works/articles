@@ -137,7 +137,7 @@ Ask the Speaker は ないので 終了。
 2/25日現在、まだまだ枠がある(8/30人)ようなので、よかったら一緒にハッカソンしましょう。
 
 また、ちょっと来て話をしてよ、といったようなことなどありましたら、Twitter DM/メンション を [@lulzneko](https://twitter.com/lulzneko) へ 気軽にいただければ幸いです。
-これまでの発表歴は こちら [Slides | Riotz Works] https://riotz.works/slides に なります。
+これまでの発表歴は こちら [Slides | Riotz.works] https://riotz.works/slides に なります。
 
 ----
 

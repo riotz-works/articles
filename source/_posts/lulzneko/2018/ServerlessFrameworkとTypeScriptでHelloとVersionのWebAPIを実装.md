@@ -87,7 +87,7 @@ Hello Web API が 作れましたがボイラープレートのままだった�
 
 コードは以下のようにします。(このコードを使う場合は、１行目の Copyright は 書き換えてください)
 ```ts
-/* Copyright 2018 Riotz Works. */
+/* Copyright 2018 Riotz.works. */
 import { APIGatewayEvent, Callback, Context, Handler } from 'aws-lambda';
 import { version } from '../../package.json';
 
@@ -139,7 +139,7 @@ ERROR in C:\Develop\repos\riotz\samples-hello-serverless\src\handler\systems.ts
 
 コードは以下のようにします。(１行目の Copyright は 書き換えてください)
 ```ts
-/* Copyright 2018 Riotz Works. */
+/* Copyright 2018 Riotz.works. */
 
 /**
  * Module declaration for JSON file.
