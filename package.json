@@ -27,7 +27,8 @@
     "hexo-cli": "*"
   },
   "scripts": {
-    "setup": "npm install && npm dedupe",
+    "setup": "yarn install --ignore-optional",
+    "upgrade": "yarn upgrade --latest",
     "validate": "echo skip validate",
     "build": "hexo clean && hexo generate",
     "test": "echo skip test",

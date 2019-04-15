@@ -11,26 +11,26 @@ jobs:
           name: System information
           command: |
             echo "Node $(node -v)"
-            echo "NPM v$(npm -v)"
+            echo "Yarn v$(yarn -v)"
       - checkout
       - restore_cache:
           key: dependency-cache-{{ checksum "package.json" }}
       - run:
           name: Setup
-          command: npm run setup
+          command: yarn setup
       - save_cache:
           key: dependency-cache-{{ checksum "package.json" }}
           paths:
             - ./node_modules
       - run:
           name: Validate
-          command: npm run validate
+          command: yarn validate
       - run:
           name: Build
-          command: npm run build
+          command: yarn build
       - run:
           name: Test
-          command: npm test
+          command: yarn test
       - store_artifacts:
           path: target/site
   deploy:
@@ -47,7 +47,7 @@ jobs:
           command: |
             git config --global user.name "CircleCI"
             git config --global user.email "contact@riotz.works"
-            npm run deploy
+            yarn deploy
       - store_artifacts:
           path: target/site
 
