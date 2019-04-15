@@ -31,7 +31,7 @@
     "validate": "echo skip validate",
     "build": "hexo clean && hexo generate",
     "test": "echo skip test",
-    "start": "hexo server -o",
+    "start": "hexo server",
     "deploy": "hexo deploy"
   }
 }
