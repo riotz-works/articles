@@ -44,11 +44,11 @@ Google が 取得している gTDL(generic Top-Level Domain) で、 `example.com
 [Google Domains](https://domains.google/) の マイドメイン 管理 [https://domains.google.com/m/registrar/](https://domains.google.com/m/registrar/) へ アクセスし、メール転送を設定したいドメインを選択します。
 左のメニューから [メールアドレス] を 選択します。
 画面中央のメール転送の設定に、自分のドメインで使いたいアカウント名と、転送先のメールアドレスを入力します。
-ここでは アカウント名 `contact` (@100%.dev) を `100%@gmail.com` へ 転送する例とします。
-(※ 実際には `%` が ドメイン名にもアカウント名にも使えず、また架空のものとなります)
+ここでは アカウント名 `contact` (@100%.dev) を `100% @gmail.com` へ 転送する例とします。
+(※ 実際には `%` は 使えず、`% @` の スペースは自動リンク防止のためにスペースを入れている、架空のアドレスになります)
 ![](/articles/assets/lulzneko/domain/mail/02.png)
 
-これで、`contact@100%.dev` へ 来たメールは `100%@gmail.com` へ転送されます。
+これで、`contact@100%.dev` へ 来たメールは `100% @gmail.com` へ転送されます。
 新しく取れたドメインで 100個までは転送設定できるので、ある程度の規模までは耐えられるのではないでしょうか。
 
 現代のコミュニケーションにおいてメールはメジャーではなくなりつつありますが、`contact@example.com` のような対外コンタクト用や `info@example.com` のような情報発信など完全に廃止しきれない部分はあるかと思います。
