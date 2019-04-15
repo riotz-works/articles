@@ -43,6 +43,11 @@
         <a href="<%- post.permalink %>#disqus_thread" class="article-comment-link"><%= __('comment') %></a>
       <% } %>
       <%- partial('post/tag') %>
+
+      <div class="related-posts">
+        <h2>関連記事</h2>
+        <%- popular_posts({ PPMixingRate: 0.0 }, post) %>
+      </div>
     </footer>
   </div>
   <% if (!index){ %>
