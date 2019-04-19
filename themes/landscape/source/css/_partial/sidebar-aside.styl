@@ -24,6 +24,10 @@
   &:before
     content: "\ea10"
 
+.widget-title.popular
+  &:before
+    content: "\eb8c"
+
 .widget-title.recent
   &:before
     content: "\eb93"
@@ -54,6 +58,12 @@
       margin-left: 15px
       list-style: disc
 
+.widget-title.popular + div li
+  margin-bottom: 12px
+  &:last-child
+    margin-bottom: 0
+  h3
+    font-size: inherit
 
 .widget-title.recent + div li
   margin-bottom: 12px

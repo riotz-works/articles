@@ -99,6 +99,15 @@ html_minifier:
   removeStyleLinkTypeAttributes: true
   useShortDoctype: true
 
+## hexo-related-popular-posts (https://github.com/tea3/hexo-related-popular-posts)
+popularPosts:
+  morphologicalAnalysis:
+  googleAnalyticsAPI:
+    rankingSheet: rankingSheet.txt
+    pvMeasurementsStartDate: 2017-11-01
+  cache:
+    path: hexo-popular-related-posts-cached.json
+
 ### Disqus (https://disqus.com/)
 disqus_shortname:
 

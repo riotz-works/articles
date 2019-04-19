@@ -28,10 +28,11 @@
     "hexo-cli": "*"
   },
   "scripts": {
+    "clean": "hexo clean && npx rimraf hexo-popular-related-posts-cached.json rankingSheet.txt",
     "setup": "yarn install --ignore-optional",
     "upgrade": "yarn upgrade --latest",
     "validate": "echo skip validate",
-    "build": "hexo clean && hexo generate",
+    "build": "yarn clean && hexo generate",
     "test": "echo skip test",
     "start": "hexo server",
     "deploy": "hexo deploy"

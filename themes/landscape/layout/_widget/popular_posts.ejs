@@ -1,0 +1,8 @@
+<% if (site.posts.length){ %>
+  <div class="widget-wrap">
+    <h3 class="widget-title popular">よく読まれている投稿</h3>
+    <div class="widget">
+      <%- popular_posts({ PPMixingRate: 1.0 }) %>
+    </div>
+  </div>
+<% } %>
