@@ -55,10 +55,12 @@ workflows:
   version: 2
   build:
     jobs:
-      - build
+      - build:
+          context: website-articles
       - deploy:
           requires:
             - build
           filters:
             branches:
               only: source
+          context: website-articles
