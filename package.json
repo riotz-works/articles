@@ -25,6 +25,7 @@
     "hexo-uglify": "0.0.5"
   },
   "devDependencies": {
+    "dotenv": "*",
     "hexo-cli": "*"
   },
   "scripts": {
@@ -34,7 +35,7 @@
     "validate": "echo skip validate",
     "build": "yarn clean && hexo generate",
     "test": "echo skip test",
-    "start": "hexo server",
+    "start": "node -r dotenv/config node_modules/hexo-cli/bin/hexo server",
     "deploy": "hexo deploy"
   }
 }

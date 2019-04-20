@@ -2,6 +2,7 @@
 hexo-popular-related-posts-cached.json
 rankingSheet.txt
 undefinedga-analytics-*
+.env
 
 
 .DS_Store
