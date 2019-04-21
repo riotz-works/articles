@@ -195,6 +195,7 @@ To https://github.com/lulzneko/validate-typescript.git
 元のリポジトリにプルリクが作られました！マージされといいな。
 ![](/articles/assets/lulzneko/develop/validate-typescript/08.png)
 
+[Fix error when this npm module user installs by lulzneko · Pull Request #7 · Grant-Zietsman/validate-typescript](https://github.com/Grant-Zietsman/validate-typescript/pull/7)
 
 
 ## 一晩でマージされた！
