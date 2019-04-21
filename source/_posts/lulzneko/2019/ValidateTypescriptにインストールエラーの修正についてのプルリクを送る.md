@@ -150,7 +150,7 @@ Branch 'develop' set up to track remote branch 'develop' from 'origin'.
 Switched to a new branch 'develop'
 ```
 
-変更の方針
+**変更の方針**
 - `package.json` の `install` を `setup` に戻す
 - 開発環境のセットアップが１回で行える機能は残す
 
@@ -194,6 +194,7 @@ To https://github.com/lulzneko/validate-typescript.git
 
 元のリポジトリにプルリクが作られました！マージされといいな。
 ![](/articles/assets/lulzneko/develop/validate-typescript/08.png)
+
 
 
 ## 一晩でマージされた！
