@@ -1,5 +1,5 @@
 ---
-title: CSV ファイル の バッチ連携 も AWS Lambda で サーバーレス
+title: CSV ファイルのバッチ連携も AWS Lambda でサーバーレス
 permalink: csv-batch-can-also-realized-with-serverless-impl-using-lambda
 alias: /2017/12/07/CSVファイルのバッチ連携もAWS-Lambdaでサーバーレス/
 date: 2017-12-07
@@ -14,31 +14,31 @@ tags:
 
 この記事は [Serverless Advent Calendar 2017](https://qiita.com/advent-calendar/2017/serverless) の ７日目になります。
 
-[Serverlessconf Tokyo 2017](http://tokyo.serverlessconf.io/) で 発表させていただく機会をいただき、 [Java チームが選択した TypeScript による AWS Lambda 開発](http://riotz.works/slides/?2017-serverless-conf) というタイトルで お話をさせていただきました。
+[Serverlessconf Tokyo 2017](http://tokyo.serverlessconf.io/) で 発表させていただく機会をいただき、 [Java チームが選択した TypeScript による AWS Lambda 開発](http://riotz.works/slides/?2017-serverless-conf) というタイトルでお話をさせていただきました。
 
-今回は そのシステムの裏手側、CSV ファイル を 連携するバッチ を サーバーレスで実現したアーキテクチャについて ご紹介します。
+今回はそのシステムの裏手側、CSV ファイルを連携するバッチをサーバーレスで実現したアーキテクチャについてご紹介します。
 
 ## システム全体の概略図
 ざっくりと下図のようなシステムで AWS 上に作られています。
-スマートフォン などから IoT 機器を操作するようなクラウド・サービスがあり、そのバックグラウンド・プラットフォームになります。認証や機器のデータ管理を行うシステムです。
+スマートフォンなどから IoT 機器を操作するようなクラウド・サービスがあり、そのバックグラウンド・プラットフォームになります。認証や機器のデータ管理を行うシステムです。
 このシステムは、図の [Amazon API Gateway](https://aws.amazon.com/jp/api-gateway/) と [AWS Lambda](https://aws.amazon.com/jp/lambda/) が ペアになっているアイコン毎が１つ１つのマイクロサービスとして作られています。つまり 10を超えるマイクロ・サービスの集合体になります！
 ![](/articles/assets/lulzneko/serverless/batch/01.png)
 
 今回の話は、この図の右上部分 "Traditional DC"、企業の伝統的なデータセンターからデータを受ける部分です。
-この部分は伝統とシキタリにのっとり CSV ファイル を 受け取り、処理する仕組みが必要となります。
+この部分は伝統とシキタリにのっとり CSV ファイルを受け取り、処理する仕組みが必要となります。
 
 ※ CSV の C は Comma と 信じてましたが、Character や Column 説 (e.g. [Wikipedia](https://ja.wikipedia.org/wiki/Comma-Separated_Values#character-separated_values)) が あり 広義には Comma に 限らず特定の文字でデータを区切るファイルらしい。どうでもいいけど。。。
 
 
 ## なぜ AWS Lambda ？
-このようなシステム を AWS で 実装するには、[AWS Batch](https://aws.amazon.com/jp/batch/) や [AWS Glue](https://aws.amazon.com/jp/glue/) などを使うかと思います。しかしながら、今回は Lambda で 実装することにしました。
+このようなシステムを AWS で実装するには、[AWS Batch](https://aws.amazon.com/jp/batch/) や [AWS Glue](https://aws.amazon.com/jp/glue/) などを使うかと思います。しかしながら、今回は Lambda で 実装することにしました。
 
 背景としては、以下のような点があります。
-- 少人数の DevOps チームであり、AWS の マネージド度合いが高いほど嬉しかった
+- 少人数の DevOps チームであり、AWS のマネージド度合いが高いほど嬉しかった
 - データ量や処理量から想定してコスパが優れていた
-- １回に連携するデータ量 が Lambda の 処理時間におさまる可能性が持てた
+- １回に連携するデータ量が Lambda の処理時間におさまる可能性が持てた
 
-特に２番目のコストについては、Glue に対して圧倒的によかったというのが大きかったです。今回の処理は ETL に近いとはいえ、DWH 連携ではなく、DB の マスター・データ登録だったので Glue を 活かしきれないという点がありました。
+とくに２番目のコストについては、Glue に対して圧倒的によかったというのが大きかったです。今回の処理は ETL に近いとはいえ、DWH 連携ではなく、DB のマスター・データ登録だったので Glue を活かしきれないという点がありました。
 
 なお Lambda の 実行ランタイムは Java に なります。
 (Serverlessconf Tokyo 2017 の [発表資料](http://riotz.works/slides/?2017-serverless-conf) の 通り、Java チーム なので)

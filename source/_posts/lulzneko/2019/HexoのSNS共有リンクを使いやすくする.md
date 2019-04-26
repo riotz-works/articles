@@ -131,7 +131,7 @@ SNS 共有のボックスを開くための [共有] ラベルのスタイルを
 
 SNS 共有アイコンをボックス表示から、記事の下に展開済みで表示するようにできました。
 
-[ブログ・メンティ ふりかえり １週目](https://riotz.works/articles/2019/04/09/review-of-k9us-blog-mentee-first-week/) の 後に、メンター の [カック@ブロガー / k9u(@kakakakakku)さん](https://twitter.com/kakakakakku)  と お話していた時に「はてブ を つけるときにボタンを使う」というのがありました。
+[ブログメンティ ふりかえり １週目](https://riotz.works/articles/2019/04/09/review-of-k9us-blog-mentee-first-week/) の 後に、メンター の [カック@ブロガー / k9u(@kakakakakku)さん](https://twitter.com/kakakakakku)  と お話していた時に「はてブ を つけるときにボタンを使う」というのがありました。
 
 私が はてブ を 使っていなかったので、ブックマークを付ける感覚をとらえられずボタンを設置していなかったのですが、確かにサイトを開いてから URL を 入力してという手順はしなそうです。
 

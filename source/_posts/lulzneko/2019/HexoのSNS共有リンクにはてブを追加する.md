@@ -98,7 +98,7 @@ Hexo 内のアイコンは [Font Awesome 4](https://fontawesome.com/v4.7.0/) が
 
 はてブ で ブックマークを作るボタンを導入することができました！
 
-導入の背景としては、[ブログ・メンティ ふりかえり １週目](https://riotz.works/articles/2019/04/09/review-of-k9us-blog-mentee-first-week/) で 各 KPI を 取得した際に、はてブ が 増えていなかったためです。
+導入の背景としては、[ブログメンティ ふりかえり １週目](https://riotz.works/articles/2019/04/09/review-of-k9us-blog-mentee-first-week/) で 各 KPI を 取得した際に、はてブ が 増えていなかったためです。
 
 なぜ増えていないのか(おそらく以前から)を考えたところ、はてブ を 付けていただけるような記事を作ることはもとより、**そもそもボタンを設置していない**のが大きかったのではないかと反省し導入しました。
 
