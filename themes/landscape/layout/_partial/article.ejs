@@ -23,13 +23,15 @@
         <%- post.content %>
       <% } %>
       <% if (post.author){ %>
-        <% if (!config.authors[post.author]){ %>
-          Author: <strong><%- post.author %></strong>
-        <% } else { %>
-          <% if (config.authors[post.author].name){ %>Author: <strong><%- config.authors[post.author].name %></strong><% } else { %>Author: <strong><%- post.author %></strong><% } %>
-          <% if (config.authors[post.author].github){ %><a href="https://github.com/<%- config.authors[post.author].github %>" class="article-link-github" target="_blank" title="GitHub @<%- config.authors[post.author].github %>"></a><% } %>
-          <% if (config.authors[post.author].twitter){ %><a href="https://twitter.com/<%- config.authors[post.author].twitter %>" class="article-link-twitter" target="_blank" title="Twitter @<%- config.authors[post.author].twitter %>"></a><% } %>
-        <% } %>
+        <p class="article-author">
+          <% if (!config.authors[post.author]){ %>
+            Author: <strong><%- post.author %></strong>
+          <% } else { %>
+            <% if (config.authors[post.author].name){ %>Author: <strong><%- config.authors[post.author].name %></strong><% } else { %>Author: <strong><%- post.author %></strong><% } %>
+            <% if (config.authors[post.author].github){ %><a href="https://github.com/<%- config.authors[post.author].github %>" class="article-link-github" target="_blank" title="GitHub @<%- config.authors[post.author].github %>"></a><% } %>
+            <% if (config.authors[post.author].twitter){ %><a href="https://twitter.com/<%- config.authors[post.author].twitter %>" class="article-link-twitter" target="_blank" title="Twitter @<%- config.authors[post.author].twitter %>"></a><% } %>
+          <% } %>
+        </p>
       <% } %>
     </div>
     <footer class="article-footer">
