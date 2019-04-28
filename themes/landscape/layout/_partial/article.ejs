@@ -44,10 +44,12 @@
       <% } %>
       <%- partial('post/tag') %>
 
-      <div class="related-posts">
-        <h2>関連記事</h2>
-        <%- popular_posts({ PPMixingRate: 0.0 }, post) %>
-      </div>
+      <% if (popular_posts({ PPMixingRate: 0.0 }, post)){ %>
+        <div class="related-posts">
+          <h2>関連記事</h2>
+          <%- popular_posts({ PPMixingRate: 0.0 }, post) %>
+        </div>
+      <% } %>
     </footer>
   </div>
   <% if (!index){ %>
