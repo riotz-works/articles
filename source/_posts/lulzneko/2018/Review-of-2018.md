@@ -3,7 +3,7 @@ title: 2018年の振り返り
 permalink: review-of-2018
 date: 2018-12-31
 author: lulzneko
-categories: ポエム
+categories: ふりかえり
 tags:
 ---
 

@@ -3,9 +3,8 @@ title: 2018年の Riotz Works の活動を振り返る
 permalink: what-we-did-in-2018
 date: 2018-12-29
 author: lopburny
-categories: ポエム
+categories: ふりかえり
 tags:
-- 振り返り
 - 2018年
 ---
 
