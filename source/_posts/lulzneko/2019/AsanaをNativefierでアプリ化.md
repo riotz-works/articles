@@ -8,12 +8,12 @@ tags:
 - Asana
 ---
 
-タスク管理の Asana、スマートフォンアプリはあるのですがデスクトップアプリが提供されておらずブラウザで使います。Google Chrome でアプリウィンドウ化できますが、常駐化するなどの高度な使い方をしたい場合は Node.js の Nativefier を使ってアプリ化する方法があります。Node.js の実行環境とコマンドラインでの操作が必要となりますが、手軽にアプリ化できます。
+タスク管理の Asana、スマートフォンアプリはあるのですがデスクトップアプリが提供されておらずブラウザで使います。Google Chrome でアプリウィンドウ化ができますが、常駐化をするなどの高度な使い方をしたい場合は Node.js の Nativefier を使ってアプリ化をする方法があります。Node.js の実行環境とコマンドラインでの操作が必要となりますが、手軽にアプリ化ができます。
 
 ![](/articles/assets/lulzneko/develop/asana/asana.png)
 
 
-前回 [Google Chrome を使って Asana をアプリ化ウィンドウ化](/articles/2019/05/02/make-asana-app-window-with-google-chrome/) しましたが、ウィンドウを閉じてしまうとウェブアクセスから始まり起動に時間がかかります。常時使うようなサービスなので常駐化しいつでも使えるようにしたいです。
+前回 [Google Chrome を使って Asana をアプリウィンドウ化](/articles/2019/05/02/make-asana-app-window-with-google-chrome/) をしましたが、ウィンドウを閉じてしまうとウェブアクセスから始まり起動に時間がかかります。常時使うようなサービスなので常駐化し、いつでも使えるようにしたいです。
 
 公式フォーラムでもデスクトップアプリのニーズは [What's the status of a native Asana Mac app? - Product Feedback - Asana Community Forum](https://forum.asana.com/t/whats-the-status-of-a-native-asana-mac-app/1581) のように 2017年と古くから上がっているようですが進展はなさそうです。
 
@@ -45,7 +45,7 @@ C:\Temp> npx nativefier -n "Asana" --internal-urls "accounts\.google\.com.*" --s
 指定したオプションは下記となります。
 - `-n` は、アプリ名(＝ディレクトリと実行ファイル名)
 - `--internal-urls` は、Google 認証をウィンドウ内で行えるようするため
-- `--single-instance` は、アプリの起動を１つだけにしウィンドウが複数開かないため
+- `--single-instance` は、アプリの起動を１つだけにし、ウィンドウを複数開かないため
 - `--tray` は、システムトレイに常駐させます
 
 Google 認証については、GitHub に Issues が上がっています。いくつかパターンがありますが、今回は一番狭いスコープで設定する [#282 @tianhuil さん](https://github.com/jiahaog/nativefier/issues/282#issuecomment-479677143) のを使わせてもらいました。情報ありがとうございます！
