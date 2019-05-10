@@ -50,7 +50,7 @@ tags:
  で PWA を作り優秀賞を獲得しました。「モバイルアプリ」の大会なので当然ですがネイティブアプリ開発のチームに対して、「唯一の PWA」として健闘し受賞に至りました。PWA スゴイ！
 
 発表資料: [リアルタイムの競演と参加型観戦で音楽を最高に楽しむ「ラップ､タップ､アップ🎶」](https://riotz.works/slides/?2018-spajam-qualification)
-<iframe src="https://riotz.works/slides/?2018-spajam-qualification" width="608" height="342"></iframe>
+<div class="slide"><iframe src="https://riotz.works/slides/?2018-spajam-qualification"></iframe></div>
 
 作品: [ラップ、タップ、アップ 🎶](https://riotz.works/rap-tap-app/)
 [バトルを募集する] ボタンから [対戦者] の [QRコード] または [URL] をスマホに渡しエントリー ＆ カメラ付き PC は [対戦者] ラベル右の [入場] アイコンからエントリーで、ラップバトルの中継が行えます。PWA のため `<iframe>` で埋め込みもでき実際に動作させられます。スマホアプリなのにこういったことができるのも PWA のメリットになります。
