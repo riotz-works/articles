@@ -72,7 +72,7 @@ WebSocket では 状態の変化を断続的に返すことも可能になるの
 Serverless Framework の ボイラープレート を 使って、TypeScript の Node.js プロジェクトを作成します。
 
 プロジェクトのディレクトリを作成しプロジェクトのひな型を作ります。
-```
+```console
 username@pc:~$ mkdir samples-apigateway-websocket-chat
 username@pc:~$ cd samples-apigateway-websocket-chat
 username@pc:~/samples-apigateway-websocket-chat$
@@ -86,7 +86,7 @@ Serverless: NOTE: Please update the "service" property in serverless.yml with yo
 
 続いて Serverless Framework を ローカルで追加し、AWS SDK と WebSocket クライアント wscat、必要なパッケージを最新化してインストールします。
 Serverless Framework は 公式では グローバルに追加して使うようですが、複数人開発でグローバルのを使っているとバージョンの違いなどでトラブルということがあったので `package.json` で 明示して、それを使うようにしているためです。サクッと試すにはグローバルでもよいでしょう。
-```
+```console
 username@pc:~/samples-apigateway-websocket-chat$ yarn add -D serverless serverless-websockets-plugin wscat
 username@pc:~/samples-apigateway-websocket-chat$ yarn upgrade --latest
 username@pc:~/samples-apigateway-websocket-chat$ yarn add aws-sdk
@@ -95,7 +95,7 @@ username@pc:~/samples-apigateway-websocket-chat$ yarn add aws-sdk
 `package.json` を プロジェクトに合わせて修正します。
 主に `name` `description` `author` あたりを合わせるとよいでしょう。
 また、作成しているのはアプリケーションなのでモジュール公開の防止のために `"private": true` を 設定しておくとよいでしょう。private の 詳細は こちらの [package.json | npm Documentation](https://docs.npmjs.com/files/package.json#private) を ご確認ください。
-```
+```json
 {
   "name": "samples-apigateway-websocket-chat",
   "version": "1.0.0",
@@ -124,7 +124,7 @@ username@pc:~/samples-apigateway-websocket-chat$ yarn add aws-sdk
 
 ## Serverless Framework の 設定
 `serverless.yml` を 編集し Serverless Framework の 設定を行います。
-```
+```yaml
 service:
   name: samples-apigateway-websocket-chat
 
@@ -218,7 +218,7 @@ resources:
 
 ## AWS Lambda の 実装
 `handler.ts` に 処理を実装します。
-```
+```typescript
 import { APIGatewayEventRequestContext, APIGatewayProxyEvent, APIGatewayProxyHandler, APIGatewayProxyResult } from 'aws-lambda';
 import { ApiGatewayManagementApi, DynamoDB } from 'aws-sdk';
 
@@ -308,7 +308,7 @@ WebSocket で メッセージを返すには `ApiGatewayManagementApi` の `post
 ## デプロイ ＆ 実行！
 デプロイは Serverless Framework が しっかりやってくれるので、以下のコマンドで行えます。
 あらかじめ AWS の Access Key の用意とプロファイルを設定しておきます。(デフォルト・プロファイルでない場合は `--aws-profile [your profile name]` と 利用するプロファイル名を `--aws-profile` で 指定します)
-```
+```console
 username@pc:~/samples-apigateway-websocket-chat$ yarn serverless deploy
 (省略)
 Serverless: Deploying Websockets API named "samples-apigateway-websocket-chat-dev"...
@@ -319,14 +319,14 @@ Done in 137.90s.
 
 デプロイが完了すると、コマンドの実行結果に WebSocket の URL が 出力されます。
 その URL に対して `wscat` で 接続し API Gateway WebSocket の 動きを確認します。
-```
+```console
 username@pc:~/samples-apigateway-websocket-chat$ yarn wscat -c wss://6ovkt8XX.execute-api.us-west-2.amazonaws.com/dev/
 connected (press CTRL+C to quit)
 >
 ```
 
 接続できると `>` で 入力待ちになります。 `{ "action":"sendMessage", "data":"hello world" }` と メッセージを送ると、チャットのコメントが帰ってきます。
-```
+```console
 username@pc:~/samples-apigateway-websocket-chat$ yarn wscat -c wss://6ovkt8XX.execute-api.us-west-2.amazonaws.com/dev/
 connected (press CTRL+C to quit)
 > { "action":"sendMessage", "data":"hello world" }

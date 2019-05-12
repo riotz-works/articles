@@ -21,7 +21,7 @@ Web API の リクエスト パラメーター を 入力チェックするの�
 
 ## プルリクを出すことになった背景
 ドキュメントに従って `npm install` するとエラーとなります。また `npm install -S` と セーブオプションを付けてもエラーなので `package.json` に反映されませんし `node_modules` ディレクトリにも保存されません。
-```
+```console
 lulzneko@PC:/tmp/project$ npm install validate-typescript
 
 > validate-typescript@4.0.0 install /tmp/project/node_modules/validate-typescript
@@ -41,7 +41,7 @@ npm ERR!     /home/lulzneko/.npm/_logs/2019-03-13T25_67_89_000Z-debug.log
 ```
 
 普段は [Yarn](https://yarnpkg.com/) を 使っているのですが、こちらも同様にエラーとなり `package.json` に反映されません。しかしながらダウンロードはできているので `node_modules` に 保存されます。CI とかで環境が変わると、パッケージ名を明示してインストールはしないので、そちらではエラーとなるので注意が必要です。
-```
+```console
 lulzneko@PC:/tmp/project$ yarn add validate-typescript
 yarn add v1.13.0
 [1/4] Resolving packages...
@@ -94,14 +94,14 @@ https://github.com/Grant-Zietsman/validate-typescript/commit/5dce751b6cea0870be3
 勝手な推測ですが、[Validate Typescript](https://github.com/Grant-Zietsman/validate-typescript) 自体の開発を行う際に 外部依存ライブラリ (現時点だと `"chalk": "^2.3.1"`) を `npm install` します。その時に合わせてテストで依存している外部ライブラリのインストールも一緒に行えるようにしたかったのではないでしょうか。
 
 Version 3.0.0 だと、以下の手順が必要です。
-```
+```console
 $ npm install
 $ npm run setup
 cd test && npm run setup
 ```
 
 これが Version 4.0.0 だと、１回。
-```
+```console
 $ npm install
 cd test && npm run setup
 ```
@@ -123,7 +123,7 @@ cd test && npm run setup
 ![](/articles/assets/lulzneko/develop/validate-typescript/05.png)
 
 後はいつも通りクローンして作業環境を用意します。
-```
+```console
 lulzneko@PC:~$ git clone git@github.com:lulzneko/validate-typescript.git
 Cloning into 'validate-typescript'...
 remote: Enumerating objects: 44, done.
@@ -138,7 +138,7 @@ Resolving deltas: 100% (240/240), done.
 ## フォークした自分のリポジトリに変更を加える
 プルリクを送りたい変更を、まずはフォークした自分のリポジトリに行います。
 しっかりやるにはブランチを切って作業したほうが良いかと思いますが、今回は `develop` ブランチがあることと、パッチ１個という感じで継続的にコントリビュートしていわけではないので、`develop` ブランチへ直接変更を加えてしまいます。
-```
+```console
 lulzneko@PC:~/validate-typescript$ git branch -a
 * master
   remotes/origin/HEAD -> origin/master
@@ -155,7 +155,7 @@ Switched to a new branch 'develop'
 - 開発環境のセットアップが１回で行える機能は残す
 
 よって、以下のように修正します (`script` 部分を抜粋)
-```
+```javascript
 "setup": "npm install && cd test && npm install",
 ```
 
@@ -163,7 +163,7 @@ Switched to a new branch 'develop'
 それでいて `npm install` と `cd test && npm install` の ２つが実行できます。
 
 修正できたら、コミット＆プッシュ！
-```
+```console
 lulzneko@PC:~/validate-typescript$ git add package.json
 
 lulzneko@PC:~/validate-typescript$ git commit -m "Fix error when this npm module user installs"

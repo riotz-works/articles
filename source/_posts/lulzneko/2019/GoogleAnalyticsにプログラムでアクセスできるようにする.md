@@ -113,13 +113,13 @@ https://analytics.google.com/analytics/ へ アクセスし Google Analytics を
 実際にコマンドからデータを取得してみます。ここでは簡単にデータを取得してくれるライブラリ [sfarthin/ga-analytics](https://github.com/sfarthin/ga-analytics) を 使います。 sfarthin/ga-analytics は Analytics API を 使って、Google Analytics の データを取得してくれる Node.js の モジュールです。詳しくは [README](https://github.com/sfarthin/ga-analytics#readme) を ご参照ください。
 
 まずはダウンロードした秘密鍵のファイルフォーマットを pem形式 に 変換します。
-```
-openssl pkcs12 -in [ダウンロードした秘密鍵のファイル] -nocerts -passin pass:[秘密鍵ファイルのパスワード] -nodes -out google-services.pem
+```console
+$ openssl pkcs12 -in [ダウンロードした秘密鍵のファイル] -nocerts -passin pass:[秘密鍵ファイルのパスワード] -nodes -out google-services.pem
 ```
 
 Analytics API に アクセスするための情報を環境変数に設定し、`ga-analytics` を 実行します。
 引数がない場合はトータルのセッション数が出力されます。セッション数が表示されたらサービス設定等正しく行えています。プログラムでアクセスできる準備ができました！
-```
+```console
 export GOOGLEAPI_CLIENTID="[サービスアカウントの名前].apps.googleusercontent.com"
 export GOOGLEAPI_EMAIL="[サービスアカウントのメール]"
 export GOOGLEAPI_KEY="google-services.pem"

@@ -49,8 +49,8 @@ JAMStack にすることでパフォーマンスが良く、安全性を高め�
 
 ## インストール
 Hexo のプロジェクトディレクトリへ移動して、以下のコマンドを実行します。
-```
-yarn add hexo-related-popular-posts
+```console
+$ yarn add hexo-related-popular-posts
 ```
 ※ npm を使っている場合は `npm install -S hexo-related-popular-posts`
 
@@ -72,7 +72,7 @@ sfarthin/ga-analytics で動作確認した `google-services.pem` を Hexo プ�
 - `rankingSheet` は人気の記事に使うランキングデータを保存するファイル名
 - `pvMeasurementsStartDate` は累計アクセス数の計測を開始する日付
 - `cache: path:` は解析結果のキャッシュファイル
-```
+```yaml
 popularPosts:
   googleAnalyticsAPI:
     rankingSheet: rankingSheet.txt
@@ -82,13 +82,13 @@ popularPosts:
 ```
 
 以下のコマンドを実行し Hexo ローカルサーバーを起動します。起動時に Google Analytics へアクセスしランキングシートが生成されます。
-```
-export GOOGLEAPI_CLIENTID="[サービスアカウントの名前].apps.googleusercontent.com"
-export GOOGLEAPI_EMAIL="[サービスアカウントのメール]"
-export GOOGLEAPI_KEY="google-services.pem"
-export GOOGLEAPI_ANALYTICS_TABLE="ga:[Google Analytics の ビュー ID]"
+```console
+$ export GOOGLEAPI_CLIENTID="[サービスアカウントの名前].apps.googleusercontent.com"
+$ export GOOGLEAPI_EMAIL="[サービスアカウントのメール]"
+$ export GOOGLEAPI_KEY="google-services.pem"
+$ export GOOGLEAPI_ANALYTICS_TABLE="ga:[Google Analytics の ビュー ID]"
 
-yarn hexo start
+$ yarn hexo start
 ```
 
 `_config.yml` の `rankingSheet` で設定したファイルに各記事の PV が出力されていることを確認します。(`pvMeasurementsStartDate` を設定してない場合 `TOTALPV` は 0)
@@ -107,7 +107,7 @@ Google Chrome でサイトを表示し「最近の投稿」を右クリックし
 
 `recent_posts.ejs` を参考に `/themes/landscape/layout/_widget/popular_posts.ejs` を作ります。
 ![](/articles/assets/lulzneko/serverless/hexo/03-03.png)
-```
+```html
 <% if (site.posts.length){ %>
   <div class="widget-wrap">
     <h3 class="widget-title popular">よく読まれている投稿</h3>
@@ -140,7 +140,7 @@ Google Chrome でサイトを表示し「最近の投稿」を右クリックし
 
 先ほどの全文検索で見つかった `sidebar-aside.styl`(`/themes/landscape/source/css/_partial/sidebar-aside.styl`) に以下を追加します。
 ウィジェットを作った際に `<h3 class="widget-title popular">` と `widget-title` に `popular` を追加して作りました。これにより人気記事のウィジェットにクラスを当てられるようにしています。あとは `<h3>` タグのフォントサイズを親タグから継承させて完成です。(Riotz.works のサイトではアイコンを入れたりマージンを広げたりしてますが、この辺はお好みで)
-```
+```stylus
 .widget-title.popular + div li
   h3
     font-size: inherit
@@ -156,7 +156,7 @@ Google Chrome でサイトを表示し「最近の投稿」を右クリックし
 
 デフォルトでタグから関連記事を抽出してくれます。また形態素解析にも対応しており `morphologicalAnalysis` オプションを追加することで利用可能です。形態素解析を利用する場合はプロジェクトディレクトリ直下の `_config.yml` に以下を追記します。
 ※ 除外キーワードなど設定が柔軟に行えます - [記事本文と関連する記事](https://photo-tea.com/p/hexo-related-popular-posts/#%E8%A8%98%E4%BA%8B%E6%9C%AC%E6%96%87%E3%81%A8%E9%96%A2%E9%80%A3%E3%81%99%E3%82%8B%E8%A8%98%E4%BA%8B)
-```
+```yaml
 popularPosts:
   morphologicalAnalysis:
   googleAnalyticsAPI:
@@ -170,7 +170,7 @@ popularPosts:
 ![](/articles/assets/lulzneko/serverless/hexo/03-06.png)
 
 以下のコードを `<footer>` タグ内に追記します。(ここでは、キャプチャの46行目)
-```
+```html
       <div class="related-posts">
         <h2>関連記事</h2>
         <%- popular_posts({ PPMixingRate: 0.0 }, post) %>
@@ -178,7 +178,7 @@ popularPosts:
 ```
 
 `/themes/landscape/source/css/_partial/article.styl` を編集して、スタイルを適用します。
-```
+```stylus
 .related-posts
   clear: both
   margin-top: 32px

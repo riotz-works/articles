@@ -137,7 +137,7 @@ TypeScript が コンパイルされ、JavaScript と ソースマップ が 作
 ビルドに成功したら `serverless deploy` コマンド で AWS 環境 へ デプロイします。
 デプロイにあたっては AWS IAM ユーザー の アクセス・キー が 必要となります。あらかじめ作成アクセス・キーを取得し、`%USERPROFILE%\.aws\credentials` (e.g. `C:\Users\username\.aws\credentials`) に 記述しておきます。
 IAM の アクセス権 は `PowerUserAccess` では足りず IAM 周りの権限追加が必要です。まだ絞り込みきれておらず結局 `AdministratorAccess` を 使ってしまっています。頑張らないと。。。
-```txt
+```ini
 [hello]
 region = us-west-2
 aws_access_key_id = ZDEJREC4D1GM3DXXXX

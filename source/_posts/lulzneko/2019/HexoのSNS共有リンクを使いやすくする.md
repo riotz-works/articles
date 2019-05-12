@@ -38,7 +38,7 @@ tags:
 
 ## SNS 共有ボタン を 移動
 以下のコード を `<footer>` タグ の 下に追加し、`article-share-link` の `<a>` タグ を `<span>` タグ に 変更します。
-```
+```html
       <a href="http://b.hatena.ne.jp/entry/<%- post.permalink %>" class="article-share-hatena" target="_blank" title="このエントリーをはてなブックマークに追加"></a>
       <a href="https://twitter.com/intent/tweet?url=<%- post.permalink %>" class="article-share-twitter" target="_blank" title="Twitter"></a>
       <a href="https://www.facebook.com/sharer.php?u=<%- post.permalink %>" class="article-share-facebook" target="_blank" title="Facebook"></a>
@@ -64,7 +64,7 @@ tags:
 - 左に集まってしまっていたのを `float: right` で 右に戻す
 - 並びが窮屈なので `margin: 0 0 0 10px` で 間隔を調整
 - アイコンのフォントが [共有] に対して大きいので `font-size: 18px` で 調整
-```
+```stylus
 $article-share-link
   width: 20px
   height: 20px
@@ -90,7 +90,7 @@ $article-share-link
 - `background` の 行を `color: color-twitter !important` のようにします
   - 背景色の定義を、フォントの色の定義に変更
   - `.article-footer a` の `color` 定義に負けるので、`!important` で 優先
-```
+```stylus
 .article-share-twitter
   @extend $article-share-link
   &:before
@@ -110,7 +110,7 @@ SNS 共有のボックスを開くための [共有] ラベルのスタイルを
 矢印のアイコンをなくした方がすっきりしたので消しましたが、表示したい場合は `&:before` 以降を残します。
 - `cursor: pointer` を 削除し、マウスでクリックできる感をなくす
 - `&:before` 以降を削除し、矢印のアイコンを消す
-```
+```stylus
 .article-share-link
   float: right
   margin-left: 20px

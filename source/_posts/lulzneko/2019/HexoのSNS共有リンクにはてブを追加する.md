@@ -58,7 +58,7 @@ Hexo には記事の下に Twitter、Facebook、Pinterest、Google+ へ 記事�
 はてブ 共有用リンクを、今回は Twitter 共有リンクの前に入れます。
 以下のコードを追加します。(キャプチャでは 58行目)
 ※ コードは公式の [はてなブックマークボタンの作成・設置について](http://b.hatena.ne.jp/guide/bbutton) を 参考に作りました。 `title` 属性はサイトに合わせて変更してください。
-```
+```html
             '<a href="http://b.hatena.ne.jp/entry/' + encodedUrl + '" class="article-share-hatena" target="_blank" title="このエントリーをはてなブックマークに追加"></a>',
 ```
 
@@ -69,7 +69,7 @@ Hexo には記事の下に Twitter、Facebook、Pinterest、Google+ へ 記事�
 ![](/articles/assets/lulzneko/serverless/hexo/01-04.png)
 
 この `.article-share-google` の下に追加します。(`.article-share-google` のブロックは削除して大丈夫です)
-```
+```stylus
 .article-share-hatena
   @extend $article-share-link
   &:before

@@ -91,19 +91,19 @@ Vue.js は強力なフレームワークですが、あらゆるウェブサイ�
 ### プロジェクトの作成
 公式のウィザード CLI (scaffolding tool) があるので、そちらを使います。
 今回は最後の引数 `<my-project>` を `pwa-base-app` としました。
-```
+```console
 $ npx create-nuxt-app <project-name>
 ```
 ※ yarn の場合 `yarn create nuxt-app <my-project>` がありますがグローバル汚染回避のために `npx` を使いました
 
 プロジェクト名と説明を聞かれます。必要に応じて入力します。
-```
+```console
 ? Project name (pwa-base-app)
 ? Project description (My majestic Nuxt.js project)
 ```
 
 サーバーのフレームワークを聞かれますが JAMStack でいくので `none` を選択します。
-```
+```console
 ? Use a custom server framework (Use arrow keys)
 ❯ none
   express
@@ -119,7 +119,7 @@ $ npx create-nuxt-app <project-name>
 - `PWA Support` は、今回の目的なのでチェックします。
 - `Axios` は、HTTP Client で Web API などにアクセスするのに使います。使うケースが多いので入れておきます。
 - `Linter / Formatter` と `Prettier` は TypeScript との兼ね合いがあり CLI からは入れません。
-```
+```console
 ? Choose features to install (Press <space> to select, <a> to toggle all, <i> to invert selection)
  ◉ Progressive Web App (PWA) Support
  ◯ Linter / Formatter
@@ -129,7 +129,7 @@ $ npx create-nuxt-app <project-name>
 
 UI のフレームワークを選択します。ここはお好みで。
 今回は `none` を選択し、本アプリを開発する際に別途導入します。(普段 [Vuetify](https://vuetifyjs.com/ja/) を使ってますがウィザードで入れると生成されるプロジェクトのサンプルコードが大きくなりすぎるので自分で入れてるというのもあります)
-```
+```console
 ? Use a custom UI framework (Use arrow keys)
 ❯ none
   bootstrap
@@ -141,7 +141,7 @@ UI のフレームワークを選択します。ここはお好みで。
 ```
 
 テスティングのフレームワークを選択しまが、TypeScript にするので後から追加します。(このタイミングで追加すると `babel-jest` になるため)
-```
+```console
 ? Use a custom test framework (Use arrow keys)
 ❯ none
   jest
@@ -149,14 +149,14 @@ UI のフレームワークを選択します。ここはお好みで。
 ```
 
 Nuxt.js のモードを選択します。JAMStack にするので `Single Page App` を選択します。
-```
+```console
 ? Choose rendering mode (Use arrow keys)
   Universal
 ❯ Single Page App
 ```
 
 Author を入力し、パッケージマネージャーを選択します。
-```
+```console
 ? Author name ()
 ? Choose a package manager (Use arrow keys)
   npm
@@ -166,7 +166,7 @@ Author を入力し、パッケージマネージャーを選択します。
 以上でウィザードが終了し、プロジェクトの生成とパッケージのインストールが行われます。
 ウィザード終了時の案内に従いプロジェクトのディレクトリへ移動し、開発サーバーを起動します。
 ※ Yarn を選んだ場合に `yarn run dev` を案内されますが `run` は省略可能です
-```
+```console
 $ cd pwa-base-app
 $ yarn dev
 ```
@@ -177,7 +177,7 @@ $ yarn dev
 
 **Note**
 2019年5月現在、開発サーバーを起動すると `ERROR  (node:515) DeprecationWarning: Tapable.plugin is deprecated. Use new API on .hooks instead` の警告が表示されますが `@nuxtjs/pwa` のバージョンが古いためです。`ERROR` と出ていますが問題なく動作します。気になる場合は下記コマンドでモジュールをアップデートします。
-```
+```console
 $ yarn upgrade --latest
 ```
 ※ npm の場合は、[tjunnone/npm-check-updates](https://github.com/tjunnone/npm-check-updates) を使うとよいでしょう
@@ -186,7 +186,7 @@ $ yarn upgrade --latest
 ### デプロイ用のビルド
 デプロイ用のビルドを実行すると `dist` ディレクトリが作られます。
 この `dist` ディレクトリの内容物をウェブサーバーに配置するだけでデプロイ完了となります。
-```
+```console
 $ yarn build
 ```
 ※ 同じようなコマンドで `generate` がありますが、こちらは完全に静的化され HTTP Request が使えなくなるので `build` を使います。各種サンプルなどで `generate` が出てくる場合は `build` に読み替えてください。たとえば下記デプロイの FAQ は `generate` で書かれていますが `build` を使います。

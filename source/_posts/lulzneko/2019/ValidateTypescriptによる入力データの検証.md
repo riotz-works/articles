@@ -46,7 +46,7 @@ Web API を はじめ、ウェブでリクエストを受け取る機能を作�
 (npm の 場合は `npm install validate-typescript`)
 
 公式の[サンプルコード](https://www.npmjs.com/package/validate-typescript#example) 抜粋（一部修正）
-```
+```typescript
 import { Alias, Email, ID, Optional, Options, RegEx, Type, validate } from 'validate-typescript';
 import { AssertionError, ValidatorError } from 'validate-typescript/lib/errors';
 
@@ -126,7 +126,7 @@ try {
 問題があった場合のエラーの受け取りですが、ValidatorError と AssertionError の 再帰構造となっているようです。
 入力データの構造が深くなると、それに合わせて `child_errors` という形でエラーも深くなるようになっています。
 必要な部分だけを抜粋すると以下のような構造になります。下記は `id` の値が数値でなかった場合のエラーです。
-```
+```json
 {
   "message": "Validate TypeScript",
   "validator": "ID",
@@ -146,7 +146,7 @@ try {
 
 ただしデータの階層が深い場合は、このデータが構造が `child_errors` という形で深く連なっていくので、そのままでは扱いにくいです。
 そのためサンプルに加えて以下のようなコードを追加してフラットに変換しています。
-```
+```typescript
 const violations: ValidatorError[] = [];
 JSON.parse(JSON.stringify(error), (key: string, values: ValidatorError[]) => {
   if (key === 'child_errors') {

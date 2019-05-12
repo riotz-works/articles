@@ -42,7 +42,7 @@ tags:
 TypeScript で クラスメソッドを作った時に `this` を使わなかった場合に `Class method does not use 'this'. Use a function instead.` という指摘をしてくれます。
 
 以下のコード例では `ok` メソッドは `this.template` で `this` を 使っているので問題ありません。一方で `ng` メソッドは `this` を 使っていないので [prefer-function-over-method](https://palantir.github.io/tslint/rules/prefer-function-over-method/) ルール違反となります。
-```
+```typescript
 export class Action {
 
   private readonly template = 'Hello %s !!';
@@ -64,7 +64,7 @@ export class Action {
 ここで気になって悩んでいるのが "static にすべき" ではなく、"function に すべき" と メッセージが出ている点です。
 
 つまり、下記のような修正ではなく (必要箇所のみ抜粋)
-```
+```typescript
 export class Action {
   public static ng(message: string): void {
     console.debug(message);
@@ -73,7 +73,7 @@ export class Action {
 ```
 
 このようにする (必要箇所のみ抜粋)
-```
+```typescript
 export class Action {
   public ng = (message: string): void => {
     console.debug(message);
@@ -114,7 +114,7 @@ export class Action {
 ## TypeScript の コンパイル後を確認する
 Lint ルールに明確な論拠がないので、出力された JavaScript/ECMAScript を 見て考えたいと思います。
 TypeScript の ソース。
-```
+```typescript
 export class Action {
 
   private readonly template = 'Hello %s !!';
@@ -139,7 +139,7 @@ export class Action {
 
 コンパイルされた結果。
 ※ ターゲットはクラス構文が導入されていない ES5 にしています。
-```
+```javascript
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Action = (function () {

@@ -32,7 +32,7 @@ Nuxt.js を使うことで簡単に PWA なアプリを作ることができま�
 
 型の例で、たとえば JavaScript で以下のようなコードがあったとします。
 単純な足し算を想定したコードですが、型がないので引数に任意の値を投入できます。その結果、戻り値が想定外になることもあります。
-```
+```javascript
 const add = (a, b) => {
   return a + b;
 }
@@ -46,7 +46,7 @@ console.log(add(1, { value: "2" }));  // 1[object Object]
 
 TypeScript では以下のようになります。
 引数と戻り値に `:number` で、数値型を明示します。それにより数値でない引数を渡している部分はコンパイルエラーとなり実行コード(JavaScript)が生成できません。
-```
+```typescript
 const add = (a: number, b: number): number => {
   return a + b;
 }
@@ -75,7 +75,7 @@ Riotz.works は、TypeScript で開発するチームなのですが、実はず
 
 ### TypeScript サポートのモジュールを追加
 まずは TypeScript サポートのモジュールを追加します。プロジェクトのディレクトリで下記コマンドを実行します。
-```
+```console
 $ yarn add -D @nuxt/typescript ts-node
 ```
 ※ npm の場合、`npm i -D @nuxt/typescript ts-node`
@@ -84,12 +84,12 @@ $ yarn add -D @nuxt/typescript ts-node
 ### TypeScript の設定ファイルを生成
 TypeScript の設定ファイル `tsconfig.json` を作成します。
 ※ この [feat(ts): auto generate tsconfig.json by kevinmarrec · Pull Request #4776 · nuxt/nuxt.js](https://github.com/nuxt/nuxt.js/pull/4776) プルリクがリリースされると `touch` しなくても済みそうですが、2019年5月現在、まだ事前に作成が必要です。
-```
+```console
 $ touch tsconfig.json
 ```
 
 Nuxt.js 開発サーバーを起動し、tsconfig.json の定義を生成します。起動情報に `TypeScript support is enabled` が出ていることがわかります。
-```
+```console
 $ yarn dev
    ╭──────────────────────────────────────────╮
    │                                          │
@@ -103,7 +103,7 @@ $ yarn dev
 ```
 
 `tsconfig.json` の内容が更新されます。JSON ファイルをモジュールとして扱える定義 `resolveJsonModule` を追加します。これは追加したほうが便利なのと、後述の `nuxt.config.ts` で `package.json` を扱えるようにするためです。
-```
+```javascript
 {
   "compilerOptions": {
     // ...(省略)
@@ -123,7 +123,7 @@ $ yarn dev
 ファイルの内容、先頭と最後を以下のように変更します。とくに `'./package.json'` の `.json` をつけ忘れないように注意します。この `package.json` を読み込むのに先ほどの `resolveJsonModule` が必要でした。
 
 **変更前**
-```
+```typescript
 import pkg from './package'
 
 export default {
@@ -132,7 +132,7 @@ export default {
 ```
 
 **変更後**
-```
+```typescript
 import NuxtConfiguration from '@nuxt/config'
 import pkg from './package.json';
 
@@ -153,7 +153,7 @@ export default config
 - `<script>` タグに `lang="ts"` を追加して TypeScript として認識させます
 - 全体に型定義を効かせるために `Vue.extend` を追加します
 - `</script>` タグ前の括弧閉じに ')' を追加するのを忘れないよう注意します
-```
+```html
 <script lang="ts">
 import Vue from 'vue'
 
@@ -163,7 +163,7 @@ export default Vue.extend({
 ```
 
 ベースアプリの `/pages/index.vue` は以下のようになります。
-```
+```html
 <script lang="ts">
 import Vue from 'vue'
 import Logo from '~/components/Logo.vue'
@@ -178,7 +178,7 @@ export default Vue.extend({
 
 また、Visual Studio Code の Vue 拡張 [Vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) を使っている場合 `/components/Logo.vue` に以下の空実装コードを追加します。
 (`nuxt` コマンドはエラーではないので、Vetur を使わない場合は追加しなくても大丈夫です)
-```
+```html
 <script lang="ts">
 import Vue from 'vue'
 export default Vue.extend({})
@@ -196,7 +196,7 @@ TypeScript を導入したので実装を確認したいと思います。
 
 ### 絵文字ボタンとカウンターの導入
 **`/pages/index.vue`** の [Documentation] と [GitHub] の下、`<div class="links"></div>` ブロックの直後に以下を追加します。
-```
+```html
       <div class="actions">
         <a @click="addTada" class="button--action">🎉 {{ tada }}</a>
         <a @click="addSparkles" class="button--action">✨ {{ sparkles }}</a>
@@ -207,7 +207,7 @@ TypeScript を導入したので実装を確認したいと思います。
 ```
 
 カウンター表示用のデータプロパティを追加します。(`data` のみ抜粋)
-```
+```typescript
 export default Vue.extend({
   // ...(省略)
   data() {
@@ -223,7 +223,7 @@ export default Vue.extend({
 
 `@click` で呼び出されるメソッドを追加します。(`methods` のみ抜粋)
 各絵文字ボタンから呼び出されるメソッドは対応する変数をインクリメント、[Clear] は全変数を `0` に初期化します。各メソッドは TypeScript の型定義を導入し、戻り値 `:void` と明示しています。
-```
+```typescript
 export default Vue.extend({
   // ...(省略)
   methods: {
@@ -258,7 +258,7 @@ export default Vue.extend({
 
 **`/pages/index.vue`** に、すべての絵文字カウンターの総計を持つ算術プロパティを追加します。(`computed` のみ抜粋)
 `counter()` メソッドを作り、戻り値は `number` 型、すべての絵文字カウンターの合計です。
-```
+```typescript
 export default Vue.extend({
   // ...(省略)
   computed: {
@@ -271,14 +271,14 @@ export default Vue.extend({
 
 ロゴを回転させるために、ロゴのコンポーネントへカウンターの値を渡します。
 HTML テンプレートの `<logo>` タグに `v-bind:counter="counter"` 属性を追加し `counter` の値をロゴのコンポーネントで使えるようにします。
-```
+```html
       <logo v-bind:counter="counter" />
 ```
 
 **`/components/Logo.vue`** で、カウンターの値を受け取りロゴを回転する CSS を追加します。
 ロゴ全体を回転させるため、現在の HTML テンプレートの実装部分を` <div :style="rotation">` でラップします。
 回転の CSS は `style` 属性直接に、`rotation` プロパティ経由で設定します。
-```
+```html
 <template>
   <div :style="rotation">
     <div class="VueToNuxtLogo">
@@ -295,7 +295,7 @@ HTML テンプレートの `<logo>` タグに `v-bind:counter="counter"` 属性�
 - 親コンポーネント `/pages/index.vue` で絵文字ボタンを押されると、`props: counter` に新しい値がセットされます。それを `watch` で監視していて、変化があると `watch: counter` を呼び出します。
 - `watch: counter` は、`data` プロパティにアニメーションの CSS をオブジェクトとして設定します。いったんアニメーション無し `{ animation: 'none' }` をセットし、10ミリ秒後に `{ animation: `rotate 1s linear 0s ${ value } forwards` }` をセットします。(アニメーション再実行のトリック)
 - 最後に `computed: rotation` 経由で作られた CSS オブジェクトを HTML テンプレートへ渡します。
-```
+```typescript
 export default Vue.extend({
   props: {
     counter: Number
@@ -326,7 +326,7 @@ export default Vue.extend({
 `watch: counter` では、引数が `number` 型です。(フレームワークからの呼出し＆テンプレートリテラルなので型明示のメリットはあまりないですが)
 
 なお、CSS のアニメーション定義は下記です。
-```
+```css
 @keyframes rotate {
   0% {
     transform: rotateY(0);

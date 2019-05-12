@@ -45,9 +45,9 @@ Google Analytics からデータが取れていないことも考えられるの
 そうなるとデータを取得した後に何かがあるのかなということで、hexo-related-popular-posts のソース確認に入ります。
 
 Visual Studio Code で Hexo プロジェクト配下の `node_modules/hexo-related-popular-posts` を開きます。
-```
-cd node_modules/hexo-related-popular-posts
-code .
+```console
+$ cd node_modules/hexo-related-popular-posts
+$ code .
 ```
 
 ソースコード 13ファイルとはいえ、何かあたりが欲しいところ。まずは `rankingSheet.txt` を正しく表示できるところを目標にランキングデータファイル名の設定 `rankingSheet` を全文検索します。そうすると `cache.js` がかかりました。
@@ -55,7 +55,7 @@ code .
 
 ざっと眺めてみると 33行目に `// PV update` と、それっぽいコメントがあり、36行目でパスの比較をしてデータモデルを作っているようです。
 ここにデバッグ用のコンソール出力を挟んで動作確認をしたところ `articles/` 有無でミスマッチしていることがわかりました。
-```
+```console
 2018/12/29/what-we-did-in-2018/ == articles/2018/12/29/what-we-did-in-2018/
 2018/12/31/review-of-2018/ == articles/2018/12/31/review-of-2018/
 2019/04/03/take-seminar-on-shiftup-vol3/ == articles/2019/04/03/take-seminar-on-shiftup-vol3/
@@ -98,7 +98,7 @@ code .
 これを `cache.js` で使うには `hexo.config` の `root` プロパティ、すなわち `hexo.config.root` を使います。ただし、このままだと `/articles/` のように先頭の `/` でまたミスマッチするので `hexo.config.root.slice(1)` にして先頭を取り除きます。
 
 ここで取得したサブパスの文字列を判定の `if` 文で使います。(上記キャプチャの 36行目)
-```
+```javascript
 if (hexo.config.root.slice(1) + hexo.locals.cache.posts.data[v].popularPost_tmp_gaData.path == tmp_gaData[w].path) {
   // ...
 }
@@ -106,7 +106,7 @@ if (hexo.config.root.slice(1) + hexo.locals.cache.posts.data[v].popularPost_tmp_
 
 このままだと処理がわかりにくいのでリファクタリング。
 とくに `slice(1)` を毎回処理するのはムダなのでファイル上部の変数宣言部に移動します。`root` という変数名は微妙ですが設定の項目名をそのまま使っているようなので合わせます。
-```
+```javascript
 const root = hexo.config.root.slice(1)
 
 if (root + hexo.locals.cache.posts.data[v].popularPost_tmp_gaData.path == tmp_gaData[w].path) {
