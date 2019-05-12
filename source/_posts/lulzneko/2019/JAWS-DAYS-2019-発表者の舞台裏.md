@@ -94,7 +94,7 @@ JAWS DAYS での発表の朝を迎えて、発表者 lulzneko は 絶望して�
 ## 発表
 いざ、発表！
 ご清聴ありがとうございました！！
-<iframe src="https://riotz.works/slides/?2019-jaws-days" width="608" height="342"></iframe>
+<div class="slide"><iframe src="https://riotz.works/slides/?2019-jaws-days"></iframe></div>
 
 沢山のツイートありがとうございます！！
 [2019/02/23(土) JAWS DAYS 2019 <7> 15:10～ #jawsug #jawsdays - Togetter](https://togetter.com/li/1322142)

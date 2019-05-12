@@ -27,7 +27,7 @@ JAWS DAYS 2019 で『AWS x JAMStack で構築・運用する サーバーレス�
 
 
 ## 発表資料 と Togetter
-<iframe src="https://riotz.works/slides/?2019-jaws-days" width="608" height="342"></iframe>
+<div class="slide"><iframe src="https://riotz.works/slides/?2019-jaws-days"></iframe></div>
 
 [2019/02/23(土) JAWS DAYS 2019 <7> 15:10～ #jawsug #jawsdays - Togetter](https://togetter.com/li/1322142)
 沢山のツイートありがとうございます！！

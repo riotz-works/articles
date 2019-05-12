@@ -33,14 +33,14 @@ WordPress を サーバーレスで動作させるというコンセプトに感
 ![](/articles/assets/lulzneko/seminar/shifter/03-11.png)
 
 Serverlessconf Tokyo 2017 での 発表『Java チームが選択した TypeScript による AWS Lambda 開発』の資料はこちらになります。
-<iframe src="https://riotz.works/slides/?2017-serverless-conf" width="608" height="342"></iframe>
+<div class="slide"><iframe src="https://riotz.works/slides/?2017-serverless-conf"></iframe></div>
 
 今回のイベントでは JAMStack で フロント系の発表をしましたが、本業はサーバーレスなサーバーサイド エンジニア を しています。こんなことをやっているんだという感じで眺めていただけましたら幸いです。
 
 
 ## 発表資料
 『JAMStack で構築・運用する サーバーレスなウェブフロント』の発表資料はこちらになります。
-<iframe src="https://riotz.works/slides/?2019-shiftup-jp_getshifter-vol3" width="608" height="342"></iframe>
+<div class="slide"><iframe src="https://riotz.works/slides/?2019-shiftup-jp_getshifter-vol3"></iframe></div>
 
 
 ## サマリー

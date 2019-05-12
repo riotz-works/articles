@@ -143,7 +143,7 @@ Gridsome で WordPress を リニューアル。良いですよね。
 WordCamp Tokyo 2019 11/1-2＠新宿
 発表者 の [青空俯角 / mimi(@miminari)さん](https://twitter.com/miminari) が 実行委員長 を 担当
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/YqFg5ydh_vs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="slide"><iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/YqFg5ydh_vs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
 
 
