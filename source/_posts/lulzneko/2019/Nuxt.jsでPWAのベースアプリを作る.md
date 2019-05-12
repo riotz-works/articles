@@ -16,6 +16,9 @@ tags:
 
 ![](/articles/assets/lulzneko/develop/nuxtjs/nuxtjs.png)
 
+**シリーズの記事**
+- **Nuxt.js で PWA(Progressive Web Apps) のベースアプリを作る** (本記事)
+- [Nuxt.js PWA(Progressive Web Apps) のベースアプリをTypeScript対応する](https://riotz.works/articles/2019/05/10/typescripting-base-app-of-nuxtjs-pwa/)
 
 **環境**
 開発者の環境は以下となります。
@@ -86,6 +89,10 @@ Vue.js は強力なフレームワークですが、あらゆるウェブサイ�
 
 [TypeScript](https://www.typescriptlang.org/) は JavaScript に型定義とクラスを導入する AltJS のプログラミング言語(正確にはスーパーセット)です。型定義を導入することで開発効率や不具合回避ができるため注目されており、最近で導入されるケースが多いようです。今回はゼロから作るので導入しておきます。
 ※ Nuxt.js は、バージョン 2.6 からオフィシャルに TypeScript 対応したのですが、2019年5月現在 CLI から簡単に導入できないため詳細は次回の記事で書きます。
+
+2019年5月10日追記
+書きました！
+⇒ [Nuxt.js PWA(Progressive Web Apps) のベースアプリをTypeScript対応する](https://riotz.works/articles/2019/05/10/typescripting-base-app-of-nuxtjs-pwa/)
 
 
 ### プロジェクトの作成
@@ -228,6 +235,10 @@ Nuxt.js で PWA のベースアプリができました！
 
 後は `pages`  ディレクトリに表示するページの vue ファイルを追加していくことでアプリが作れますが、その前に TypeScript は入れておいたほうが良く次回の記事で、その辺のところを書きます。
 TypeScript 対応しても、ページ単位で TypeScript/JavaScript を切り替えられますし、TypeScript の中に JavaScript が書けるので、TypeScript をやったことがなくても導入してしまい少しずつ使うということができます。
+
+2019年5月10日追記
+書きました！
+⇒ [Nuxt.js PWA(Progressive Web Apps) のベースアプリをTypeScript対応する](https://riotz.works/articles/2019/05/10/typescripting-base-app-of-nuxtjs-pwa/)
 
 本文中で紹介しました SPAJAM は「2019 予選」が **募集中** です。本記事で PWA のアプリはできたも同然、ぜひハッカソンで試してみましょう！
 Riotz.works は「東京A予選」でエントリー中です。チーム名「Riotz.works、進撃のPWA」と、今回こそ PWA で最優秀賞を目指します！！(エントリー結果が出てないので参戦できるかは決まってません)
