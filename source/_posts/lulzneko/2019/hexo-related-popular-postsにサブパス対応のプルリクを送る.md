@@ -9,7 +9,7 @@ tags:
 - Hexo
 ---
 
-Static Site Generator の Hexo で「人気の記事」を実現する Plugin、hexo-related-popular-posts。ビルド時に Google Analytics からアクセス解析のデータを取得してランキングを作成するという素晴らしいアイデアで不可能を可能にしてくれます。
+Static Site Generator の Hexo で「人気の記事」を実現する Plugin、hexo-related-popular-posts。ビルド時に Google Analytics からアクセス解析のデータを取得してランキングを作成する素晴らしいアイデアで不可能を可能にしてくれます。
 今回こちらの Plugin を使わせていただいたところ、サブパスの URL に対応する機能がなかったのでエンハンスのプルリクエストをだして拡張してもらいました。
 
 ![](/articles/assets/lulzneko/develop/develop.jpg)
@@ -42,7 +42,7 @@ Hexo は Static Site Generator で JAMStack サイトを作ります。JAMStack 
 Google Analytics からデータが取れていないことも考えられるので、hexo-related-popular-posts が使っているライブラリ [sfarthin/ga-analytics](https://github.com/sfarthin/ga-analytics) の動作確認したところ、コンソールに正しく表示できました。環境設定に問題はなさそうです。
 ※ ga-analytics の動作確認については、こちら「[Google Analytics に プログラムでアクセスできるようにする](http://localhost:4000/articles/2019/04/17/programmatically-access-google-analytics/)」をご参照ください
 
-そうなるとデータを取得した後に何かがあるのかなということで、hexo-related-popular-posts のソース確認に入ります。
+そうなるとデータを取得した後に何かがあるので、hexo-related-popular-posts のソース確認に入ります。
 
 Visual Studio Code で Hexo プロジェクト配下の `node_modules/hexo-related-popular-posts` を開きます。
 ```console
@@ -105,7 +105,7 @@ if (hexo.config.root.slice(1) + hexo.locals.cache.posts.data[v].popularPost_tmp_
 ```
 
 このままだと処理がわかりにくいのでリファクタリング。
-とくに `slice(1)` を毎回処理するのはムダなのでファイル上部の変数宣言部に移動します。`root` という変数名は微妙ですが設定の項目名をそのまま使っているようなので合わせます。
+とくに `slice(1)` を毎回処理するのはムダなのでファイル上部の変数宣言部に移動します。`root` の変数名は微妙ですが設定の項目名をそのまま使っているようなので合わせます。
 ```javascript
 const root = hexo.config.root.slice(1)
 
@@ -139,7 +139,7 @@ if (root + hexo.locals.cache.posts.data[v].popularPost_tmp_gaData.path == tmp_ga
 
 
 ## 一晩でマージされた！
-プルリクを出して一晩というか、深夜に出して夕方にはマージしリリースしてくださりました。はやっ！[ᴛ ᴇ ᴀ 🍵(@tea0828)さん](https://twitter.com/tea0828) ありがとうございます！！
+プルリクを出して一晩、夕方にはマージしリリースしてくださりました。はやっ！[ᴛ ᴇ ᴀ 🍵(@tea0828)さん](https://twitter.com/tea0828) ありがとうございます！！
 
 
 

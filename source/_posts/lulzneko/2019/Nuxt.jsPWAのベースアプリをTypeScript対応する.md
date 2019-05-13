@@ -16,7 +16,7 @@ Nuxt.js を使うことで簡単に PWA なアプリを作ることができま�
 ![](/articles/assets/lulzneko/develop/nuxtjs/nuxtjs.png)
 
 
-前回 [Nuxt.js で PWA(Progressive Web Apps) のベースアプリを作る]() で、[Nuxt.js](https://ja.nuxtjs.org/) を使った [PWA](https://developer.mozilla.org/ja/docs/Web/Progressive_web_apps) のベースアプリを作りました。そのまま JavaScript で開発を進めることができますが、TypeScript を導入することで変数や関数に型定義が行えるようになり開発生産性や保守性を向上できます。今回のベースアプリはゼロから作っているので最初から入れてしまうのがよいでしょう。また TypeScript の関連モジュールを導入したとしても、必ずしも TypeScript の利用が必須ではなく、JavaScript で書いていって、TypeScript にできるところから適用していくという段階的な利用も可能です。そのような観点からも入れてしまうのがよいでしょう。
+前回 [Nuxt.js で PWA(Progressive Web Apps) のベースアプリを作る]() で、[Nuxt.js](https://ja.nuxtjs.org/) を使った [PWA](https://developer.mozilla.org/ja/docs/Web/Progressive_web_apps) のベースアプリを作りました。そのまま JavaScript で開発を進めることができますが、TypeScript を導入することで変数や関数に型定義が行えるようになり開発生産性や保守性を向上できます。今回のベースアプリはゼロから作っているので最初から入れてしまうのがよいでしょう。また TypeScript の関連モジュールを導入したとしても、必ずしも TypeScript の利用が必須ではなく、JavaScript で書いていって、TypeScript にできるところから適用していく段階的な利用も可能です。そのような観点からも入れてしまうのがよいでしょう。
 
 **シリーズの記事**
 - [Nuxt.js で PWA(Progressive Web Apps) のベースアプリを作る](https://riotz.works/articles/2019/05/09/develop-base-app-for-pwa-with-nuxtjs/)
@@ -117,7 +117,7 @@ $ yarn dev
 ```
 
 この定義は追加するプルリクと削除するプルリクが流れているようで、日付的には消すほうが最後なので自分で追加が必要そうです。
-"Remove resolveJsonModule as , after little thoughts, we should not force it to users - [#4842](https://github.com/nuxt/nuxt.js/pull/4842)" ということだそうで、フレームワークのポリシーや考え方ですね。(なぜなのかは知りたかった)
+"Remove resolveJsonModule as , after little thoughts, we should not force it to users - [#4842](https://github.com/nuxt/nuxt.js/pull/4842)" のだそうで、フレームワークのポリシーや考え方ですね。(なぜなのかは知りたかった)
 - [feat(ts): auto generate tsconfig.json by kevinmarrec · Pull Request #4776 · nuxt/nuxt.js](https://github.com/nuxt/nuxt.js/pull/4776/commits/b0f475b6fca6e31e49a8674811719a44c045387f#diff-86a77182c8558eb2dc1eb2fc2fcef9c6R11)
 - [fix(ts): fix default `tsconfig.json` by kevinmarrec · Pull Request #4842 · nuxt/nuxt.js](https://github.com/nuxt/nuxt.js/pull/4842/files#diff-96d6626cb8a1282050f1ed2f1163f3d6L11)
 

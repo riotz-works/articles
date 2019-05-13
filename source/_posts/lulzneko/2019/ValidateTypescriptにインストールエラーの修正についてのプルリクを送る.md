@@ -8,19 +8,19 @@ tags:
 - TypeScript
 ---
 
-Web API の リクエスト パラメーター を 入力チェックするのによさそうな Validate Typescript というライブラリを見つけ使おうとしたところ、インストールエラーが発生してしまいました。
+Web API の リクエスト パラメーター を 入力チェックするのによさそうな Validate TypeScript というライブラリを見つけ使おうとしたところ、インストールエラーが発生してしまいました。
 こちらをプルリクエストで修正してもらいましたので、プルリクエストの手順と合わせて整理します。
 
 ![](/articles/assets/lulzneko/develop/develop.jpg)
 
 
-## Validate Typescript
-[Validate Typescript](https://github.com/Grant-Zietsman/validate-typescript) - https://github.com/Grant-Zietsman/validate-typescript は スキーマベースのバリデーターで、JSON などのオブジェクトの値や型をチェックすることができます。
+## Validate TypeScript
+[Validate TypeScript](https://github.com/Grant-Zietsman/validate-typescript) - https://github.com/Grant-Zietsman/validate-typescript はスキーマベースのバリデーターで、JSON などのオブジェクトの値や型をチェックできます。
 ![](/articles/assets/lulzneko/develop/validate-typescript/01.png)
 
 
 ## プルリクを出すことになった背景
-ドキュメントに従って `npm install` するとエラーとなります。また `npm install -S` と セーブオプションを付けてもエラーなので `package.json` に反映されませんし `node_modules` ディレクトリにも保存されません。
+ドキュメントにしたがって `npm install` するとエラーとなります。また `npm install -S` とセーブオプションを付けてもエラーなので `package.json` に反映されませんし `node_modules` ディレクトリにも保存されません。
 ```console
 lulzneko@PC:/tmp/project$ npm install validate-typescript
 
@@ -40,7 +40,7 @@ npm ERR! A complete log of this run can be found in:
 npm ERR!     /home/lulzneko/.npm/_logs/2019-03-13T25_67_89_000Z-debug.log
 ```
 
-普段は [Yarn](https://yarnpkg.com/) を 使っているのですが、こちらも同様にエラーとなり `package.json` に反映されません。しかしながらダウンロードはできているので `node_modules` に 保存されます。CI とかで環境が変わると、パッケージ名を明示してインストールはしないので、そちらではエラーとなるので注意が必要です。
+普段は [Yarn](https://yarnpkg.com/) を使っているのですが、こちらも同様にエラーとなり `package.json` に反映されません。しかしながらダウンロードはできているので `node_modules` に保存されます。CI とかで環境が変わると、パッケージ名を明示してインストールはしないので、そちらではエラーとなるので注意が必要です。
 ```console
 lulzneko@PC:/tmp/project$ yarn add validate-typescript
 yarn add v1.13.0
@@ -61,28 +61,28 @@ info Visit https://yarnpkg.com/en/docs/cli/add for documentation about this comm
 
 ## インストール・エラーとなる原因
 どうも `cd test && npm install` というコマンドを実行しようとして `test` ディレクトリが見つからないためエラーとなっているようです。
-普段 [Yarn](https://yarnpkg.com/) を 使っているので `npm install` は 出てこないでしょうし `cd test` することもないです。
+普段 [Yarn](https://yarnpkg.com/) を使っているので `npm install` は出てこないでしょうし `cd test` することもないです。
 
-自分のプロジェクト内で問題となってるわけではなないようなので [Validate Typescript](https://github.com/Grant-Zietsman/validate-typescript) に 何かの処理があるのではないと探ります。
+自分のプロジェクト内で問題となってるわけではなないようなので [Validate Typescript](https://github.com/Grant-Zietsman/validate-typescript) に何かの処理があるのではないと探ります。
 
-利用しようとしていた v4.0.0  cf81b3b の ファイルを見ると `scripts` に `"install": "cd test && npm install",` があります。
+利用しようとしていた v4.0.0  cf81b3b のファイルを見ると `scripts` に `"install": "cd test && npm install",` があります。
 これが実行されてエラーとなっているようです。
 https://github.com/Grant-Zietsman/validate-typescript/blob/cf81b3b17a2b37f2fb7d72006eff9bc28519220c/package.json#L12
 ![](/articles/assets/lulzneko/develop/validate-typescript/02.png)
 
 Yarn だとダウンロードできているので、ディレクトリを確認したところ `test` ディレクトリは含まれていませんでした。
-またインストールに成功する Version 3.0.0 にも `test` は 含まれていません。
-パッケージングの忘れか 意図しない実行 の いずれかなのでしょうか 🤔
+またインストールに成功する Version 3.0.0 にも `test` は含まれていません。
+パッケージングの忘れか、意図しない実行のいずれかなのでしょうか 🤔
 
 
-## 変更履歴 の 確認
-ひとつ前の Version 3.0.0 は インストールに成功するので、Version 4.0.0 リリースに至るまでに変化があったといえます。
+## 変更履歴の確認
+ひとつ前の Version 3.0.0 はインストールに成功するので、Version 4.0.0 リリースに至るまでに変化があったといえます。
 
 `3.0.0 3e3c296` は `"setup": "cd test && npm run setup",` 、`install` でなく `setup` という名前で作られていたようです。
 これならインストール時ではなく、明示的に呼び出した時に実行されるので問題ないです。
 https://github.com/Grant-Zietsman/validate-typescript/blob/3e3c2967150ae88c828b1479576ba922227c2eb7/package.json#L12
 
-次の `Fixed outstanding issues, except feature request. 5dce751` で エラーとなっている `install` に 変わっています。
+次の `Fixed outstanding issues, except feature request. 5dce751` でエラーとなっている `install` に変わっています。
 変更が多数あるのですがコミットが分かれておらず、またコメントからもちょっと推測しにくいところです。
 https://github.com/Grant-Zietsman/validate-typescript/commit/5dce751b6cea0870be3287835befa437ed37c8cf#diff-b9cfc7f2cdf78a7f4b91a753d10865a2
 
@@ -91,7 +91,7 @@ https://github.com/Grant-Zietsman/validate-typescript/commit/5dce751b6cea0870be3
 
 -----
 
-勝手な推測ですが、[Validate Typescript](https://github.com/Grant-Zietsman/validate-typescript) 自体の開発を行う際に 外部依存ライブラリ (現時点だと `"chalk": "^2.3.1"`) を `npm install` します。その時に合わせてテストで依存している外部ライブラリのインストールも一緒に行えるようにしたかったのではないでしょうか。
+勝手な推測ですが、[Validate Typescript](https://github.com/Grant-Zietsman/validate-typescript) 自体の開発を行う際に外部依存ライブラリ(現時点だと `"chalk": "^2.3.1"`) を `npm install` します。その時に合わせて、テストで依存している外部ライブラリのインストールも一緒に行いたかったのではないでしょうか。
 
 Version 3.0.0 だと、以下の手順が必要です。
 ```console
@@ -106,20 +106,20 @@ $ npm install
 cd test && npm run setup
 ```
 
-開発環境を便利にした反面、これが まさか利用者側がインストールするときにも同じことが起こるとは想定外だったのかなと想像します。
+開発環境を便利にした反面、これが利用者側のインストールするときにも同じことが起こるとは想定外だったのかなと想像します。
 
 
 ## フォークしてプルリク作成の環境用意
 プルリクを出すために、まずは元リポジトリをフォークして、プルリク作成の環境を作ります。
 
-[Validate Typescript](https://github.com/Grant-Zietsman/validate-typescript) の リポジトリへ行き、画面右上の [fork] ボタンをクリックします。
+[Validate Typescript](https://github.com/Grant-Zietsman/validate-typescript) のリポジトリへ行き、画面右上の [fork] ボタンをクリックします。
 ![](/articles/assets/lulzneko/develop/validate-typescript/03.png)
 
 リポジトリをスキャンしてる画像が表示されます。いい感じ。
 ![](/articles/assets/lulzneko/develop/validate-typescript/04.png)
 
 無事フォークが完了し自分のリポジトリが作られます。
-フォークしたことが [forked from Grant-Zietsman/validate-typescript] の 表示で分かります。
+フォークしたことが [forked from Grant-Zietsman/validate-typescript] の表示で分かります。
 ![](/articles/assets/lulzneko/develop/validate-typescript/05.png)
 
 後はいつも通りクローンして作業環境を用意します。
@@ -187,8 +187,8 @@ To https://github.com/lulzneko/validate-typescript.git
 ![](/articles/assets/lulzneko/develop/validate-typescript/06.png)
 
 プルリク作成フォームが表示されるので、確認と内容を記入し [Create pull request] ボタンをクリックします。
-- 左の [base] が 元のリポジトリ＆ブランチになっていることを確認
-- 右の [head] が フォークした自分のリポジトリ＆作業ブランチになっていることを確認
+- 左の [base] が元のリポジトリ＆ブランチになっていることを確認
+- 右の [head] がフォークした自分のリポジトリ＆作業ブランチになっていることを確認
 - プルリクのタイトルと内容を記入
 ![](/articles/assets/lulzneko/develop/validate-typescript/07.png)
 
@@ -199,7 +199,7 @@ To https://github.com/lulzneko/validate-typescript.git
 
 
 ## 一晩でマージされた！
-この記事をつらつらと書いているうちに一晩でマージされて、Version 4.0.1 が リリースされました。はやっ！！
+この記事をつらつらと書いているうちに一晩でマージされて、Version 4.0.1 がリリースされました。はやっ！！
 マージされたのでブランチの削除と、必要に応じてフォークしたリポジトリを削除します。プルリクのフォームにボタンがあるので簡単です。
 ![](/articles/assets/lulzneko/develop/validate-typescript/06.png)
 
@@ -209,7 +209,7 @@ To https://github.com/lulzneko/validate-typescript.git
 
 無事、インストールエラー問題が解決され、パッチされたバージョンがリリースされました。
 
-ホントはライブラリ紹介を書こうとしていたのですが、先にプルリクになり。せっかくなのでプルリクの流れも整理して書いておこうと思ったら、あっという間にマージしてくれたのでびっくりです。
-2019年3月14日 0:40 JST に プルリクして、2019年3月14日 1:28 JST に リリースの返事。１時間していないという。[Grant Zietsman](https://github.com/Grant-Zietsman) さん、ありがとうございます！
+ホントはライブラリ紹介を書こうとしていたのですが、先にプルリクとなり。せっかくなのでプルリクの流れも整理して書いておこうと思ったら、あっという間にマージしてくれたのでびっくりです。
+2019年3月14日 0:40 JST にプルリクして、2019年3月14日 1:28 JST にリリースの返事。１時間していないという。[Grant Zietsman](https://github.com/Grant-Zietsman) さん、ありがとうございます！
 
-※ なお英語は全くできないのでプルリクの文章はグーグルです。
+※ なお英語はまったくできないのでプルリクの文章はグーグルです。

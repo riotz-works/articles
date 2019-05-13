@@ -135,7 +135,7 @@ $ npx create-nuxt-app <project-name>
 ```
 
 UI のフレームワークを選択します。ここはお好みで。
-今回は `none` を選択し、本アプリを開発する際に別途導入します。(普段 [Vuetify](https://vuetifyjs.com/ja/) を使ってますがウィザードで入れると生成されるプロジェクトのサンプルコードが大きくなりすぎるので自分で入れてるというのもあります)
+今回は `none` を選択し、本アプリを開発する際に別途導入します。(普段 [Vuetify](https://vuetifyjs.com/ja/) を使ってますがウィザードで入れると生成されるプロジェクトのサンプルコードが大きくなりすぎるので自分で入れてるのもあります)
 ```console
 ? Use a custom UI framework (Use arrow keys)
 ❯ none
@@ -234,7 +234,7 @@ https://riotz.works/samples-pwa-base-app/
 Nuxt.js で PWA のベースアプリができました！
 
 後は `pages`  ディレクトリに表示するページの vue ファイルを追加していくことでアプリが作れますが、その前に TypeScript は入れておいたほうが良く次回の記事で、その辺のところを書きます。
-TypeScript 対応しても、ページ単位で TypeScript/JavaScript を切り替えられますし、TypeScript の中に JavaScript が書けるので、TypeScript をやったことがなくても導入してしまい少しずつ使うということができます。
+TypeScript 対応しても、ページ単位で TypeScript/JavaScript を切り替えられますし、TypeScript の中に JavaScript が書けるので、TypeScript をやったことがなくても導入してしまい少しずつ使うことができます。
 
 2019年5月10日追記
 書きました！
