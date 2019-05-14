@@ -1,66 +1,80 @@
-version: 2
-jobs:
-  build:
-    environment:
-      TZ: /usr/share/zoneinfo/Asia/Tokyo
+version: 2.1
+
+executors:
+  default:
     working_directory: ~/workspace
     docker:
-      - image: node:8
+      - image: circleci/node:8
+    environment:
+      TZ: /usr/share/zoneinfo/Asia/Tokyo
+
+commands:
+  system_info:
     steps:
       - run:
           name: System information
           command: |
             echo "Node $(node -v)"
             echo "Yarn v$(yarn -v)"
-      - checkout
+  setup:
+    steps:
       - restore_cache:
-          key: dependency-cache-{{ checksum "package.json" }}
+          name: Restore Yarn Package Cache
+          key: yarn-packages-{{ checksum "yarn.lock" }}
       - run:
           name: Setup
           command: yarn setup
       - save_cache:
-          key: dependency-cache-{{ checksum "package.json" }}
+          name: Save Yarn Package Cache
+          key: yarn-packages-{{ checksum "yarn.lock" }}
           paths:
-            - ./node_modules
-      - run:
-          name: Validate
-          command: yarn validate
+            - ~/.cache/yarn
+
+
+jobs:
+  build:
+    executor:
+      name: default
+    steps:
+      - system_info
+      - checkout
+      - setup
       - run:
           name: Build
           command: yarn build
-      - run:
-          name: Test
-          command: yarn test
       - store_artifacts:
           path: target/site
+      - persist_to_workspace:
+          root: ~/workspace
+          paths:
+            - ./*
   deploy:
-    environment:
-      TZ: /usr/share/zoneinfo/Asia/Tokyo
-    working_directory: ~/workspace
-    docker:
-      - image: node:8
+    executor:
+      name: default
     steps:
-      - checkout
-      - restore_cache:
-          key: dependency-cache-{{ checksum "package.json" }}
+      - attach_workspace:
+          at: ~/workspace
+      - add_ssh_keys:
+          fingerprints:
+            - "8a:33:c6:ef:c2:7c:b2:e7:8d:4a:2f:90:6d:89:e0:b1"
       - deploy:
+          name: Deploy
           command: |
+            ssh-keyscan github.com >> ~/.ssh/known_hosts
             git config --global user.name "CircleCI"
             git config --global user.email "contact@riotz.works"
             yarn deploy
-      - store_artifacts:
-          path: target/site
+
 
 workflows:
-  version: 2
-  build:
+  build-deploy-flow:
     jobs:
       - build:
           context: website-articles
       - deploy:
+          context: website-articles
           requires:
             - build
           filters:
             branches:
               only: source
-          context: website-articles
