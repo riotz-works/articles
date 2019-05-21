@@ -108,6 +108,12 @@ popularPosts:
   cache:
     path: hexo-popular-related-posts-cached.json
 
+### hexo-toc (https://github.com/bubkoo/hexo-toc)
+toc:
+  maxdepth: 3
+  class: toc
+  anchor: true
+
 ### Disqus (https://disqus.com/)
 disqus_shortname:
 
