@@ -22,7 +22,10 @@ WebSocket がサーバーレスで簡単に利用できるようになるとア�
 
 しかしながら "With all that out of the way, play with our new presents!" ということで、楽しんでみましょう！
 
-### 環境
+**目次**
+<!-- toc -->
+
+**環境**
 開発者の環境は以下となります。
 - Windows 10 64bit + WSL Ubuntu 18.04.1 LTS
 - Visual Studio Code
@@ -32,7 +35,7 @@ WebSocket がサーバーレスで簡単に利用できるようになるとア�
 - Serverless Framework 1.35.1
 - Serverless Websockets Plugin 1.0.0
 
-### 参考情報
+**参考情報**
 - [[発表]Amazon API GatewayでWebsocketが利用可能](https://aws.amazon.com/jp/blogs/news/announcing-websocket-apis-in-amazon-api-gateway/)
 - [Using API Gateway WebSockets with the Serverless Framework](https://serverless.com/blog/api-gateway-websockets-example/)
 - [serverless/serverless-websockets-plugin](https://github.com/serverless/serverless-websockets-plugin)

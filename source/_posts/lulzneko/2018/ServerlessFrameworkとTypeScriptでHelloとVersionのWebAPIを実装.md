@@ -16,11 +16,14 @@ tags:
 前回サーバーレスなアプリケーションのひな形を作りました。
 今回は、ひな形で作られた [AWS Lambda](https://aws.amazon.com/jp/lambda/) のソースを Hello World にし、また新しくアプリケーションのバージョンを返す Version Web API を追加します。
 
-### シリーズの記事
+**目次**
+<!-- toc -->
+
+**シリーズの記事**
 - [Serverless Framework と TypeScript で サーバレス開発事始め](/articles/2018/02/01/ServerlessFrameworkとTypeScriptでサーバレス開発事始め/)
 - **Serverless Framework と TypeScript で Hello ＆ Version の Web API を実装** (本記事)
 
-### 環境
+**環境**
 開発者の環境は以下となります。
 - Windows 10 64bit
 - Visual Studio Code
