@@ -17,7 +17,7 @@ tags:
 Google Analytics へプログラムを使ってアクセスすることで、分析サイトを作ったり、必要なデータだけを定期的に取得することなどができます。たとえば週間 PV をチャットに流すといったような使い方が考えられます。
 本記事では [sfarthin/ga-analytics](https://github.com/sfarthin/ga-analytics) の CLI でデータを取得するところまでとなりますが、次回ブログ環境で使っている Hexo と組み合わせた話を紹介したいと思います。
 
-### 環境
+**環境**
 本記事の開発環境は以下となります。
 - Windows 10 64bit + WSL Ubuntu 18.04.1 LTS
 - OpenSSL 1.1.0g (WSL)

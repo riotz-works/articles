@@ -14,7 +14,7 @@ tags:
 ![](/articles/assets/lulzneko/serverless/hexo/hexo.png)
 
 
-### 環境
+**環境**
 本記事の開発環境は以下となります。
 - Windows 10 64bit + WSL Ubuntu 18.04.1 LTS
 - OpenSSL 1.1.0g (WSL)
