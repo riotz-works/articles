@@ -1,5 +1,5 @@
 ---
-title: Riots.works での JAMStack の 利用
+title: Riots.works での JAMStack の利用
 permalink: how-jamstack-is-used-in-riots.works
 date: 2019-01-29
 author: lulzneko

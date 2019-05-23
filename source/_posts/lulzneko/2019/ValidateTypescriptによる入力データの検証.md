@@ -1,5 +1,5 @@
 ---
-title: Validate Typescript による 入力データ検証を試す
+title: Validate TypeScript による入力データ検証を試す
 permalink: trial-input-data-validation-with-validate-typescript
 date: 2019-03-22
 author: lulzneko

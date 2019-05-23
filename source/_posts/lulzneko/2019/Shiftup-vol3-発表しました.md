@@ -1,5 +1,5 @@
 ---
-title: Shiftup! JP_Getshifter Vol3！ で JAMStack なサーバーレス・ウェブフロントについて発表をしました
+title: Shiftup! JP_Getshifter Vol3！ にて「JAMStack なサーバーレス・ウェブフロント」について発表をしました
 permalink: made-presentation-about-jamstack-at-shiftup-vol3
 date: 2019-04-05
 author: lulzneko
