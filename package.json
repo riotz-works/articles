@@ -29,13 +29,19 @@
     "hexo-cli": "*"
   },
   "scripts": {
-    "clean": "hexo clean && npx rimraf hexo-popular-related-posts-cached.json rankingSheet.txt",
+    "clean": "npx rimraf db.json dist hexo-popular-related-posts-cached.json rankingSheet.txt",
     "setup": "yarn install --ignore-optional",
-    "upgrade": "yarn upgrade --latest",
-    "validate": "echo skip validate",
+    "dev": "node -r dotenv/config node_modules/hexo-cli/bin/hexo server",
     "build": "yarn clean && hexo generate",
-    "test": "echo skip test",
-    "start": "node -r dotenv/config node_modules/hexo-cli/bin/hexo server",
     "deploy": "hexo deploy"
-  }
+  },
+  "homepage": "https://github.com/riotz-works/articles#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/riotz-works/articles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/riotz-works/articles/issues"
+  },
+  "author": "Riotz.works (https://riotz.works)"
 }
