@@ -99,7 +99,7 @@ var googleapis 	= require('googleapis'),
 
 ## 検証
 原因が分かったところで検証します。
-今回は完全に独立したコードで検証できるので [TypeScript プロジェクト用サンドボックスで簡単コード検証](https://riotz.works/articles/2019/05/17/easy-poc-with-sandbox-for-typescript-project/) の環境を使います。TypeScript プロジェクトですが、TypeScrip は JavaScript のスーパーセットで JavaScript プロジェクトとしても動作します。検証は簡単に実行できれば、どのような環境でも大丈夫です。
+今回は完全に独立したコードで検証できるので [TypeScript プロジェクト用サンドボックスで簡単コード検証](https://riotz.works/articles/2019/05/17/easy-poc-with-sandbox-for-typescript-project/) の環境を使います。TypeScript プロジェクトですが、TypeScript は JavaScript のスーパーセットで JavaScript プロジェクトとしても動作します。検証は簡単に実行できれば、どのような環境でも大丈夫です。
 
 `index.ts` に以下のコードを書きます。
 ```typescript
@@ -108,7 +108,7 @@ fs.writeFile('/tmp/test.txt', JSON.stringify({ text: 'test'}));
 ```
 
 まずは、最新の環境 v12 で試します。
-エラー内容は TypeScrip になっていますが、エラーメッセージが出ています。
+エラー内容は TypeScript になっていますが、エラーメッセージが出ています。
 ```console
 v12.3.0
 TypeError [ERR_INVALID_CALLBACK]: Callback must be a function. Received undefined
@@ -145,12 +145,12 @@ sfarthin/ga-analytics のコードでは下記(必要箇所のみ抜粋)
 		});
 ```
 
-なお TypeScrip で実装するとすぐにわかるのですが、型チェックエラーで引数が足らずコンパイルも実行もできないです。型チェック素晴らしいですね。
+なお TypeScript で実装するとすぐにわかるのですが、型チェックエラーで引数が足らずコンパイルも実行もできないです。型チェック素晴らしいですね。
 ![](/articles/assets/lulzneko/develop/pullreq/ga-analytics/01-002.png)
 
 [補足]
 [`sfarthin/ga-analytics`](https://github.com/sfarthin/ga-analytics) の最終更新は 2014-11-21 のバージョン 0.0.7 。当時は Node.js v6 (v8 のリリースは 2017-05-30)なので、非推奨もされてない時代です。
-TypeScrip の [Node.js 定義](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/node/v6/base.d.ts#L2765) も `writeFile(filename: string, data: any, callback?: (err: NodeJS.ErrnoException | null) => void)` と `callback?` なのでオプショナルです。
+TypeScript の [Node.js 定義](https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/node/v6/base.d.ts#L2765) も `writeFile(filename: string, data: any, callback?: (err: NodeJS.ErrnoException | null) => void)` と `callback?` なのでオプショナルです。
 
 それから５年間メンテが止まりつつも、実行環境で問題はなかったのかもしれません。v8 は非推奨でも動作するし、LTS でサポートもまた続いているので大きな影響が出てなかったのかもしれません。
 
@@ -158,7 +158,7 @@ TypeScrip の [Node.js 定義](https://github.com/DefinitelyTyped/DefinitelyType
 ## プルリクの作成
 さっそくプルリクを作って送ります。
 [`sfarthin/ga-analytics`](https://github.com/sfarthin/ga-analytics) のリポジトリから [Fork] で、自分のアカウントにフォークしてローカルへクローンします。
-ボタンを押してクローするだけなので今回は省略しますが、詳しい手順を確認したい場合はこちらをご参照ください。
+ボタンを押してクローンするだけなので今回は省略しますが、詳しい手順を確認したい場合はこちらをご参照ください。
 - [フォークしてプルリク作成の環境用意 - hexo-related-popular-posts にサブパス対応のプルリクを送る](https://riotz.works/articles/2019/04/20/pull-request-to-hexo-related-popular-posts-about-subpath-enablement/#%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AF%E3%81%97%E3%81%A6%E3%83%97%E3%83%AB%E3%83%AA%E3%82%AF%E4%BD%9C%E6%88%90%E3%81%AE%E7%92%B0%E5%A2%83%E7%94%A8%E6%84%8F)
 - [フォークしてプルリク作成の環境用意 - Validate TypeScript にインストールエラーの修正についてのプルリクを送る](https://riotz.works/articles/2019/03/13/pull-request-to-validate-typescript-about-installation-errors/#%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AF%E3%81%97%E3%81%A6%E3%83%97%E3%83%AB%E3%83%AA%E3%82%AF%E4%BD%9C%E6%88%90%E3%81%AE%E7%92%B0%E5%A2%83%E7%94%A8%E6%84%8F)
 
