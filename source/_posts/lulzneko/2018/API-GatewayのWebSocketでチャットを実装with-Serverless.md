@@ -16,7 +16,7 @@ tags:
 
 AWS re:Invent で発表された API Gateway の WebSocket 対応、ついに利用できるようになりました！
 WebSocket がサーバーレスで簡単に利用できるようになるとアプリの幅も広がり、いろいろなことができるようになります。
-さっそく API Gateway の WebSocket を試してみたいと思います。
+さっそく API Gateway の WebSocket を試してみます。
 
 ※ 今回 Serverless Framework の serverless-websockets-plugin を使いますが 2018年12月現在、暫定の実装になるとのことです。API Gateway の WebSocket 対応が AWS CloudFormation で未サポートのため Serverless Framework 本体には含まれず Plugin になっているとのこと。正式版では構文など変わる可能性があることに注意が必要です。
 
@@ -337,7 +337,7 @@ connected (press CTRL+C to quit)
 複数のコンソールから接続すると、送ったコメントがすべてのコンソールに流れてきます。
 WebSocket でリアルタイムに複数クライアントへメッセージが遅れていることが確認できます。
 
-チャットとは名ばかりのコメントだけを送りあうだけの実装(しかも wscat によるコマンドライン)でしたが、API Gateway WebSocket の実装がつかめたかと思います。
+チャットとは名ばかりのコメントだけを送りあうだけの実装(しかも wscat によるコマンドライン)でしたが、API Gateway WebSocket の実装がつかめました。
 
 Serverless Framework は今後の AWS CloudFormation 対応によって変わってくる部分がありますが、こんなに簡単に設定できるのでとても助かります。
 

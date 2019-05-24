@@ -173,7 +173,7 @@ https://riotz.works/slides/?2019-spajam-qualification
 
 そしてブログメンティーの同期さんは、優秀賞。すばらしい！！さすがハッカソンでの優勝経験者。すごいです。
 
-また、他の参加者さんもステキな作品ばかりで、アイデアも実装力も感心感嘆するばかりでした。またどこかのハッカソンでお手合わせできたらと思います。２日間、ありがとうございました。
+また、他の参加者さんもステキな作品ばかりで、アイデアも実装力も感心感嘆するばかりでした。またどこかのハッカソンでお手合わせしましょう。２日間、ありがとうございました。
 
 [東京A予選 -結果発表 ｜ SPAJAM2019公式サイト – 温泉でハッカソン](https://spajam.jp/2019/entry/tokyo-a/)
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://spajam.jp/2019/entry/tokyo-a/" data-iframely-url="//cdn.iframe.ly/bCDpwga?iframe=card-small"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
@@ -189,7 +189,7 @@ https://riotz.works/slides/?2019-spajam-qualification
 
 ----
 
-最高に楽しい２日間！！。レベルの高い人たちと戦うことができ楽しかったし、賞は取れなかったけど、現在持てる力はすべて投入できたと思います。
+最高に楽しい２日間！！。レベルの高い人たちと戦うことができ楽しかったし、賞は取れなかったけど、現在持てる力はすべて投入できました。
 
 反省点は多々あるものの、総じて満足のいく結果でした。
 また次のハッカソンで反省点を活かし、さらなる技術力をつけて来年の SPAJAM にも挑戦します！！

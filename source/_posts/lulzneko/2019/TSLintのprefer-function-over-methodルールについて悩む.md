@@ -30,7 +30,7 @@ tags:
 
 [TSLint](https://palantir.github.io/tslint/) は [TypeScript](https://www.typescriptlang.org/) に特化してチェックしてくれるのですが、最近では [TypeScript 開発チームのロードマップ](https://github.com/Microsoft/TypeScript/issues/29288) で [ESLint](https://eslint.org/)、JavaScript/ECMAScript 用の Lint をサポートしていくことが発表され、[ESLint](https://eslint.org/) からも [TypeScript](https://www.typescriptlang.org/) の [ESLint](https://eslint.org/) 対応への歓迎とチームメンバーが開始した [typescript-eslint プロジェクト](https://github.com/typescript-eslint/typescript-eslint) についての[記事が公開](https://eslint.org/blog/2019/01/future-typescript-eslint)されます。
 
-今後は [ESLint](https://eslint.org/) を使っていくことになるかと思いますが、安定するまでは [TSLint](https://palantir.github.io/tslint/) を使っていくのかなと思います。
+今後は [ESLint](https://eslint.org/) を使っていくことになりますが、安定するまでは [TSLint](https://palantir.github.io/tslint/) をも使って行くことになります。
 [TSLint](https://palantir.github.io/tslint/) プロジェクトでも、移行に関するイッシュー [Roadmap: TSLint -> ESLint · Issue #4534 · palantir/tslint](https://github.com/palantir/tslint/issues/4534) が上がっており、一時的にはオーバーラップする期間が発生して、一時的には両方のツールを使うことが推奨されています。
 
 新しいプロジェクトの [typescript-eslint](https://github.com/typescript-eslint/typescript-eslint) を使う方法については、[@typescript-eslint ことはじめ - teppeis blog](https://teppeis.hatenablog.com/entry/2019/02/typescript-eslint) さんが詳しいです。
@@ -112,7 +112,7 @@ export class Action {
 
 
 ## TypeScript のコンパイル後を確認する
-Lint ルールに明確な論拠がないので、出力された JavaScript/ECMAScript を見て考えたいと思います。
+Lint ルールに明確な論拠がないので、出力された JavaScript/ECMAScript を見て考えます。
 TypeScript のソース。
 ```typescript
 export class Action {
@@ -199,5 +199,5 @@ static にすればクラスレベルで追加されるので効率が良いで�
 Lint 系のツールはコードに対して指針を与えるので、やはり論拠が欲しいところですね。
 とくにいくつかの選択肢が出てきてしまうと、いろいろと考えてしまいます。
 
-今回は残念ながら TypeScript力というか、JavaScript/ECMAScript力がたりなくて明確な根拠を持って指針化できませんでしたが、考え方は整理できたように思います。
+今回は残念ながら TypeScript力というか、JavaScript/ECMAScript力がたりなくて明確な根拠を持って指針化できませんでしたが、考え方は整理できました。
 裏付けをとるのは、ちょっと難しいかな。。

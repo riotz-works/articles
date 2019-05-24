@@ -14,7 +14,7 @@ tags:
 ![](/articles/assets/lulzneko/serverless/serverless.jpg "サーバーレス")
 
 [前回の記事](/articles/2017/12/07/CSVファイルのバッチ連携もAWS-Lambdaでサーバーレス/)から時間が空いてしまいましたが、ちょうど新しいプロダクトの開発を始めるところなので [Serverless Framework](https://serverless.com/) と [TypeScript](https://www.typescriptlang.org/) で開発する際の事始めについてまとめます。
-例によって Hello World になりますが、こんな感じで作り始めをお伝えできればと思います。
+例によって Hello World になりますが、こんな感じで作り始めをお伝えします。
 
 **シリーズの記事**
 - **Serverless Framework と TypeScript でサーバレス開発事始め** (本記事)
@@ -189,4 +189,4 @@ Serverless: Stack removal finished...
 
 また Try & Error を繰り返すうちに AWS 環境がついつい散かってしまい、よくわからないリソースを放置されるケースが出てきたりします。開発環境とはいえ Serverless Framework で環境を作るようにすると片付けも簡単ですね。
 
-引き続き、このプロジェクトに設定やコードを加えてもう少し発展させていきたいと思います。
+引き続き、このプロジェクトに設定やコードを加えてもう少し発展させていきます。

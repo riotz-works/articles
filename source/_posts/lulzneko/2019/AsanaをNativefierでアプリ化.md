@@ -17,7 +17,7 @@ tags:
 
 公式フォーラムでもデスクトップアプリのニーズは [What's the status of a native Asana Mac app? - Product Feedback - Asana Community Forum](https://forum.asana.com/t/whats-the-status-of-a-native-asana-mac-app/1581) のように 2017年と古くから上がっているようですが進展はなさそうです。
 
-今回は、フォーラムでも紹介されている Nativefier を使いアプリ化し常駐、必要な時にすぐに利用できるようにしたいと思います。
+今回は、フォーラムでも紹介されている Nativefier を使いアプリ化し常駐、必要な時にすぐに利用できるようにします。
 
 **環境**
 本記事の開発環境は以下となります。

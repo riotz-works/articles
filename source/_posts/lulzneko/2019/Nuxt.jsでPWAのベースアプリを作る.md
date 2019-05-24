@@ -80,7 +80,7 @@ Vue.js は強力なフレームワークですが、あらゆるウェブサイ�
 
 ## Nuxt.js で、アプリ開発
 さっそく Nuxt.js で PWA のベースアプリを作っていきます。
-今回のアプリはベースなので以下の仕様としました。今後、このアプリをもとにさまざまな機能の検証などをしたいと思います。
+今回のアプリはベースなので以下の仕様としました。今後、このアプリをもとにさまざまな機能の検証などをします。
 - SPA の JAMStack として作成
 - TypeScript 化
 
@@ -198,7 +198,7 @@ $ yarn build
 ```
 ※ 同じようなコマンドで `generate` がありますが、こちらは完全に静的化され HTTP Request が使えなくなるので `build` を使います。各種サンプルなどで `generate` が出てくる場合は `build` に読み替えてください。たとえば下記デプロイの FAQ は `generate` で書かれていますが `build` を使います。
 
-デプロイについては環境によって設定などが異なってくるので別途書きたいと思います。
+デプロイについては環境によって設定などが異なってくるので別途書きます。
 試してみたい方は、[公式 FAQ](https://ja.nuxtjs.org/faq/) をご参照ください。
 - [AWS S3 と CloudFront によるデプロイ](https://ja.nuxtjs.org/faq/deployment-aws-s3-cloudfront/)
 - [Dokku へデプロイ](https://ja.nuxtjs.org/faq/dokku-deployment/)
