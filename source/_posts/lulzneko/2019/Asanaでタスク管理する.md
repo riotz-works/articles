@@ -33,7 +33,7 @@ ToDo リストや、カンバン方式のタスク管理機能があるほか、
 導入企業もそうそうたるもので、2019年中には東京オフィスも開設されるとのことです。そのため4月1日には [東京でイベント](https://events.asana.com/tokyo/) も開催されたとのことで、いろいろと楽しみなサービスです。
 また、とても使いやすさ楽しさを感じたのですが、その辺についても記事があり、こういったのも楽しいです。
 
-**参考**
+**参考情報**
 - [プロジェクト管理ツールで急成長のAsana、東京オフィスも開設へ | Forbes JAPAN（フォーブス ジャパン）](https://forbesjapan.com/articles/detail/24186)
 - [Asanaに学ぶ、ブランド再構築の技法 #newAsana | It's Real Intelligence! 8](http://irritantis.info/2015/10/asana_brand_redesign/)
 ![](/articles/assets/lulzneko/develop/asana/03.png)
@@ -43,7 +43,7 @@ ToDo リストや、カンバン方式のタスク管理機能があるほか、
 ### 日本語化されている
 メニューもアプリも日本語化されています。また簡単なテンプレートプロジェクトも日本語化され説明も読めるので助かります。ノウハウ的なことやケーススタディも日本語で多く公開されているので、使い始めに困るこもなく、研究もいろいろとでいそうです。また最近話題の 1 on 1 プロジェクトのテンプレートもありおもしろいです。
 
-**参考**
+**参考情報**
 - [Asana の使用方法、Asana のチュートリアル、オンボーディングのヒント、チームのユースケース | 製品ガイド · Asana](https://asana.com/ja/guide)
 - [Asana アカウントの設定 | 製品ガイド · Asana](https://asana.com/ja/guide/help/fundamentals/about-asana)
 
@@ -67,7 +67,7 @@ ToDo リストや、カンバン方式のタスク管理機能があるほか、
 公式ページには 100以上と書かれていますが、とにかくたくさんあります。Gmail などのメール連携から、Slack などのチャット、ストレージなどなど。
 また API も公開されているようなので、自分なりのアクションを作りこむこともできそうです。こちらは存在の確認だけで詳細を読んでないのですが、いずれ挑戦してみたいと思います。
 
-**参考**
+**参考情報**
 - [Asana アプリの連携 · Asana](https://asana.com/ja/apps)
 - [Asana Developers · Asana](https://asana.com/developers?missingtranslation=ja)
 
