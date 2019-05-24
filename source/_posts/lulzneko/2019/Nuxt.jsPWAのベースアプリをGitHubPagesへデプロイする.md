@@ -26,7 +26,7 @@ Nuxt.js を使うことで手軽に PWA なアプリを作ることができま�
 - **Nuxt.js PWA のベースアプリを GitHub Pages へデプロイする** (本記事)
 
 **環境**
-開発者の環境は以下となります。
+本記事の開発環境は以下となります。
 - Windows 10 64bit + WSL Ubuntu 18.04.1 LTS
 - Visual Studio Code
 - Node.js 12.2.0

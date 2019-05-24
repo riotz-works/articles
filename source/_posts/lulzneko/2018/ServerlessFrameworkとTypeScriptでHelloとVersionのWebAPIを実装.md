@@ -21,7 +21,7 @@ tags:
 - **Serverless Framework と TypeScript で Hello ＆ Version の Web API を実装** (本記事)
 
 **環境**
-開発者の環境は以下となります。
+本記事の開発環境は以下となります。
 - Windows 10 64bit
 - Visual Studio Code
 - Node.js 9

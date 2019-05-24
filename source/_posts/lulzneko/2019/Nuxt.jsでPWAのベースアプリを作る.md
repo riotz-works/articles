@@ -21,7 +21,7 @@ tags:
 - [Nuxt.js PWA(Progressive Web Apps) のベースアプリをTypeScript対応する](https://riotz.works/articles/2019/05/10/typescripting-base-app-of-nuxtjs-pwa/)
 
 **環境**
-開発者の環境は以下となります。
+本記事の開発環境は以下となります。
 - Windows 10 64bit + WSL Ubuntu 18.04.1 LTS
 - Visual Studio Code
 - Node.js 12.2.0

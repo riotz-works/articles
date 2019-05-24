@@ -23,7 +23,7 @@ WebSocket がサーバーレスで簡単に利用できるようになるとア�
 しかしながら "With all that out of the way, play with our new presents!" ということで、楽しんでみましょう！
 
 **環境**
-開発者の環境は以下となります。
+本記事の開発環境は以下となります。
 - Windows 10 64bit + WSL Ubuntu 18.04.1 LTS
 - Visual Studio Code
 - Node.js 8.10.0
