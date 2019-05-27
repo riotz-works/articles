@@ -1732,10 +1732,10 @@ hexo-pagination@0.0.2:
   dependencies:
     utils-merge "^1.0.0"
 
-hexo-related-popular-posts@^3.0.5:
-  version "3.0.5"
-  resolved "https://registry.yarnpkg.com/hexo-related-popular-posts/-/hexo-related-popular-posts-3.0.5.tgz#c789d96b97a27943a0ae11e3aed4372d61815ca5"
-  integrity sha512-3qnHtwK2jw0l9+YKkYguKQpmw2hxtasx3F7d1DvXY7yVzpenmhy7k9ohbh2ZIfelA83GkIa50fAmRNBPeyK1NA==
+hexo-related-popular-posts@^3.0.6:
+  version "3.0.6"
+  resolved "https://registry.yarnpkg.com/hexo-related-popular-posts/-/hexo-related-popular-posts-3.0.6.tgz#e96567ab0dbcf19d39c9cdb0f002605e0d533d43"
+  integrity sha512-bxRRE6eBttug5mGMc8MRaxNs5VpUv9+kv8sSYB+Aqwdnkn5y+aKiO4D8d1zapBiA8vgMdiX5l9cVogA3xWX03Q==
   dependencies:
     cheerio "^1.0.0-rc.2"
     columnify "^1.5.4"
