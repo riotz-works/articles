@@ -30,7 +30,7 @@ tags:
 
 ### スマートデバイスとクラウドサービスを自動パーソナライズする IoT バックエンド開発チームにおける Agile と DevOps プラクティス
 
-@Agile & DevOps 勉強会、 発表資料は[こちら](https://riotz.works/slides/?2018-agile-and-devopts-study#1)
+@Agile & DevOps 勉強会、 発表資料は[こちら](https://riotz.works/slides/2018-agile-and-devopts-study#1)
 
 2月、[@lulzneko](https://twitter.com/lulzneko) と [@lopburny](https://twitter.com/lopburny) が発表しました。Riotz Works が結成して 1回目の発表が Serverlessconf Tokyo 2017 という大きくてパブリックな発表だったのに対して、今回（2回目）は Closed な勉強会だったので比較的緊張はしなかったです。
 
@@ -42,7 +42,7 @@ tags:
 
 ### Java から TypeScript へ切り替えて加速するサーバーレス開発
 
-@JJUG CCC 2018 Spring、 発表資料は[こちら](https://riotz.works/slides/?2018-jjug-ccc-spring#1)
+@JJUG CCC 2018 Spring、 発表資料は[こちら](https://riotz.works/slides/2018-jjug-ccc-spring#1)
 
 5月26日。[@lulzneko](https://twitter.com/lulzneko) の単独発表です。
 
@@ -52,7 +52,7 @@ AWS Lambda は、リリース当初から現在に至るまで、Java ランタ�
 
 ### リアルタイムの共演と参加型観戦で音楽を最高に楽しむ🎶「ラップ、タップ、アップ」
 
-@SPAJAM 2018 東京D予選、 発表資料は[こちら](https://riotz.works/slides/?2018-spajam-qualification#1)
+@SPAJAM 2018 東京D予選、 発表資料は[こちら](https://riotz.works/slides/2018-spajam-qualification#1)
 
 6月16日~17日。今回はカンファレンスではなくハッカソンです。[@lulzneko](https://twitter.com/lulzneko)、[@javaponny](https://twitter.com/javaponny)、[@lopburny](https://twitter.com/lopburny) ３人で出場しました。メンバー全員初めてのハッカソンで、Riotz Works としても初です。もともとこの SPAJAM というハッカソンには注目していて、Riotz Works 結成前から「出てみたい」と何度か話したことがありました。そして、思い切って、エントリーしたのです。
 
@@ -72,7 +72,7 @@ AWS Lambda は、リリース当初から現在に至るまで、Java ランタ�
 
 ### リアルタイム動画ラップバトルアプリを短時間で作り上げた完全サーバーレスな被疑
 
-@Serverlessconf Tokyo 2018、 発表資料は[こちら](https://riotz.works/slides/?2018-serverless-conf#1)
+@Serverlessconf Tokyo 2018、 発表資料は[こちら](https://riotz.works/slides/2018-serverless-conf#1)
 
 9月29日。[@lulzneko](https://twitter.com/lulzneko)、[@javaponny](https://twitter.com/javaponny)、[@lopburny](https://twitter.com/lopburny) ３人で発表しました。Serverlessconf Tokyo での発表は、去年に続き２回目となります。夏のハッカソンの余韻がまだ残っていて、この発表の準備にも気合が入りました。特に、会場スクリーンのアスペクト比が 48:9 という、ものすごく大きくて迫力のある会場だったため、わくわくしつつもかなり緊張していました😂
 
@@ -84,7 +84,7 @@ AWS Lambda は、リリース当初から現在に至るまで、Java ランタ�
 
 ### Vue.js/Nuxt.js で実現できた PWA なリアルタイム動画ラップバトルアプリ
 
-@Vue Fes Japan 2018 Reject Conference、 発表資料は[こちら](https://riotz.works/slides/?2018-vue-fes-reject-con#1)
+@Vue Fes Japan 2018 Reject Conference、 発表資料は[こちら](https://riotz.works/slides/2018-vue-fes-reject-con#1)
 
 11月10日。[@lulzneko](https://twitter.com/lulzneko) と [@lopburny](https://twitter.com/lopburny) が発表しました。前回の Serverlessconf ではバックエンドの内容がメインでしたが、今回はフロントエンドにフォーカスした話です。元々、Vue Fes Japan そのものにエントリーしましたが、枠が非常に限られていたらしく、採用にはならずとも魅力的な内容だということで、 Reject Conference に参加させていただくことになりました。
 
@@ -94,7 +94,7 @@ Riotz Works のメンバーは、全員フロントエンド以外の領域を�
 
 ### Vue.js/Nuxt.js と TypeScript で実現する PWA なリアルタイム動画ラップバトルアプリ〜フル Node.js エコシステムで戦ったモバイルアプリのハッカソン〜
 
-@東京Node学園祭2018、 発表資料は[こちら](https://riotz.works/slides/?2018-nodefest#1)
+@東京Node学園祭2018、 発表資料は[こちら](https://riotz.works/slides/2018-nodefest#1)
 
 11月23日。[@lulzneko](https://twitter.com/lulzneko) と [@lopburny](https://twitter.com/lopburny) が発表しました。今回も話のネタそのものは変わらないですが、Riotz Works が Node.js を使い始めて、2018年をどう過ごしたかという集合体のような内容です。またサーバーサイド（Node.js）→フロントエンド（Vue.js）→Node.js環境全般 という流れができたのと、Node.js コミュニティでの発表ということで胸が熱くなりました。
 
