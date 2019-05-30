@@ -69,7 +69,7 @@ JAMStack なブログサイトをつくり始めるには、よい入口と言�
 
 
 ## Riotz.works Slides ページ
-[Slides](https://riotz.works/slides/) ページは、静的サイトではありますが完全に手組の HTML で、"構築済みの HTML" とはなっておらず、アクセスを受けてから JavaScript で HTML を構築しているので JAMStack なサイトではありません。
+[Slides](https://riotz.works/slides/ ページは、静的サイトではありますが完全に手組の HTML で、"構築済みの HTML" とはなっておらず、アクセスを受けてから JavaScript で HTML を構築しているので JAMStack なサイトではありません。
 
 こちらは、Markdown ファイルをソースとしたプレゼンスライドを作れる [remark.js](https://remarkjs.com/) を使っています。
 

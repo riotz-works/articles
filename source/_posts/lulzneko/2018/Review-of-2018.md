@@ -21,17 +21,17 @@ tags:
 ### 発表 ６回
 
 #### 2018.02 Agile & DevOps 勉強会 - [@lulzneko](/engineers/#lulzneko) & [@lopburny](/engineers/#lopburny)
-クローズドな Agile & DevOps 勉強会で [スマートデバイス と クラウドサービス を 自動パーソナライズする IoT バックエンド開発チームにおける Agile と DevOps プラクティス](https://riotz.works/slides/?2018-agile-and-devopts-study) の発表をしました。
+クローズドな Agile & DevOps 勉強会で [スマートデバイス と クラウドサービス を 自動パーソナライズする IoT バックエンド開発チームにおける Agile と DevOps プラクティス](https://riotz.works/slides/2018-agile-and-devopts-study) の発表をしました。
 
 タイトルが長くでピンとこないのは、オリジナルのタイトルは製品名が入っていたからで、公開に当たって製品名を外す必要があったからになります。
 
-ベースとなる話は昨年の Serverlessconf Tokyo 2017 で発表した [ava チームが選択した TypeScript による AWS Lambda 開発](https://riotz.works/slides/?2017-serverless-conf) になり、Java で開発していたプラットフォームを TypeScript で開発しなおす大手術をしたプロジェクトではどのような Agile & DevOps でやっていたのかを話しました。
+ベースとなる話は昨年の Serverlessconf Tokyo 2017 で発表した [ava チームが選択した TypeScript による AWS Lambda 開発](https://riotz.works/slides/2017-serverless-conf) になり、Java で開発していたプラットフォームを TypeScript で開発しなおす大手術をしたプロジェクトではどのような Agile & DevOps でやっていたのかを話しました。
 
 私たちとしては必要に駆られてのことでしたが、途中でプログラミング言語を切り替えるのは衝撃を受けたほか、そのようなことをできる人たちがいることに驚いたと言われ開発者として誇らしく感じ、そして必要なことであればどのような困難でも真正面から取り組んでいくスタイルはずっとキープしていきたいと改めて感じるイベントでした。
 
 
 ### 2018.05 JJUG CCC 2018 Spring - [@lulzneko](/engineers/#lulzneko)
-日本最大のJavaコミュニティイベント JJUG CCC で [Java から TypeScript へ 切り替えて加速するサーバーレス開発](https://riotz.works/slides/?2018-jjug-ccc-spring) の発表をしました。
+日本最大のJavaコミュニティイベント JJUG CCC で [Java から TypeScript へ 切り替えて加速するサーバーレス開発](https://riotz.works/slides/2018-jjug-ccc-spring) の発表をしました。
 
 Java のコミュニティで「Java をやめて TypeScript を選びました」という主旨の発表になり、かなり緊張しながら入室したことを覚えています。
 仕事では Java をずっとやってきて、よく勉強でお世話になっていた会に、このような立場で発表するとは思っていませんでした。
@@ -48,7 +48,7 @@ Java のコミュニティで「Java をやめて TypeScript を選びました�
 ### 2018.06 SPAJAM 2018 東京D予選 - [@lulzneko](/engineers/#lulzneko) & [@lopburny](/engineers/#lopburny) & [@javaponny](/engineers/#javaponny)
 日本最高峰のアプリクリエイター競技会 の スマートフォン アプリ ハッカソン SPAJAM。ハッカソンの内容については後述、ここでは発表パートについて。
 
-[リアルタイム の 競演 と 参加型観戦 で 音楽を最高に楽しむ🎶 「ラップ、タップ、アップ」](https://riotz.works/slides/?2018-spajam-qualification) で発表しました。
+[リアルタイム の 競演 と 参加型観戦 で 音楽を最高に楽しむ🎶 「ラップ、タップ、アップ」](https://riotz.works/slides/2018-spajam-qualification) で発表しました。
 
 徹夜でアプリ開発をしたあとの発表会。体力的にも集中力的もかなり厳しかった。スライドに何を書くのかとても苦戦しました。
 
@@ -61,7 +61,7 @@ Java のコミュニティで「Java をやめて TypeScript を選びました�
 
 
 ### 2018.09 Serverlessconf Tokyo 2018 - [@lulzneko](/engineers/#lulzneko) & [@lopburny](/engineers/#lopburny) & [@javaponny](/engineers/#javaponny)
-サーバーレスアーキテクチャを用いたアプリケーション構築における知見の共有を目的とした、コミュニティ主導の技術カンファレンスで、[リアルタイム動画ラップ バトル アプリを 短時間で作り上げた完全サーバーレスな秘技](https://riotz.works/slides/?2018-serverless-conf) の発表をしました。
+サーバーレスアーキテクチャを用いたアプリケーション構築における知見の共有を目的とした、コミュニティ主導の技術カンファレンスで、[リアルタイム動画ラップ バトル アプリを 短時間で作り上げた完全サーバーレスな秘技](https://riotz.works/slides/2018-serverless-conf) の発表をしました。
 
 Serverlessconf Tokyo は Riotz.works の原点ともいえるイベントで、2017年のイベントで発表させていただいたのが Riotz.works の始まりになります。
 
@@ -74,7 +74,7 @@ SPAJAM で作ったアプリはフル・サーバーレスでできており、�
 
 
 ### Vue Fes Japan 2018 Reject Conference - [@lulzneko](/engineers/#lulzneko) & [@lopburny](/engineers/#lopburny)
-日本開催初の大規模 Vue.js カンファレンスで [Vue.js/Nuxt.js で 実現できた PWA の リアルタイム動画ラップ バトル アプリ](https://riotz.works/slides/?2018-vue-fes-reject-con) のリジェクトコンで発表しました。
+日本開催初の大規模 Vue.js カンファレンスで [Vue.js/Nuxt.js で 実現できた PWA の リアルタイム動画ラップ バトル アプリ](https://riotz.works/slides/2018-vue-fes-reject-con) のリジェクトコンで発表しました。
 
 プレイドさんのオフィスで開催され、芝生スペースの素敵な場所でした。
 フロント系のイベントははじめての参加で、今まで参加してきたイベントとは雰囲気が違う感じを受けましたが、楽しさはかわらず、技術イベントはいいなぁと再認しました。
@@ -83,7 +83,7 @@ SPAJAM で作ったアプリはフル・サーバーレスでできており、�
 
 
 ### 東京 Node 学園祭 2018 - [@lulzneko](/engineers/#lulzneko) & [@lopburny](/engineers/#lopburny)
-年に一度、真剣に学んで楽しもう！ 日本最大のNode.jsカンファレンス！ で [Vue.js/Nuxt.js で 実現できた PWA の リアルタイム動画ラップ バトル アプリ](https://riotz.works/slides/?2018-nodefest) の発表をしました。
+年に一度、真剣に学んで楽しもう！ 日本最大のNode.jsカンファレンス！ で [Vue.js/Nuxt.js で 実現できた PWA の リアルタイム動画ラップ バトル アプリ](https://riotz.works/slides/2018-nodefest) の発表をしました。
 
 TypeScript でサーバーレスを推している身として Node.js の総本山ともいえるイベントでお話しできるのは最高の体験でした。
 

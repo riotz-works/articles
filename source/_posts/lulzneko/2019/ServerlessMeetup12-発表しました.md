@@ -25,8 +25,8 @@ tags:
 
 
 ## 発表資料
-『[サーバーレスなウェブフロントを実現する JAMStack](https://riotz.works/slides/?2019-serverless-meetup-tokyo12)』の発表資料はこちらになります。(下記、スライド埋め込み)
-<div class="slide"><iframe src="https://riotz.works/slides/?2019-serverless-meetup-tokyo12"></iframe></div>
+『[サーバーレスなウェブフロントを実現する JAMStack](https://riotz.works/slides/2019-serverless-meetup-tokyo12)』の発表資料はこちらになります。(下記、スライド埋め込み)
+<div class="slide"><iframe src="https://riotz.works/slides/2019-serverless-meetup-tokyo12"></iframe></div>
 
 
 ## サマリー

@@ -61,8 +61,8 @@ tags:
 
 その際の発表資料と作品は、こちら。
 
-発表資料: [リアルタイムの競演と参加型観戦で音楽を最高に楽しむ「ラップ､タップ､アップ🎶」](https://riotz.works/slides/?2018-spajam-qualification)
-<div class="slide"><iframe src="https://riotz.works/slides/?2018-spajam-qualification"></iframe></div>
+発表資料: [リアルタイムの競演と参加型観戦で音楽を最高に楽しむ「ラップ､タップ､アップ🎶」](https://riotz.works/slides/2018-spajam-qualification)
+<div class="slide"><iframe src="https://riotz.works/slides/2018-spajam-qualification"></iframe></div>
 
 作品: [ラップ、タップ、アップ 🎶](https://riotz.works/rap-tap-app/)
 <iframe src="https://riotz.works/rap-tap-app/" width="320" height="480"></iframe>
@@ -143,8 +143,8 @@ tags:
 
 ## 発表！「📰NEWʑ Link」！！
 できあがった作品は「パーソナルニュースの配信と交換によって爆速で仲良くなるアプリ「📰NEWʑ Link」」です！！
-<div class="slide"><iframe src="https://riotz.works/slides/?2019-spajam-qualification"></iframe></div>
-https://riotz.works/slides/?2019-spajam-qualification
+<div class="slide"><iframe src="https://riotz.works/slides/2019-spajam-qualification"></iframe></div>
+https://riotz.works/slides/2019-spajam-qualification
 
 テーマ「NEWS」に対して、私たちは「個人がニュースを発信し、嬉しい楽しいの思いを広げてつなげていきたい」というコンセプトに設定しました。「１億総メディア時代」個人がニュースを発信、その中でもパーソナルで嬉しくなるニュースを扱いたいと考えました。
 

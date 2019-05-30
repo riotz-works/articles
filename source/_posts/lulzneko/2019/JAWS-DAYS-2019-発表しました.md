@@ -44,7 +44,7 @@ AWS にはたくさんの機能があります。そしてフロントエンド�
 
 
 ## 発表資料と Togetter
-<div class="slide"><iframe src="https://riotz.works/slides/?2019-jaws-days"></iframe></div>
+<div class="slide"><iframe src="https://riotz.works/slides/2019-jaws-days"></iframe></div>
 
 [2019/02/23(土) JAWS DAYS 2019 <7> 15:10～ #jawsug #jawsdays - Togetter](https://togetter.com/li/1322142)
 たくさんのツイートありがとうございます！！

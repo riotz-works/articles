@@ -14,7 +14,7 @@ tags:
 
 この記事は [Serverless Advent Calendar 2017](https://qiita.com/advent-calendar/2017/serverless) の ７日目になります。
 
-[Serverlessconf Tokyo 2017](http://tokyo.serverlessconf.io/) で発表させていただく機会をいただき、 [Java チームが選択した TypeScript による AWS Lambda 開発](http://riotz.works/slides/?2017-serverless-conf) のタイトルでお話をさせていただきました。
+[Serverlessconf Tokyo 2017](http://tokyo.serverlessconf.io/) で発表させていただく機会をいただき、 [Java チームが選択した TypeScript による AWS Lambda 開発](http://riotz.works/slides/2017-serverless-conf) のタイトルでお話をさせていただきました。
 
 今回はそのシステムの裏手側、CSV ファイルを連携するバッチをサーバーレスで実現したアーキテクチャについてご紹介します。
 
@@ -42,7 +42,7 @@ tags:
 とくに２番目のコストについては、Glue に対して圧倒的によかったのが大きかったです。今回の処理は ETL に近いとはいえ、DWH 連携ではなく、DB のマスター・データ登録だったので Glue を活かしきれない点がありました。
 
 なお Lambda の実行ランタイムは Java になります。
-(Serverlessconf Tokyo 2017 の [発表資料](http://riotz.works/slides/?2017-serverless-conf) の通り、Java チームなので)
+(Serverlessconf Tokyo 2017 の [発表資料](http://riotz.works/slides/2017-serverless-conf) の通り、Java チームなので)
 
 
 ## CSV ファイル連携のアーキテクチャ概要図

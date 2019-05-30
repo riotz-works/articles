@@ -71,7 +71,7 @@ TypeScript Meetup #1 にエントリーしましたが、案内メールが来�
 - [kansai.ts #1 - connpass](https://kansaits.connpass.com/event/130120/)
 
 Riotz.works は、TypeScript で開発するチームなのですが、実はずっと Java で開発をしてきたチームでした。あるトラブルがあって TypeScript に舵を切り、以来 TypeScript で開発するチームとなったのですが、その際の発表資料がこちらになります。もしよかったらご参照ください。(いつかの Meetup の機会でお話しできるといいな)
-<div class="slide"><iframe src="https://riotz.works/slides/?2017-serverless-conf"></iframe></div>
+<div class="slide"><iframe src="https://riotz.works/slides/2017-serverless-conf"></iframe></div>
 
 
 ## Nuxt.js のプロジェクトに TypeScript を導入

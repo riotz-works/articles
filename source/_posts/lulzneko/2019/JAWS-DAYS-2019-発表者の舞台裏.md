@@ -34,7 +34,7 @@ JAWS DAYS での発表の朝を迎えて、発表者 lulzneko は絶望してい
 
 
 ## 会場入り
-ストーリーとスライドの配置は完成していて、そこに載せる図 [AWS における JAMStack の配置](https://riotz.works/slides/?2019-jaws-days#18) の章で使うものが間に合ってなかったレベルなのですが、慌てて PowerPoint を操作する朝から始まりました。
+ストーリーとスライドの配置は完成していて、そこに載せる図 [AWS における JAMStack の配置](https://riotz.works/slides/2019-jaws-days#18) の章で使うものが間に合ってなかったレベルなのですが、慌てて PowerPoint を操作する朝から始まりました。
 なんか、前回の [デブサミ舞台裏](/articles/2019/02/15/backstage-of-presentation-at-devsumi-2019-winter/) でも同じことを書いた気がします。
 
 なお、前日の 22日には発表用資料をうっかり消し飛ばす事故を起こしました。
@@ -94,7 +94,7 @@ JAWS DAYS での発表の朝を迎えて、発表者 lulzneko は絶望してい
 ## 発表
 いざ、発表！
 ご清聴ありがとうございました！！
-<div class="slide"><iframe src="https://riotz.works/slides/?2019-jaws-days"></iframe></div>
+<div class="slide"><iframe src="https://riotz.works/slides/2019-jaws-days"></iframe></div>
 
 たくさんのツイートありがとうございます！！
 [2019/02/23(土) JAWS DAYS 2019 <7> 15:10～ #jawsug #jawsdays - Togetter](https://togetter.com/li/1322142)
