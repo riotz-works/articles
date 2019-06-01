@@ -95,7 +95,7 @@ JAMStack のメリットはわかったとして、それでサイトを作る�
 主なサイト・ジェネレーターは、こちら [StaticGen](https://www.staticgen.com/) に列挙されています。
 ![](/articles/assets/lulzneko/serverless/jamstack/03.png)
 
-有名どころとしては GitHub Pages でも使われている [Jekyll](https://jekyllrb.com/) などがあり、[Hugo](https://gohugo.io/) や [Hexo](https://hexo.io/) といったブログ構築用の静的ジェネレーターや [Next](https://nextjs.org/), [Nuxt](https://nuxtjs.org/) といった [React](https://reactjs.org/) や [Vue.js](https://jp.vuejs.org/index.html) のアプリ・フレームワークなどもあります。
+有名どころとしては GitHub Pages でも使われている [Jekyll](https://jekyllrb.com/) などがあり、[Hugo](https://gohugo.io/) や [Hexo](https://hexo.io/) といったブログ構築用の静的ジェネレーターや [Next](https://nextjs.org/), [Nuxt](https://nuxtjs.org/) といった [React](https://reactjs.org/) や [Vue.js](https://jp.vuejs.org/) のアプリ・フレームワークなどもあります。
 
 JAMStack のコンテキストでは [Gatsby](https://www.gatsbyjs.org/)、[VuePress](https://vuepress.vuejs.org/)、[Gridsome](https://gridsome.org/) などを目にすることが多いようにも感じます。
 
