@@ -82,7 +82,7 @@ feed:
 sitemap:
   path: sitemap.xml
 
-## hexo-html-minifier (https://github.com/hexojs/hexo-html-minifier)
+### hexo-html-minifier (https://github.com/hexojs/hexo-html-minifier)
 html_minifier:
   collapseBooleanAttributes: true
   collapseInlineTagWhitespace: true
@@ -99,7 +99,7 @@ html_minifier:
   removeStyleLinkTypeAttributes: true
   useShortDoctype: true
 
-## hexo-related-popular-posts (https://github.com/tea3/hexo-related-popular-posts)
+### hexo-related-popular-posts (https://github.com/tea3/hexo-related-popular-posts)
 popularPosts:
   morphologicalAnalysis:
   googleAnalyticsAPI:
@@ -108,11 +108,11 @@ popularPosts:
   cache:
     path: hexo-popular-related-posts-cached.json
 
-## hexo-browsersync (https://github.com/hexojs/hexo-browsersync)
+### hexo-browsersync (https://github.com/hexojs/hexo-browsersync)
 browsersync:
   logLevel: warn
 
-### Disqus (https://disqus.com/)
+## Disqus (https://disqus.com/)
 disqus_shortname:
 
 ## Themes: https://hexo.io/themes/
