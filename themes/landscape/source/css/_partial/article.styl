@@ -337,6 +337,14 @@ $article-share-link
     color: #00a4de !important
     text-shadow: 0 1px darken(#00a4de, 20%)
 
+.article-share-linkedin
+  @extend $article-share-link
+  &:before
+    content: "\f0e1"
+  &:hover
+    color: color-linkedin
+    text-shadow: 0 1px darken(color-linkedin, 20%)
+
 $article-link
   &:before
     font-size: 20px
