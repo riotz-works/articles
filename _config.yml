@@ -112,6 +112,29 @@ popularPosts:
 browsersync:
   logLevel: warn
 
+### hexo-pwa (https://github.com/lavas-project/hexo-pwa)
+pwa:
+  serviceWorker:
+    path: /sw.js
+    preload:
+      urls:
+        - /
+      posts: 5
+    opts:
+      networkTimeoutSeconds: 5
+    routes:
+      - pattern: !!js/regexp /fonts.googleapis.com/
+        strategy: cacheFirst
+      - pattern: !!js/regexp /unicons.iconscout.com/
+        strategy: cacheFirst
+      - pattern: !!js/regexp /unpkg.com/
+        strategy: cacheFirst
+      - pattern: !!js/regexp /.*\.(js|css|jpg|jpeg|png|gif|eot|woff2|woff|ttf)$/
+        strategy: cacheFirst
+      - pattern: !!js/regexp /\//
+        strategy: networkFirst
+  priority: 5
+
 ## Disqus (https://disqus.com/)
 disqus_shortname:
 
