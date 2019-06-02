@@ -93,7 +93,7 @@ html_minifier:
   removeComments: true
   removeEmptyAttributes: true
   removeEmptyElements: false  # Note: When this setting is enabled, the header image will not be displayed
-  removeOptionalTags: true
+  removeOptionalTags: false   # Note: When this setting is enabled, can not work hexo-browsersync
   removeRedundantAttributes: true
   removeScriptTypeAttributes: true
   removeStyleLinkTypeAttributes: true
@@ -107,6 +107,10 @@ popularPosts:
     pvMeasurementsStartDate: 2017-11-01
   cache:
     path: hexo-popular-related-posts-cached.json
+
+## hexo-browsersync (https://github.com/hexojs/hexo-browsersync)
+browsersync:
+  logLevel: warn
 
 ### Disqus (https://disqus.com/)
 disqus_shortname:
