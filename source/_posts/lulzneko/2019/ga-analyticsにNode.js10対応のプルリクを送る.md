@@ -3,7 +3,7 @@ title: ga-analytics に Node.js 10 以上対応のプルリクを送る
 permalink: pull-request-to-ga-analytics-about-support-nodejs10
 date: 2019-05-24
 author: lulzneko
-categories: プルリクエスト
+categories: プルリク / OSS-Friday
 tags:
 - Node.js
 - AWS Lambda

@@ -3,7 +3,7 @@ title: hexo-related-popular-posts にサブパス対応のプルリクを送る
 permalink: pull-request-to-hexo-related-popular-posts-about-subpath-enablement
 date: 2019-04-20
 author: lulzneko
-categories: プルリクエスト
+categories: プルリク / OSS-Friday
 tags:
 - JAMStack
 - Hexo
