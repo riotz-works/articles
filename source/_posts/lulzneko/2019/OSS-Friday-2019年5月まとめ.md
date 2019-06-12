@@ -1,7 +1,7 @@
 ---
 title: OSS-Friday 活動 - 2019年5月まとめ
 permalink: summary-of-oss-friday-activities-in-2019-05
-date: 2019-06-5
+date: 2019-06-05
 author: lulzneko
 categories: プルリク / OSS-Friday
 tags:
