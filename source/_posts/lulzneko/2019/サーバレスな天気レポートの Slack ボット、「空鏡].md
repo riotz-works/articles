@@ -1,5 +1,5 @@
 ---
-title: サーバレスな天気レポートの Slack ボット、「空鏡]
+title: サーバレスな天気レポートの Slack ボット、「空鏡」
 permalink: serverless-weather-report-slack-bot-sora-kagami
 date: 2019-06-24
 author: lulzneko
