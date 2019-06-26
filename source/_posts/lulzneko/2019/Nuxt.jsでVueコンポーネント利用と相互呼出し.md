@@ -335,11 +335,11 @@ Vue コンポーネントのライフサイクル `created` で、`$on` を使�
 
 ## ソースコード
 今回作成した部分までのソースを GitHub へアップしました。(Tag: `0.0.5`)
-<div style="max-width: 400px;"><div class="iframely-embed"><div class="iframely-responsive" style="padding-bottom: 50%; padding-top: 120px;"><a href="https://github.com/riotz-works/samples-pwa-base-app/tree/0.0.5" data-iframely-url="//cdn.iframe.ly/q0auNiW"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script></div>
+<div class="iframely-embed"><div class="iframely-responsive" style="padding-bottom: 50%; padding-top: 120px;"><a href="https://github.com/riotz-works/samples-pwa-base-app/tree/0.0.5" data-iframely-url="//cdn.iframe.ly/q0auNiW"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
 
 GitHub Pages にホスティングもしました。動作している状態を確認する場合は、こちらへアクセスしてください。
 (公開サイトは１つのため記事公開に合わせて変わり、本記事の内容とは異なることがあります)
-<div style="max-width: 400px;"><div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://riotz.works/samples-pwa-base-app/" data-iframely-url="//cdn.iframe.ly/VPvSEzZ"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script></div>
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://riotz.works/samples-pwa-base-app/" data-iframely-url="//cdn.iframe.ly/VPvSEzZ"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
 
 
 

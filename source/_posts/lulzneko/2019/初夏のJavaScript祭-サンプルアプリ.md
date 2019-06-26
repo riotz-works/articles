@@ -200,7 +200,7 @@ GitHub Pages にホスティングもしました。動作している状態を�
 <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://riotz.works/samples-gridsome-instagram/" data-iframely-url="//cdn.iframe.ly/77wK6ZK"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
 
 また、今回作成した部分までのソースを GitHub へアップしました。
-<div style="max-width: 400px;"><div class="iframely-embed"><div class="iframely-responsive" style="padding-bottom: 50%; padding-top: 120px;"><a href="https://github.com/riotz-works/samples-gridsome-instagram/tree/0.0.3" data-iframely-url="//cdn.iframe.ly/0wHqgfv"></a></div></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
+<div class="iframely-embed"><div class="iframely-responsive" style="padding-bottom: 50%; padding-top: 120px;"><a href="https://github.com/riotz-works/samples-gridsome-instagram/tree/0.0.3" data-iframely-url="//cdn.iframe.ly/0wHqgfv"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
 
 
 ## 発表資料
