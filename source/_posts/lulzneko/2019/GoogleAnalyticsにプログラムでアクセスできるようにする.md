@@ -1,6 +1,7 @@
 ---
 title: Google Analytics にプログラムでアクセスできるようにする
 permalink: programmatically-access-google-analytics
+alias: /2019/04/17/programmatically-access-google-analytics/index.html
 date: 2019-04-17
 author: lulzneko
 categories: 開発

@@ -1,6 +1,7 @@
 ---
 title: 2018年の振り返り
 permalink: review-of-2018
+alias: /2018/12/31/review-of-2018/index.html
 date: 2018-12-31
 author: lulzneko
 categories: ふりかえり

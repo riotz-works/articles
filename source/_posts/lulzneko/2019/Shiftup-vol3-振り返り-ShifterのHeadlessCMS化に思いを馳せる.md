@@ -1,6 +1,7 @@
 ---
 title: Shiftup! JP_Getshifter Vol3！ 振り返り、Shifterのヘッドレス CMS 化に思いを馳せる
 permalink: think-of-shifters-headlesscms-nize-on-shiftup-vol3
+alias: /2019/04/06/think-of-shifters-headlesscms-nize-on-shiftup-vol3/index.html
 date: 2019-04-06
 author: lulzneko
 categories: レポート

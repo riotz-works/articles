@@ -1,6 +1,7 @@
 ---
 title: OS や IDE 固有ファイルの .gitignore はどこにする？
 permalink: where-is-gitignore-of-os-and-ide-specific-setting
+alias: /2019/06/26/where-is-gitignore-of-os-and-ide-specific-setting/index.html
 date: 2019-06-26
 author: lulzneko
 categories: 開発環境

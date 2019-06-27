@@ -1,6 +1,7 @@
 ---
 title: hexo-related-popular-posts にサブパス対応のプルリクを送る
 permalink: pull-request-to-hexo-related-popular-posts-about-subpath-enablement
+alias: /2019/04/20/pull-request-to-hexo-related-popular-posts-about-subpath-enablement/index.html
 date: 2019-04-20
 author: lulzneko
 categories: プルリク / OSS-Friday

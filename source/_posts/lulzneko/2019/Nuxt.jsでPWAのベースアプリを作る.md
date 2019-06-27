@@ -1,6 +1,7 @@
 ---
 title: Nuxt.js で PWA(Progressive Web Apps) のベースアプリを作る
 permalink: develop-base-app-for-pwa-with-nuxtjs
+alias: /2019/05/09/develop-base-app-for-pwa-with-nuxtjs/index.html
 date: 2019-05-09
 author: lulzneko
 categories: フロントエンド

@@ -1,6 +1,7 @@
 ---
 title: 独自ドメインでメールの送受信できるように、Google Domains のメール転送と Gmail の送信元を設定する
 permalink: google-domains-mail-forwarding-and-gmail-sender-settings
+alias: /2019/03/03/google-domains-mail-forwarding-and-gmail-sender-settings/index.html
 date: 2019-03-03
 author: lulzneko
 categories: 開発環境

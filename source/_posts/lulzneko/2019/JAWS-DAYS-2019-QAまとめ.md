@@ -1,6 +1,7 @@
 ---
 title: JAWS DAYS 2019 にて頂いた QA まとめ
 permalink: summary-of-qa-at-jawsdays2019
+alias: /2019/02/24/summary-of-qa-at-jawsdays2019/index.html
 date: 2019-02-24
 author: lulzneko
 categories: プレゼンテーション

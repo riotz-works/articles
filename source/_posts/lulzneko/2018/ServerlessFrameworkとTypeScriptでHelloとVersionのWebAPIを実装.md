@@ -1,7 +1,7 @@
 ---
 title: Serverless Framework と TypeScript で Hello ＆ Version の Web API を実装
 permalink: develop-hello-and-version-web-api-with-serverless-framework-and-typescript
-alias: /2018/02/03/ServerlessFrameworkとTypeScriptでHelloとVersionのWebAPIを実装/
+alias: /2018/02/03/develop-hello-and-version-web-api-with-serverless-framework-and-typescript/index.html
 date: 2018-02-03
 author: lulzneko
 categories: サーバーレス

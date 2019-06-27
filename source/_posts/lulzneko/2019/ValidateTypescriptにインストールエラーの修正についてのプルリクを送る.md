@@ -1,6 +1,7 @@
 ---
 title: Validate TypeScript にインストールエラーの修正についてのプルリクを送る
 permalink: pull-request-to-validate-typescript-about-installation-errors
+alias: /2019/03/13/pull-request-to-validate-typescript-about-installation-errors/index.html
 date: 2019-03-13
 author: lulzneko
 categories: プルリク / OSS-Friday

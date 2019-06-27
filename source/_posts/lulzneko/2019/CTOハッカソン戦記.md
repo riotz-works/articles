@@ -1,6 +1,7 @@
 ---
 title: CTO vs Hackers ハッカソン戦記
 permalink: cto-vs-hackers-hackathon-chronicle
+alias: /2019/03/10/cto-vs-hackers-hackathon-chronicle/index.html
 date: 2019-03-10
 author: lulzneko
 categories: ハッカソン

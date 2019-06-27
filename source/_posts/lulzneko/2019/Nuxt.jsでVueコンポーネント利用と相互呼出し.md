@@ -1,6 +1,7 @@
 ---
 title: Nuxt.js で Vue コンポーネントの利用とコンポーネントの相互呼出しをする
 permalink: use-of-vue-components-in-nuxtjs-and-cross-call-with-it
+alias: /2019/06/15/use-of-vue-components-in-nuxtjs-and-cross-call-with-it/index.html
 date: 2019-06-15
 author: lulzneko
 categories: フロントエンド

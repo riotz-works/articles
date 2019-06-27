@@ -1,6 +1,7 @@
 ---
 title: httpstat.us で、簡単 HTTP クライアントのテスト
 permalink: httpstatus-makes-http-client-testing-easy
+alias: /2019/06/12/httpstatus-makes-http-client-testing-easy/index.html
 date: 2019-06-12
 author: lulzneko
 categories: 開発環境

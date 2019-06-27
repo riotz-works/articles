@@ -1,6 +1,7 @@
 ---
 title: JAWS DAYS 2019 にて「AWS x JAMStack なサーバーレス Web Front」について発表をしました
 permalink: made-presentation-about-jamstack-with-aws-at-jawsdays2019
+alias: /2019/03/01/made-presentation-about-jamstack-with-aws-at-jawsdays2019/index.html
 date: 2019-03-01
 author: lulzneko
 categories: プレゼンテーション

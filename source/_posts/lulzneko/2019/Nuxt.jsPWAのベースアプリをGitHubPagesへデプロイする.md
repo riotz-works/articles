@@ -1,6 +1,7 @@
 ---
 title: Nuxt.js PWA のベースアプリを GitHub Pages へデプロイする
 permalink: deploy-nuxtjs-pwa-base-app-to-github-pages
+alias: /2019/05/13/deploy-nuxtjs-pwa-base-app-to-github-pages/index.html
 date: 2019-05-13
 author: lulzneko
 categories: フロントエンド

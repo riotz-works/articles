@@ -1,6 +1,7 @@
 ---
 title: Serverless Meetup Tokyo 12 にて「サーバーレスなウェブフロントを実現する JAMStack」について発表をしました
 permalink: made-presentation-about-jamstack-at-serverless-meetup-tokyo-12
+alias: /2019/05/27/made-presentation-about-jamstack-at-serverless-meetup-tokyo-12/index.html
 date: 2019-05-27
 author: lulzneko
 categories: プレゼンテーション

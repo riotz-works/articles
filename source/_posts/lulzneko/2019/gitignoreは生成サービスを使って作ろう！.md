@@ -1,6 +1,7 @@
 ---
 title: .gitignore は、生成サービス gitignore.io を使って作ろう！
 permalink: lets-create-gitignore-using-generation-service-gitignoreio
+alias: /2019/06/18/lets-create-gitignore-using-generation-service-gitignoreio/index.html
 date: 2019-06-18
 author: lulzneko
 categories: 開発環境

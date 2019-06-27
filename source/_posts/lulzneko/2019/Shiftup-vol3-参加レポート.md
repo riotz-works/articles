@@ -1,6 +1,7 @@
 ---
 title: Shiftup! JP_Getshifter Vol3！ 参加レポート
 permalink: take-seminar-on-shiftup-vol3
+alias: /2019/04/03/take-seminar-on-shiftup-vol3/index.html
 date: 2019-04-03
 author: lulzneko
 categories: レポート

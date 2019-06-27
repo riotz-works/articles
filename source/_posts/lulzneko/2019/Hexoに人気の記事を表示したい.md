@@ -1,6 +1,7 @@
 ---
 title: ブログで使っている Hexo に人気の記事リストを表示したい！
 permalink: want-to-display-list-of-popular-posts-on-hexo-used-in-blog
+alias: /2019/04/19/want-to-display-list-of-popular-posts-on-hexo-used-in-blog/index.html
 date: 2019-04-19
 author: lulzneko
 categories: フロントエンド

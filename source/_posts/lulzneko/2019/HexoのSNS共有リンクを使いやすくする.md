@@ -1,6 +1,7 @@
 ---
 title: ブログで使っている Hexo の SNS 共有リンクのユーザビリティを高める
 permalink: improve-sns-shared-links-usability-of-hexo-used-in-blog
+alias: /2019/04/11/improve-sns-shared-links-usability-of-hexo-used-in-blog/index.html
 date: 2019-04-11
 author: lulzneko
 categories: フロントエンド

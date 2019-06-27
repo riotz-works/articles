@@ -1,6 +1,7 @@
 ---
 title: TypeScript プロジェクト用サンドボックスで簡単コード検証
 permalink: easy-poc-with-sandbox-for-typescript-project
+alias: /2019/05/17/easy-poc-with-sandbox-for-typescript-project/index.html
 date: 2019-05-17
 author: lulzneko
 categories: 開発

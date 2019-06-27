@@ -1,6 +1,7 @@
 ---
 title: Hello World !!
 permalink: Hello-World-!!
+alias: /2017/12/01/Hello-World-!!/index.html
 date: 2017-12-01
 author: lulzneko
 categories: お知らせ

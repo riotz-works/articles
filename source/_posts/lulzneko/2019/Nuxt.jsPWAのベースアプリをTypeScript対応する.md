@@ -1,6 +1,7 @@
 ---
 title: Nuxt.js PWA(Progressive Web Apps) のベースアプリをTypeScript対応する
 permalink: typescripting-base-app-of-nuxtjs-pwa
+alias: /2019/05/10/typescripting-base-app-of-nuxtjs-pwa/index.html
 date: 2019-05-10
 author: lulzneko
 categories: フロントエンド

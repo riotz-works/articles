@@ -1,6 +1,7 @@
 ---
 title: Asana を Google Chrome でアプリウィンドウ化する
 permalink: make-asana-app-window-with-google-chrome
+alias: /2019/05/02/make-asana-app-window-with-google-chrome/index.html
 date: 2019-05-02
 author: lulzneko
 categories: 開発環境

@@ -1,6 +1,7 @@
 ---
 title: TSLint の prefer-function-over-method ルールについて悩む
 permalink: thinking-about-prefer-function-over-method-rule-of-tslint
+alias: /2019/03/28/thinking-about-prefer-function-over-method-rule-of-tslint/index.html
 date: 2019-03-28
 author: lulzneko
 categories: 開発

@@ -1,6 +1,7 @@
 ---
 title: 初夏のJavaScript祭 in メンバーズキャリアにて「Gridsome で作る JAMStack なサーバーレス Web Front」の発表をしました
 permalink: made-presentation-about-jamstack-with-gridsome-at-javascript-matsuri
+alias: /2019/06/01/made-presentation-about-jamstack-with-gridsome-at-javascript-matsuri/index.html
 date: 2019-06-01
 author: lulzneko
 categories: プレゼンテーション

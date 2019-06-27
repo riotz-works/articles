@@ -1,6 +1,7 @@
 ---
 title: API Gateway の WebSocket でチャットを実装 w/Serverless Framework
 permalink: implement-chat-using-websocket-of-api-gateway-with-serverless-framework
+alias: /2018/12/22/implement-chat-using-websocket-of-api-gateway-with-serverless-framework/index.html
 date: 2018-12-22
 author: lulzneko
 categories: サーバーレス

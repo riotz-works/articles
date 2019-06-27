@@ -1,6 +1,7 @@
 ---
 title: SPAJAM 2019 東京A予選 - ハッカソン戦記
 permalink: spajam-2019-tokyo-a-pre-hackathon-chronicle
+alias: /2019/05/20/spajam-2019-tokyo-a-pre-hackathon-chronicle/index.html
 date: 2019-05-20
 author: lulzneko
 categories: ハッカソン

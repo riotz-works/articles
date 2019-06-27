@@ -1,6 +1,7 @@
 ---
 title: ga-analytics に Node.js 10 以上対応のプルリクを送る
 permalink: pull-request-to-ga-analytics-about-support-nodejs10
+alias: /2019/05/24/pull-request-to-ga-analytics-about-support-nodejs10/index.html
 date: 2019-05-24
 author: lulzneko
 categories: プルリク / OSS-Friday

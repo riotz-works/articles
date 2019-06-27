@@ -1,6 +1,7 @@
 ---
 title: JAMStack、それはハイパフォーマンスなウェブフロントを実現するアーキテクチャ
 permalink: jamstack-an-architecture-to-realize-fine-web-front
+alias: /2019/01/23/jamstack-an-architecture-to-realize-fine-web-front/index.html
 date: 2019-01-23
 author: lulzneko
 categories: フロントエンド

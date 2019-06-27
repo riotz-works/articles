@@ -1,6 +1,7 @@
 ---
 title: Git の設定をリポジトリごとに自動で使い分ける
 permalink: automatically-swich-git-configuration-for-each-repository
+alias: /2019/06/08/automatically-swich-git-configuration-for-each-repository/index.html
 date: 2019-06-08
 author: lulzneko
 categories: 開発環境

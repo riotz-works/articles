@@ -1,6 +1,7 @@
 ---
 title: Asana で個人のタスク管理をする
 permalink: manage-personal-tasks-with-asana
+alias: /2019/04/27/manage-personal-tasks-with-asana/index.html
 date: 2019-04-27
 author: lulzneko
 categories: 開発環境

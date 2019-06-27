@@ -1,6 +1,7 @@
 ---
 title: 初夏のJavaScript祭にて発表した Gridsome のサンプルアプリ実装解説
 permalink: demo-app-implementation-commentary-presented-at-javascript-matsuri
+alias: /2019/06/03/demo-app-implementation-commentary-presented-at-javascript-matsuri/index.html
 date: 2019-06-03
 author: lulzneko
 categories: 開発

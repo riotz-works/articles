@@ -1,6 +1,7 @@
 ---
 title: ブログで使っている Hexo の SNS 共有リンクに「はてなブックマーク」を追加する
 permalink: add-hatena-bookmark-to-sns-share-link-of-hexo-used-in-blog
+alias: /2019/04/10/add-hatena-bookmark-to-sns-share-link-of-hexo-used-in-blog/index.html
 date: 2019-04-10
 author: lulzneko
 categories: フロントエンド

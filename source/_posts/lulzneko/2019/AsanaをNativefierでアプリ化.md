@@ -1,6 +1,7 @@
 ---
 title: Asana を Nativefier でアプリ化する
 permalink: make-asana-app-with-nativefier
+alias: /2019/05/03/make-asana-app-with-nativefier/index.html
 date: 2019-05-03
 author: lulzneko
 categories: 開発環境

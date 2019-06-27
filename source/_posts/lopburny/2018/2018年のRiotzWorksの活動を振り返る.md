@@ -1,6 +1,7 @@
 ---
 title: 2018年の Riotz Works の活動を振り返る
 permalink: what-we-did-in-2018
+alias: /2018/12/29/what-we-did-in-2018/index.html
 date: 2018-12-29
 author: lopburny
 categories: ふりかえり
