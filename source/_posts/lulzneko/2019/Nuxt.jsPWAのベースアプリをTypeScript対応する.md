@@ -17,10 +17,10 @@ Nuxt.js を使うことで簡単に PWA なアプリを作ることができま�
 ![](/articles/assets/lulzneko/develop/nuxtjs/nuxtjs.png)
 
 
-前回 [Nuxt.js で PWA(Progressive Web Apps) のベースアプリを作る](https://riotz.works/articles/2019/05/09/develop-base-app-for-pwa-with-nuxtjs/) で、[Nuxt.js](https://ja.nuxtjs.org/) を使った [PWA](https://developer.mozilla.org/ja/docs/Web/Progressive_web_apps) のベースアプリを作りました。そのまま JavaScript で開発を進めることができますが、TypeScript を導入することで変数や関数に型定義が行えるようになり開発生産性や保守性を向上できます。今回のベースアプリはゼロから作っているので最初から入れてしまうのがよいでしょう。また TypeScript の関連モジュールを導入したとしても、必ずしも TypeScript の利用が必須ではなく、JavaScript で書いていって、TypeScript にできるところから適用していく段階的な利用も可能です。そのような観点からも入れてしまうのがよいでしょう。
+前回 [Nuxt.js で PWA(Progressive Web Apps) のベースアプリを作る](https://riotz.works/articles/lulzneko/2019/05/09/develop-base-app-for-pwa-with-nuxtjs/) で、[Nuxt.js](https://ja.nuxtjs.org/) を使った [PWA](https://developer.mozilla.org/ja/docs/Web/Progressive_web_apps) のベースアプリを作りました。そのまま JavaScript で開発を進めることができますが、TypeScript を導入することで変数や関数に型定義が行えるようになり開発生産性や保守性を向上できます。今回のベースアプリはゼロから作っているので最初から入れてしまうのがよいでしょう。また TypeScript の関連モジュールを導入したとしても、必ずしも TypeScript の利用が必須ではなく、JavaScript で書いていって、TypeScript にできるところから適用していく段階的な利用も可能です。そのような観点からも入れてしまうのがよいでしょう。
 
 **シリーズの記事**
-- [Nuxt.js で PWA(Progressive Web Apps) のベースアプリを作る](https://riotz.works/articles/2019/05/09/develop-base-app-for-pwa-with-nuxtjs/)
+- [Nuxt.js で PWA(Progressive Web Apps) のベースアプリを作る](https://riotz.works/articles/lulzneko/2019/05/09/develop-base-app-for-pwa-with-nuxtjs/)
 - **Nuxt.js PWA(Progressive Web Apps) のベースアプリをTypeScript対応する** (本記事)
 
 **環境**

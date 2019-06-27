@@ -54,8 +54,8 @@ OSS-Friday のページで GitHub のアカウント連携すると自分のペ�
 
 **関連コンテンツ**
 - [Gridsome で作る JAMStack な サーバーレス Web Front | Slides | Riotz.works](https://riotz.works/slides/2019-javascript-matsuri/#1)
-- [初夏のJavaScript祭にて「Gridsome で作る JAMStack なサーバーレス Web Front」の発表をしました | Articles | Riotz.works](https://riotz.works/articles/2019/06/01/made-presentation-about-jamstack-with-gridsome-at-javascript-matsuri/)
-- [初夏のJavaScript祭にて発表した Gridsome のサンプルアプリ実装解説 | Articles | Riotz.works](https://riotz.works/articles/2019/06/03/demo-app-implementation-commentary-presented-at-javascript-matsuri/)
+- [初夏のJavaScript祭にて「Gridsome で作る JAMStack なサーバーレス Web Front」の発表をしました | Articles | Riotz.works](https://riotz.works/articles/lulzneko/2019/06/01/made-presentation-about-jamstack-with-gridsome-at-javascript-matsuri/)
+- [初夏のJavaScript祭にて発表した Gridsome のサンプルアプリ実装解説 | Articles | Riotz.works](https://riotz.works/articles/lulzneko/2019/06/03/demo-app-implementation-commentary-presented-at-javascript-matsuri/)
 
 
 ## hexojs/hexo-theme-landscape #134
@@ -71,8 +71,8 @@ OSS-Friday のページで GitHub のアカウント連携すると自分のペ�
 テーマ周りでも Issues が上がっていたりするので、引き続き貢献ポイントを探して活動していきたいです。
 
 **関連コンテンツ**
-- [ブログで使っている Hexo の SNS 共有リンクに記事タイトルを入れる | Articles | Riotz.works](https://riotz.works/articles/2019/05/22/add-article-title-to-sns-share-link-of-hexo-used-in-blog/)
-- [ブログで使っている Hexo の SNS 共有リンクのユーザビリティを高める | Articles | Riotz.works](https://riotz.works/articles/2019/04/11/improve-sns-shared-links-usability-of-hexo-used-in-blog/)
+- [ブログで使っている Hexo の SNS 共有リンクに記事タイトルを入れる | Articles | Riotz.works](https://riotz.works/articles/lulzneko/2019/05/22/add-article-title-to-sns-share-link-of-hexo-used-in-blog/)
+- [ブログで使っている Hexo の SNS 共有リンクのユーザビリティを高める | Articles | Riotz.works](https://riotz.works/articles/lulzneko/2019/04/11/improve-sns-shared-links-usability-of-hexo-used-in-blog/)
 
 
 ## sfarthin/ga-analytics #2
@@ -84,9 +84,9 @@ OSS-Friday のページで GitHub のアカウント連携すると自分のペ�
 
 
 **関連コンテンツ**
-- [ga-analytics に Node.js 10 以上対応のプルリクを送る | Articles | Riotz.works](https://riotz.works/articles/2019/05/24/pull-request-to-ga-analytics-about-support-nodejs10/)
-- [Google Analytics にプログラムでアクセスできるようにする | Articles | Riotz.works](https://riotz.works/articles/2019/04/17/programmatically-access-google-analytics/)
-- [ブログで使っている Hexo に人気の記事リストを表示したい！ | Articles | Riotz.works](https://riotz.works/articles/2019/04/19/want-to-display-list-of-popular-posts-on-hexo-used-in-blog/)
+- [ga-analytics に Node.js 10 以上対応のプルリクを送る | Articles | Riotz.works](https://riotz.works/articles/lulzneko/2019/05/24/pull-request-to-ga-analytics-about-support-nodejs10/)
+- [Google Analytics にプログラムでアクセスできるようにする | Articles | Riotz.works](https://riotz.works/articles/lulzneko/2019/04/17/programmatically-access-google-analytics/)
+- [ブログで使っている Hexo に人気の記事リストを表示したい！ | Articles | Riotz.works](https://riotz.works/articles/lulzneko/2019/04/19/want-to-display-list-of-popular-posts-on-hexo-used-in-blog/)
 
 ----
 

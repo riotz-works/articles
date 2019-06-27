@@ -59,4 +59,4 @@ $ curl -H 'Accept: application/json' https://httpstat.us/200
 
 実開発のテストに組み込むことはさすがにできないでしょうが、新しいライブラリの利用方法の確認だったり、エラーハンドリングの確認などを行う場合に便利です。
 
-JSON レスポンスは期待値と異なるので [OSS-Friday 案件](/articles/2019/06/05/summary-of-oss-friday-activities-in-2019-05/) としてプルリクエストを出したいと思います。
+JSON レスポンスは期待値と異なるので [OSS-Friday 案件](https://riotz.works/articles/lulzneko/2019/06/05/summary-of-oss-friday-activities-in-2019-05/) としてプルリクエストを出したいと思います。

@@ -22,9 +22,9 @@ JAWS DAYS 2019 で『AWS x JAMStack で構築・運用するサーバーレス�
 頂いた質問は要点のみを一般化して書いている部分がります。背景などが入っていないので若干わかりにくい部分がありますが、ご了承ください。
 
 **シリーズの記事**
-- [JAWS DAYS 2019 で AWS x JAMStack なサーバーレス Web Front について発表をしました](/articles/2019/03/01/made-presentation-about-jamstack-with-aws-at-jawsdays2019/)
+- [JAWS DAYS 2019 で AWS x JAMStack なサーバーレス Web Front について発表をしました](https://riotz.works/articles/lulzneko/2019/03/01/made-presentation-about-jamstack-with-aws-at-jawsdays2019/)
 - **JAWS DAYS 2019 で頂いた QA まとめ**（本記事）
-- [発表者は、その日何をしていたのか - 発表の舞台裏 JAWS DAYS 2019 編](/articles/2019/02/23/backstage-of-presentation-at-jawsdays2019/)
+- [発表者は、その日何をしていたのか - 発表の舞台裏 JAWS DAYS 2019 編](https://riotz.works/articles/lulzneko/2019/02/23/backstage-of-presentation-at-jawsdays2019/)
 
 
 ## 発表資料と Togetter

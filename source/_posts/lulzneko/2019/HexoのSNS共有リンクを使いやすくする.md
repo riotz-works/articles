@@ -17,7 +17,7 @@ tags:
 
 
 ## Hexo の SNS 共有リンクの改修
-前回の記事 [ブログで使っている Hexo の SNS 共有リンクに「はてなブックマーク」を追加する](https://riotz.works/articles/2019/04/10/add-hatena-bookmark-to-sns-share-link-of-hexo-used-in-blog/) では、Hexo に「はてなブックマーク(以降、はてブ)」のブックマークを作るボタンを追加しました。
+前回の記事 [ブログで使っている Hexo の SNS 共有リンクに「はてなブックマーク」を追加する](https://riotz.works/articles/lulzneko/2019/04/10/add-hatena-bookmark-to-sns-share-link-of-hexo-used-in-blog/) では、Hexo に「はてなブックマーク(以降、はてブ)」のブックマークを作るボタンを追加しました。
 
 そのとき気になったのが [共有] ボタンをクリックしてから、SNS 共有ボタン群のボックスを出して使う点です。今回は、この部分を改善してユーザビリティを高めます。
 ![](/articles/assets/lulzneko/serverless/hexo/01-05.png)
@@ -132,7 +132,7 @@ SNS 共有のボックスを開くための [共有] ラベルのスタイルを
 
 SNS 共有アイコンをボックス表示から、記事の下に展開済みで表示するようにできました。
 
-[ブログメンティ ふりかえり １週目](https://riotz.works/articles/2019/04/09/review-of-k9us-blog-mentee-first-week/) の後に、メンター の [カック@ブロガー / k9u(@kakakakakku)さん](https://twitter.com/kakakakakku)  とお話していた時に「"はてブ"をつけるときにボタンを使う」のがありました。
+[ブログメンティ ふりかえり １週目](https://riotz.works/articles/lulzneko/2019/04/09/review-of-k9us-blog-mentee-first-week/) の後に、メンター の [カック@ブロガー / k9u(@kakakakakku)さん](https://twitter.com/kakakakakku)  とお話していた時に「"はてブ"をつけるときにボタンを使う」のがありました。
 
 私が「はてブ」を使っていなかったので、ブックマークを付ける感覚をとらえられずボタンを設置していなかったのですが、確かにサイトを開いてから URL を入力する手順はしなそうです。
 

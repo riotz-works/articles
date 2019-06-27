@@ -24,7 +24,7 @@ Hexo は Static Site Generator で JAMStack サイトを作ります。JAMStack 
 
 ところが tea3/hexo-related-popular-posts は冒頭に書きました通り Google Analytics と連携することで実現してくれる、最高にスゴイ Plugin です。
 
-詳しくは「[ブログで使っている Hexo に人気の記事リストを表示したい！](https://riotz.works/articles/2019/04/19/want-to-display-list-of-popular-posts-on-hexo-used-in-blog/)」を、ご参照ください。
+詳しくは「[ブログで使っている Hexo に人気の記事リストを表示したい！](https://riotz.works/articles/lulzneko/2019/04/19/want-to-display-list-of-popular-posts-on-hexo-used-in-blog/)」を、ご参照ください。
 
 
 ## プルリクを出すことになった背景
@@ -33,7 +33,7 @@ Hexo は Static Site Generator で JAMStack サイトを作ります。JAMStack 
 正しくないランキングに明らかにアクセスがないであろう「Hello World !!」が入っており不思議だったのと、起動しなおすとランキングが入れ替わる挙動をしました。
 ![](/articles/assets/lulzneko/develop/pullreq/hexo-related-popular-posts/02.png)
 
-※「[Hello World !!](https://riotz.works/articles/2017/12/01/Hello-World-!!/)」の記事は実際にアクセス数 0。さりげなくリンクを貼ってみます。
+※「[Hello World !!](https://riotz.works/articles/lulzneko/2017/12/01/Hello-World-!!/)」の記事は実際にアクセス数 0。さりげなくリンクを貼ってみます。
 
 
 ## インストール・エラーとなる原因
@@ -41,7 +41,7 @@ Hexo は Static Site Generator で JAMStack サイトを作ります。JAMStack 
 ![](/articles/assets/lulzneko/develop/pullreq/hexo-related-popular-posts/03.png)
 
 Google Analytics からデータが取れていないことも考えられるので、hexo-related-popular-posts が使っているライブラリ [sfarthin/ga-analytics](https://github.com/sfarthin/ga-analytics) の動作確認したところ、コンソールに正しく表示できました。環境設定に問題はなさそうです。
-※ ga-analytics の動作確認については、こちら「[Google Analytics に プログラムでアクセスできるようにする](http://localhost:4000/articles/2019/04/17/programmatically-access-google-analytics/)」をご参照ください
+※ ga-analytics の動作確認については、こちら「[Google Analytics に プログラムでアクセスできるようにする](http://localhost:4000/articles/lulzneko/2019/04/17/programmatically-access-google-analytics/)」をご参照ください
 
 そうなるとデータを取得した後に何かがあるので、hexo-related-popular-posts のソース確認に入ります。
 
@@ -57,11 +57,11 @@ $ code .
 ざっと眺めてみると 33行目に `// PV update` と、それっぽいコメントがあり、36行目でパスの比較をしてデータモデルを作っているようです。
 ここにデバッグ用のコンソール出力を挟んで動作確認をしたところ `articles/` 有無でミスマッチしていることがわかりました。
 ```console
-2018/12/29/what-we-did-in-2018/ == articles/2018/12/29/what-we-did-in-2018/
-2018/12/31/review-of-2018/ == articles/2018/12/31/review-of-2018/
-2019/04/03/take-seminar-on-shiftup-vol3/ == articles/2019/04/03/take-seminar-on-shiftup-vol3/
-2019/04/01/k9us-blog-mentoring-to-lulzneko/ == articles/2019/04/01/k9us-blog-mentoring-to-lulzneko/
-2019/02/24/summary-of-qa-at-jawsdays2019/ == articles/2019/02/24/summary-of-qa-at-jawsdays2019/
+2018/12/29/what-we-did-in-2018/ == articles/lulzneko/2018/12/29/what-we-did-in-2018/
+2018/12/31/review-of-2018/ == articles/lulzneko/2018/12/31/review-of-2018/
+2019/04/03/take-seminar-on-shiftup-vol3/ == articles/lulzneko/2019/04/03/take-seminar-on-shiftup-vol3/
+2019/04/01/k9us-blog-mentoring-to-lulzneko/ == articles/lulzneko/2019/04/01/k9us-blog-mentoring-to-lulzneko/
+2019/02/24/summary-of-qa-at-jawsdays2019/ == articles/lulzneko/2019/02/24/summary-of-qa-at-jawsdays2019/
 ...
 ```
 

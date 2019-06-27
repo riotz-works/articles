@@ -32,7 +32,7 @@ tags:
 ## サマリー
 発表の主旨は「JAMStack は JavaScript 祭り！、JavaScript から JAMStack を広めよう！！」です。
 
-「JAMStack、好きだよね」と言われそうなほど JAMStack で発表させていただいていますが、前回の [Serverless Meetup Tokyo 12 にて「サーバーレスなウェブフロントを実現する JAMStack」について発表](https://riotz.works/articles/2019/05/27/made-presentation-about-jamstack-at-serverless-meetup-tokyo-12/) でふれました通り、「フロントも含めて、まるっとサーバーレスにしたい」のです。それを実現できるのが JAMStack です。
+「JAMStack、好きだよね」と言われそうなほど JAMStack で発表させていただいていますが、前回の [Serverless Meetup Tokyo 12 にて「サーバーレスなウェブフロントを実現する JAMStack」について発表](https://riotz.works/articles/lulzneko/2019/05/27/made-presentation-about-jamstack-at-serverless-meetup-tokyo-12/) でふれました通り、「フロントも含めて、まるっとサーバーレスにしたい」のです。それを実現できるのが JAMStack です。
 
 
 ### JAMStack とは

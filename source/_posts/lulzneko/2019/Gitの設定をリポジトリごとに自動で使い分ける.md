@@ -144,4 +144,4 @@ file:/home/username/.gitconfig_oss     Cool account name used at OSS activities
 これで作業環境ごとに `git config --local` で設定を追加する必要がなくなりました。
 とくにアカウント名やメールアドレスは、複数の作業グループがある時に間違えコミットしないように注意が必要です。そのために `useConfigOnly = true` を設定しますが、そうするとリポジトリごとに設定が必要となります。その際に、今回の設定をしておくと特定のディレクトリ以下に配置しておくだけで設定が反映されるので便利です。
 
-最近は「[OSS-Friday 活動 - 2019年5月まとめ](https://riotz.works/articles/2019/06/05/summary-of-oss-friday-activities-in-2019-05/)」に書きましたように、わずかながら OSS への貢献活動も始めたのでリポジトリのクローンをすることが増え、今回のようにディレクトリで自動に切り替わってくれるのは助かります。
+最近は「[OSS-Friday 活動 - 2019年5月まとめ](https://riotz.works/articles/lulzneko/2019/06/05/summary-of-oss-friday-activities-in-2019-05/)」に書きましたように、わずかながら OSS への貢献活動も始めたのでリポジトリのクローンをすることが増え、今回のようにディレクトリで自動に切り替わってくれるのは助かります。

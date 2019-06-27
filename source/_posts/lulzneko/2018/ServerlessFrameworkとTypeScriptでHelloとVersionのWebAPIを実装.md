@@ -17,7 +17,7 @@ tags:
 今回は、ひな形で作られた [AWS Lambda](https://aws.amazon.com/jp/lambda/) のソースを Hello World にし、また新しくアプリケーションのバージョンを返す Version Web API を追加します。
 
 **シリーズの記事**
-- [Serverless Framework と TypeScript で サーバレス開発事始め](/articles/2018/02/01/ServerlessFrameworkとTypeScriptでサーバレス開発事始め/)
+- [Serverless Framework と TypeScript で サーバレス開発事始め](https://riotz.works/articles/lulzneko/2018/02/01/beginning-serverless-dev-with-serverless-framework-and-typescript/)
 - **Serverless Framework と TypeScript で Hello ＆ Version の Web API を実装** (本記事)
 
 **環境**
@@ -173,7 +173,7 @@ Version Web API ができました。
 
 
 ## デプロイ
-AWS 環境へデプロイします。前回の [デプロイ と 稼働テスト](/articles/2018/02/01/ServerlessFrameworkとTypeScriptでサーバレス開発事始め/#%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4-%E3%81%A8-%E7%A8%BC%E5%83%8D%E3%83%86%E3%82%B9%E3%83%88) 同様に、AWS のプロファイを参照して `serverless deploy --aws-profile [profilename]` を実行します。
+AWS 環境へデプロイします。前回の [デプロイ と 稼働テスト](https://riotz.works/articles/lulzneko/2018/02/01/beginning-serverless-dev-with-serverless-framework-and-typescript/#%E3%83%87%E3%83%97%E3%83%AD%E3%82%A4-%E3%81%A8-%E7%A8%BC%E5%83%8D%E3%83%86%E3%82%B9%E3%83%88) 同様に、AWS のプロファイを参照して `serverless deploy --aws-profile [profilename]` を実行します。
 ![](/articles/assets/lulzneko/serverless/hello/26.png)
 
 `endpoints` に `hello` と `version` の URL が出力されるので、それぞれブラウザでアクセスすると、プログラムした JSON が返ってきます。

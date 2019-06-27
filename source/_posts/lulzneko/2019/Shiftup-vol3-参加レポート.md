@@ -21,9 +21,9 @@ tags:
 [4/3 Shifterミートアップ はじめてのスタティックサイト ジェネレーター まとめ - Togetter](https://togetter.com/li/1334730)
 
 **シリーズの記事**
-- [Shiftup! JP_Getshifter Vol3！ で JAMStack な サーバーレス ウェブフロント に ついて発表をしました](/articles/2019/04/05/made-presentation-about-jamstack-at-shiftup-vol3/)
+- [Shiftup! JP_Getshifter Vol3！ で JAMStack な サーバーレス ウェブフロント に ついて発表をしました](https://riotz.works/articles/lulzneko/2019/04/05/made-presentation-about-jamstack-at-shiftup-vol3/)
 - **Shiftup! JP_Getshifter Vol3！ 参加レポート** (本記事)
-- [Shiftup! JP_Getshifter Vol3！ 振り返り、Shifter の HeadlessCMS 化 に 思いを馳せる](/articles/2019/04/06/think-of-shifters-headlesscms-nize-on-shiftup-vol3)
+- [Shiftup! JP_Getshifter Vol3！ 振り返り、Shifter の HeadlessCMS 化 に 思いを馳せる](https://riotz.works/articles/lulzneko/2019/04/06/think-of-shifters-headlesscms-nize-on-shiftup-vol3)
 
 
 
@@ -41,7 +41,7 @@ Shifter の紹介やユーザーさんの話ほか、クラウドやサーバー
 主催者の [KOGA Hiromichi(@digitalcube)さん](https://twitter.com/digitalcube)、[Seiji Akatsuka(@seijiakatsuka)さん](https://twitter.com/seijiakatsuka) にご挨拶 ＆ 登壇者の [青空俯角 / mimi(@miminari)さん](https://twitter.com/miminari) さんとお話させていただきつつ、資料の事前アップが終わってなかったので〆の作業をしちゃいます。
 
 徐々に集まってきた参加者さんと名刺を交えて、しばしご歓談。
-今回は「発表者の～」と言いながら名刺を出しているので覚えていただける率は非常に高いですが、確かにこのような場面では先日受けた [心に刺さる名刺のつくり方セミナー](https://riotz.works/articles/2019/03/30/take-seminar-on-how-to-make-meishi-in-tokyo/) を活かした名刺づくりなり交換の仕方が大事になるなぁとさっそく実感。
+今回は「発表者の～」と言いながら名刺を出しているので覚えていただける率は非常に高いですが、確かにこのような場面では先日受けた [心に刺さる名刺のつくり方セミナー](https://riotz.works/articles/lulzneko/2019/03/30/take-seminar-on-how-to-make-meishi-in-tokyo/) を活かした名刺づくりなり交換の仕方が大事になるなぁとさっそく実感。
 
 
 ## Serverless Static Site Generator「Shifter」のデモを含めた、基本的な使い方の紹介

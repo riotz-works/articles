@@ -91,9 +91,9 @@ TypeScript でサーバーレスを推している身として Node.js の総本
 
 
 ## 記事 ３本
-- [API Gateway の WebSocket で チャット を 実装 w/Serverless Framework](https://riotz.works/articles/2018/12/22/implement-chat-using-websocket-of-api-gateway-with-serverless-framework/)
-- [Serverless Framework と TypeScript で Hello ＆ Version の Web API を 実装](https://riotz.works/articles/2018/02/03/develop-hello-and-version-web-api-with-serverless-framework-and-typescript/)
-- [Serverless Framework と TypeScript で サーバレス開発事始め](https://riotz.works/articles/2018/02/01/beginning-serverless-dev-with-serverless-framework-and-typescript/)
+- [API Gateway の WebSocket で チャット を 実装 w/Serverless Framework](https://riotz.works/articles/lulzneko/2018/12/22/implement-chat-using-websocket-of-api-gateway-with-serverless-framework/)
+- [Serverless Framework と TypeScript で Hello ＆ Version の Web API を 実装](https://riotz.works/articles/lulzneko/2018/02/03/develop-hello-and-version-web-api-with-serverless-framework-and-typescript/)
+- [Serverless Framework と TypeScript で サーバレス開発事始め](https://riotz.works/articles/lulzneko/2018/02/01/beginning-serverless-dev-with-serverless-framework-and-typescript/)
 
 こちらは全然かけなかったので反省です。
 とくに TypeScript のスターター記事を書き始めたのに２回で止まってしまった。

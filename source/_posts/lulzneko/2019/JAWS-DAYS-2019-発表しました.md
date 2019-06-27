@@ -20,8 +20,8 @@ tags:
 
 **シリーズの記事**
 - **JAWS DAYS 2019 で AWS x JAMStack なサーバーレス Web Front について発表をしました** (本記事)
-- [JAWS DAYS 2019 で頂いた QA まとめ](/articles/2019/02/24/summary-of-qa-at-jawsdays2019/)
-- [発表者は、その日何をしていたのか - 発表の舞台裏 JAWS DAYS 2019 編](/articles/2019/02/23/backstage-of-presentation-at-jawsdays2019/)
+- [JAWS DAYS 2019 で頂いた QA まとめ](https://riotz.works/articles/lulzneko/2019/02/24/summary-of-qa-at-jawsdays2019/)
+- [発表者は、その日何をしていたのか - 発表の舞台裏 JAWS DAYS 2019 編](https://riotz.works/articles/lulzneko/2019/02/23/backstage-of-presentation-at-jawsdays2019/)
 
 
 ## JAWS DAYS 概要
@@ -50,7 +50,7 @@ AWS にはたくさんの機能があります。そしてフロントエンド�
 [2019/02/23(土) JAWS DAYS 2019 <7> 15:10～ #jawsug #jawsdays - Togetter](https://togetter.com/li/1322142)
 たくさんのツイートありがとうございます！！
 
-[JAWS DAYS 2019 で 頂いた QA まとめ](/articles/2019/02/24/summary-of-qa-at-jawsdays2019/)
+[JAWS DAYS 2019 で 頂いた QA まとめ](https://riotz.works/articles/lulzneko/2019/02/24/summary-of-qa-at-jawsdays2019/)
 QA・ディスカスありがとうございます！！
 
 

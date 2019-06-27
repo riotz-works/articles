@@ -22,8 +22,8 @@ Nuxt.js を使うことで手軽に PWA なアプリを作ることができま�
 前回までの実装で [Nuxt.js](https://ja.nuxtjs.org/) の [PWA](https://developer.mozilla.org/ja/docs/Web/Progressive_web_apps) with [TypeScript](https://www.typescriptlang.org/) ができました。アプリとしての機能はまったくないですが、やはりデプロイして実際にスマートフォンからアクセスしてみたいところです。今回は簡単にデプロイできる GitHub Pages でホスティングします。また、一手間かかりますが CircleCI とも連携して、アプリのソース管理とホスティングを同じリポジトリで行い、ソースコードを変更したら自動的にビルド＆デプロイする方法も紹介します。
 
 **シリーズの記事**
-- [Nuxt.js で PWA(Progressive Web Apps) のベースアプリを作る](https://riotz.works/articles/2019/05/09/develop-base-app-for-pwa-with-nuxtjs/)
-- [Nuxt.js PWA(Progressive Web Apps) のベースアプリをTypeScript対応する](https://riotz.works/articles/2019/05/10/typescripting-base-app-of-nuxtjs-pwa/)
+- [Nuxt.js で PWA(Progressive Web Apps) のベースアプリを作る](https://riotz.works/articles/lulzneko/2019/05/09/develop-base-app-for-pwa-with-nuxtjs/)
+- [Nuxt.js PWA(Progressive Web Apps) のベースアプリをTypeScript対応する](https://riotz.works/articles/lulzneko/2019/05/10/typescripting-base-app-of-nuxtjs-pwa/)
 - **Nuxt.js PWA のベースアプリを GitHub Pages へデプロイする** (本記事)
 
 **環境**

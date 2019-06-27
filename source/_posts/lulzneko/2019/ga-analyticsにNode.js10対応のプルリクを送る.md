@@ -58,8 +58,8 @@ info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this comm
 インストールされた npm モジュール [`ga-sfarthin/ga-analytics`](https://github.com/sfarthin/ga-analytics) にトラブルがあるようです。今回、直接インストールしたものではありませんが、ブログの人気記事リストを作る [tea3/hexo-related-popular-posts](https://github.com/tea3/hexo-related-popular-posts) plugin が使っています。
 
 詳しくは、こちらの関連記事をご参照ください。
-- [ブログで使っている Hexo に人気の記事リストを表示したい！](https://riotz.works/articles/2019/04/19/want-to-display-list-of-popular-posts-on-hexo-used-in-blog/)
-- [Google Analytics にプログラムでアクセスできるようにする](https://riotz.works/articles/2019/04/17/programmatically-access-google-analytics/)
+- [ブログで使っている Hexo に人気の記事リストを表示したい！](https://riotz.works/articles/lulzneko/2019/04/19/want-to-display-list-of-popular-posts-on-hexo-used-in-blog/)
+- [Google Analytics にプログラムでアクセスできるようにする](https://riotz.works/articles/lulzneko/2019/04/17/programmatically-access-google-analytics/)
 
 問題を把握したところで重複レポートを避けるために GitHub Issue / Pull Request を確認します。どちらにも該当はありませんでした。
 - [Issues · sfarthin/ga-analytics](https://github.com/sfarthin/ga-analytics/issues)
@@ -100,7 +100,7 @@ var googleapis 	= require('googleapis'),
 
 ## 検証
 原因が分かったところで検証します。
-今回は完全に独立したコードで検証できるので [TypeScript プロジェクト用サンドボックスで簡単コード検証](https://riotz.works/articles/2019/05/17/easy-poc-with-sandbox-for-typescript-project/) の環境を使います。TypeScript プロジェクトですが、TypeScript は JavaScript のスーパーセットで JavaScript プロジェクトとしても動作します。検証は簡単に実行できれば、どのような環境でも大丈夫です。
+今回は完全に独立したコードで検証できるので [TypeScript プロジェクト用サンドボックスで簡単コード検証](https://riotz.works/articles/lulzneko/2019/05/17/easy-poc-with-sandbox-for-typescript-project/) の環境を使います。TypeScript プロジェクトですが、TypeScript は JavaScript のスーパーセットで JavaScript プロジェクトとしても動作します。検証は簡単に実行できれば、どのような環境でも大丈夫です。
 
 `index.ts` に以下のコードを書きます。
 ```typescript
@@ -160,8 +160,8 @@ TypeScript の [Node.js 定義](https://github.com/DefinitelyTyped/DefinitelyTyp
 さっそくプルリクを作って送ります。
 [`sfarthin/ga-analytics`](https://github.com/sfarthin/ga-analytics) のリポジトリから [Fork] で、自分のアカウントにフォークしてローカルへクローンします。
 ボタンを押してクローンするだけなので今回は省略しますが、詳しい手順を確認したい場合はこちらをご参照ください。
-- [フォークしてプルリク作成の環境用意 - hexo-related-popular-posts にサブパス対応のプルリクを送る](https://riotz.works/articles/2019/04/20/pull-request-to-hexo-related-popular-posts-about-subpath-enablement/#%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AF%E3%81%97%E3%81%A6%E3%83%97%E3%83%AB%E3%83%AA%E3%82%AF%E4%BD%9C%E6%88%90%E3%81%AE%E7%92%B0%E5%A2%83%E7%94%A8%E6%84%8F)
-- [フォークしてプルリク作成の環境用意 - Validate TypeScript にインストールエラーの修正についてのプルリクを送る](https://riotz.works/articles/2019/03/13/pull-request-to-validate-typescript-about-installation-errors/#%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AF%E3%81%97%E3%81%A6%E3%83%97%E3%83%AB%E3%83%AA%E3%82%AF%E4%BD%9C%E6%88%90%E3%81%AE%E7%92%B0%E5%A2%83%E7%94%A8%E6%84%8F)
+- [フォークしてプルリク作成の環境用意 - hexo-related-popular-posts にサブパス対応のプルリクを送る](https://riotz.works/articles/lulzneko/2019/04/20/pull-request-to-hexo-related-popular-posts-about-subpath-enablement/#%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AF%E3%81%97%E3%81%A6%E3%83%97%E3%83%AB%E3%83%AA%E3%82%AF%E4%BD%9C%E6%88%90%E3%81%AE%E7%92%B0%E5%A2%83%E7%94%A8%E6%84%8F)
+- [フォークしてプルリク作成の環境用意 - Validate TypeScript にインストールエラーの修正についてのプルリクを送る](https://riotz.works/articles/lulzneko/2019/03/13/pull-request-to-validate-typescript-about-installation-errors/#%E3%83%95%E3%82%A9%E3%83%BC%E3%82%AF%E3%81%97%E3%81%A6%E3%83%97%E3%83%AB%E3%83%AA%E3%82%AF%E4%BD%9C%E6%88%90%E3%81%AE%E7%92%B0%E5%A2%83%E7%94%A8%E6%84%8F)
 
 今回も単発のプルリクなので、１つしかない `master` ブランチへ直接コミットして上げてしまいます。
 ただし、今回は注意点があります。
@@ -189,7 +189,7 @@ Node.js のバージョンアップに伴いエラーが発生したのを修正
 <blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">ちょっとずつだけど、始めて見る<a href="https://t.co/6mPGDlJ6kq">https://t.co/6mPGDlJ6kq</a> <a href="https://t.co/BvRQ6KQwps">pic.twitter.com/BvRQ6KQwps</a></p>&mdash; lulzneko (ラルズネコ) (@lulzneko) <a href="https://twitter.com/lulzneko/status/1131196885023088640?ref_src=twsrc%5Etfw">2019年5月22日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-直近３ヶ月、本記事を含めて月１つのペースでプルリクを出していました。そして、ブログメンターの [カック@ブロガー / k9u(@kakakakakku)さん](https://twitter.com/kakakakakku) とお話をしている中で「自分が使っているプロダクトの Issues を修正するのは喜ばれることだし、自分も助かる。２倍嬉しい。」と勧められました。エラーの修正は必然なのでともかく、機能の追加改善などは自分のためだけでなくみんなのためにするべきです。前回の記事 [ブログで使っている Hexo の SNS 共有リンクに記事タイトルを入れる](http://localhost:4000/articles/2019/05/22/add-article-title-to-sns-share-link-of-hexo-used-in-blog/) なども自分だけではなくプルリクで上げたほうが良かったです(後で上げます)。そうしたことから、"オープンソース フライデー" として、何かしらの OSS 活動を意識するような日にしたいと考えました。金曜日は OSS の取り組みを少しだけでもするようにします。
+直近３ヶ月、本記事を含めて月１つのペースでプルリクを出していました。そして、ブログメンターの [カック@ブロガー / k9u(@kakakakakku)さん](https://twitter.com/kakakakakku) とお話をしている中で「自分が使っているプロダクトの Issues を修正するのは喜ばれることだし、自分も助かる。２倍嬉しい。」と勧められました。エラーの修正は必然なのでともかく、機能の追加改善などは自分のためだけでなくみんなのためにするべきです。前回の記事 [ブログで使っている Hexo の SNS 共有リンクに記事タイトルを入れる](http://localhost:4000/articles/lulzneko/2019/05/22/add-article-title-to-sns-share-link-of-hexo-used-in-blog/) なども自分だけではなくプルリクで上げたほうが良かったです(後で上げます)。そうしたことから、"オープンソース フライデー" として、何かしらの OSS 活動を意識するような日にしたいと考えました。金曜日は OSS の取り組みを少しだけでもするようにします。
 
 **参考情報**
 - [オープンソース フライデー | 今週の金曜日は、利用しているお気に入りのソフトウエアを数時間助けてみよう。](https://opensourcefriday.com/?locale=ja)

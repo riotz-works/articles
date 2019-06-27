@@ -31,7 +31,7 @@ tags:
 
 本ブログは Static Site Generator の Hexo を使って静的なサイト、つまり JAMStack として作っています。静的なサイトなのでプログラムを動かせるようなサーバーは持っていません。
 
-JAMStack にすることでパフォーマンスが良く、安全性を高めたサイトを作ることができます。詳しくは本ブログの記事 [JAMStack、それは ハイパフォーマンスなウェブフロントを実現するアーキテクチャ](https://riotz.works/articles/2019/01/23/jamstack-an-architecture-to-realize-fine-web-front/) をご参照ください。
+JAMStack にすることでパフォーマンスが良く、安全性を高めたサイトを作ることができます。詳しくは本ブログの記事 [JAMStack、それは ハイパフォーマンスなウェブフロントを実現するアーキテクチャ](https://riotz.works/articles/lulzneko/2019/01/23/jamstack-an-architecture-to-realize-fine-web-front/) をご参照ください。
 
 メリットがあれば、デメリットもあります。静的なサイトになるので動的なこと、たとえばコメント欄などは実現できません。今回のテーマである「人気の記事」も同様で、実現するには各記事へのアクセスを集計しアクセスが多いものを人気として動的にリストを作る必要があります。つまり JAMStack ができない、動的な機能が必要となります。(なお JAMStack で動的な要素が必要な場合は SaaS などのサービスと連携して実現することが多いです)
 
@@ -58,7 +58,7 @@ $ yarn add hexo-related-popular-posts
 
 ## 人気の記事リストを表示
 さっそく Google Analytics からアクセスデータを取得して人気の記事リストの機能を使っていきます。この機能を使うために Google Analytics へ Web API 経由でアクセスできるようにします。
-設定方法の詳細については、こちらの記事 [Google Analytics に プログラムでアクセスできるようにする](https://riotz.works/articles/2019/04/17/programmatically-access-google-analytics/) をご参照ください。
+設定方法の詳細については、こちらの記事 [Google Analytics に プログラムでアクセスできるようにする](https://riotz.works/articles/lulzneko/2019/04/17/programmatically-access-google-analytics/) をご参照ください。
 
 本記事では以下が用意できているものとして進めます。
 - [Google Developer Console](https://console.developers.google.com/) で Analytics API を使える認証情報が作られている
@@ -167,7 +167,7 @@ popularPosts:
     path: hexo-popular-related-posts-cached.json
 ```
 
-表示する場所は SNS 共有リンクの下にします。こちらは [前回の記事](https://riotz.works/articles/2019/04/11/improve-sns-shared-links-usability-of-hexo-used-in-blog/) で改修した場所 `/themes/landscape/layout/_partial/article.ejs` の `<footer>` タグ内になります。
+表示する場所は SNS 共有リンクの下にします。こちらは [前回の記事](https://riotz.works/articles/lulzneko/2019/04/11/improve-sns-shared-links-usability-of-hexo-used-in-blog/) で改修した場所 `/themes/landscape/layout/_partial/article.ejs` の `<footer>` タグ内になります。
 ![](/articles/assets/lulzneko/serverless/hexo/03-06.png)
 
 以下のコードを `<footer>` タグ内に追記します。(ここでは、キャプチャの46行目)

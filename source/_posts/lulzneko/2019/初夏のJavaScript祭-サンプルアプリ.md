@@ -212,7 +212,7 @@ GitHub Pages にホスティングもしました。動作している状態を�
 <div class="slide"><iframe src="https://riotz.works/slides/2019-javascript-matsuri"></iframe></div>
 
 また発表のサマリー記事は、こちらになります。
-<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://riotz.works/articles/2019/06/01/made-presentation-about-jamstack-with-gridsome-at-javascript-matsuri/index.html" data-iframely-url="//cdn.iframe.ly/5oo6K8P?iframe=card-small"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
+<div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://riotz.works/articles/lulzneko/2019/06/01/made-presentation-about-jamstack-with-gridsome-at-javascript-matsuri/index.html" data-iframely-url="//cdn.iframe.ly/5oo6K8P?iframe=card-small"></a></div></div><script async src="//cdn.iframe.ly/embed.js" charset="utf-8"></script>
 
 
 

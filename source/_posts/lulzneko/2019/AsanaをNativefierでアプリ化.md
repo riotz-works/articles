@@ -14,7 +14,7 @@ tags:
 ![](/articles/assets/lulzneko/develop/asana/asana.png)
 
 
-前回 [Google Chrome を使って Asana をアプリウィンドウ化](/articles/2019/05/02/make-asana-app-window-with-google-chrome/) をしましたが、ウィンドウを閉じてしまうとウェブアクセスから始まり起動に時間がかかります。常時使うようなサービスなので常駐化し、いつでも使えるようにしたいです。
+前回 [Google Chrome を使って Asana をアプリウィンドウ化](https://riotz.works/articles/lulzneko/2019/05/02/make-asana-app-window-with-google-chrome/) をしましたが、ウィンドウを閉じてしまうとウェブアクセスから始まり起動に時間がかかります。常時使うようなサービスなので常駐化し、いつでも使えるようにしたいです。
 
 公式フォーラムでもデスクトップアプリのニーズは [What's the status of a native Asana Mac app? - Product Feedback - Asana Community Forum](https://forum.asana.com/t/whats-the-status-of-a-native-asana-mac-app/1581) のように 2017年と古くから上がっているようですが進展はなさそうです。
 

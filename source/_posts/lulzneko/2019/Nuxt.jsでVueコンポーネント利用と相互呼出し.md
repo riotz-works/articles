@@ -22,9 +22,9 @@ Nuxt.js を使うことで JAMStack なアプリを高速に構築できます�
 説明の都合により下記シリーズのソースを使いますが一般的な Vue コンポーネントの使い方ですので、下記 "開始時のアプリソース" ではなくても大丈夫です。
 
 **シリーズの記事**
-- [Nuxt.js で PWA(Progressive Web Apps) のベースアプリを作る](/articles/2019/05/09/develop-base-app-for-pwa-with-nuxtjs/)
-- [Nuxt.js PWA(Progressive Web Apps) のベースアプリをTypeScript対応する](/articles/2019/05/10/typescripting-base-app-of-nuxtjs-pwa/)
-- [Nuxt.js PWA のベースアプリを GitHub Pages へデプロイする](/articles/2019/05/13/deploy-nuxtjs-pwa-base-app-to-github-pages/)
+- [Nuxt.js で PWA(Progressive Web Apps) のベースアプリを作る](https://riotz.works/articles/lulzneko/2019/05/09/develop-base-app-for-pwa-with-nuxtjs/)
+- [Nuxt.js PWA(Progressive Web Apps) のベースアプリをTypeScript対応する](https://riotz.works/articles/lulzneko/2019/05/10/typescripting-base-app-of-nuxtjs-pwa/)
+- [Nuxt.js PWA のベースアプリを GitHub Pages へデプロイする](https://riotz.works/articles/lulzneko/2019/05/13/deploy-nuxtjs-pwa-base-app-to-github-pages/)
 - **Nuxt.js で Vue コンポーネント利用と相互呼出しする** (本記事)
 
 **環境**

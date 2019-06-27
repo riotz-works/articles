@@ -23,8 +23,8 @@ JAWS DAYS での発表の朝を迎えて、発表者 lulzneko は絶望してい
 2019年2月23日に開催された JAWS DAYS 2019 で『AWS x JAMStack で構築・運用するサーバーレスな Web Front』と題して JAMStack にまつわる発表をしました。その発表の舞台裏ということで、発表者が当日何をしていたのかを綴ります。
 
 **シリーズの記事**
-- [JAWS DAYS 2019 で AWS x JAMStack なサーバーレス Web Front について発表をしました](/articles/2019/03/01/made-presentation-about-jamstack-with-aws-at-jawsdays2019/)
-- [JAWS DAYS 2019 で頂いた QA まとめ](/articles/2019/02/24/summary-of-qa-at-jawsdays2019/)
+- [JAWS DAYS 2019 で AWS x JAMStack なサーバーレス Web Front について発表をしました](https://riotz.works/articles/lulzneko/2019/03/01/made-presentation-about-jamstack-with-aws-at-jawsdays2019/)
+- [JAWS DAYS 2019 で頂いた QA まとめ](https://riotz.works/articles/lulzneko/2019/02/24/summary-of-qa-at-jawsdays2019/)
 - **発表者は、その日何をしていたのか - 発表の舞台裏 JAWS DAYS 2019 編**（本記事）
 
 
@@ -36,7 +36,7 @@ JAWS DAYS での発表の朝を迎えて、発表者 lulzneko は絶望してい
 
 ## 会場入り
 ストーリーとスライドの配置は完成していて、そこに載せる図 [AWS における JAMStack の配置](https://riotz.works/slides/2019-jaws-days#18) の章で使うものが間に合ってなかったレベルなのですが、慌てて PowerPoint を操作する朝から始まりました。
-なんか、前回の [デブサミ舞台裏](/articles/2019/02/15/backstage-of-presentation-at-devsumi-2019-winter/) でも同じことを書いた気がします。
+なんか、前回の [デブサミ舞台裏](https://riotz.works/articles/lulzneko/2019/02/15/backstage-of-presentation-at-devsumi-2019-winter/) でも同じことを書いた気がします。
 
 なお、前日の 22日には発表用資料をうっかり消し飛ばす事故を起こしました。
 慌てるとよくないことがあるので、急ぎつつも作業ミスをしないのが大事です。

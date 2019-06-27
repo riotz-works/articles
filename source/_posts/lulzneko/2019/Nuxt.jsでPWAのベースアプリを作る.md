@@ -19,7 +19,7 @@ tags:
 
 **シリーズの記事**
 - **Nuxt.js で PWA(Progressive Web Apps) のベースアプリを作る** (本記事)
-- [Nuxt.js PWA(Progressive Web Apps) のベースアプリをTypeScript対応する](https://riotz.works/articles/2019/05/10/typescripting-base-app-of-nuxtjs-pwa/)
+- [Nuxt.js PWA(Progressive Web Apps) のベースアプリをTypeScript対応する](https://riotz.works/articles/lulzneko/2019/05/10/typescripting-base-app-of-nuxtjs-pwa/)
 
 **環境**
 本記事の開発環境は以下となります。
@@ -86,14 +86,14 @@ Vue.js は強力なフレームワークですが、あらゆるウェブサイ�
 - TypeScript 化
 
 今回は PWA アプリで、SPA の JAMStack で作成します。SSR(Universal) にするとサーバーサイドの処理を同時に実装できるので便利ですが、SEO 重視で CGM(Consumer Generated Media) や変化の激しいコンテンツでもない限り JAMStack にして、フロントとサーバーサイドは分離し Web API 経由でデータアクセスするほうが良いでしょう。
-詳しくは [JAWS DAYS 2019 で AWS x JAMStack な、サーバーレス Web Front について発表をしました](/articles/2019/03/01/made-presentation-about-jamstack-with-aws-at-jawsdays2019/) をご参照ください。
+詳しくは [JAWS DAYS 2019 で AWS x JAMStack な、サーバーレス Web Front について発表をしました](https://riotz.works/articles/lulzneko/2019/03/01/made-presentation-about-jamstack-with-aws-at-jawsdays2019/) をご参照ください。
 
 [TypeScript](https://www.typescriptlang.org/) は JavaScript に型定義とクラスを導入する AltJS のプログラミング言語(正確にはスーパーセット)です。型定義を導入することで開発効率や不具合回避ができるため注目されており、最近で導入されるケースが多いようです。今回はゼロから作るので導入しておきます。
 ※ Nuxt.js は、バージョン 2.6 からオフィシャルに TypeScript 対応したのですが、2019年5月現在 CLI から簡単に導入できないため詳細は次回の記事で書きます。
 
 2019年5月10日追記
 書きました！
-⇒ [Nuxt.js PWA(Progressive Web Apps) のベースアプリをTypeScript対応する](https://riotz.works/articles/2019/05/10/typescripting-base-app-of-nuxtjs-pwa/)
+⇒ [Nuxt.js PWA(Progressive Web Apps) のベースアプリをTypeScript対応する](https://riotz.works/articles/lulzneko/2019/05/10/typescripting-base-app-of-nuxtjs-pwa/)
 
 
 ### プロジェクトの作成
@@ -239,7 +239,7 @@ TypeScript 対応しても、ページ単位で TypeScript/JavaScript を切り�
 
 2019年5月10日追記
 書きました！
-⇒ [Nuxt.js PWA(Progressive Web Apps) のベースアプリをTypeScript対応する](https://riotz.works/articles/2019/05/10/typescripting-base-app-of-nuxtjs-pwa/)
+⇒ [Nuxt.js PWA(Progressive Web Apps) のベースアプリをTypeScript対応する](https://riotz.works/articles/lulzneko/2019/05/10/typescripting-base-app-of-nuxtjs-pwa/)
 
 本文中で紹介しました SPAJAM は「2019 予選」が **募集中** です。本記事で PWA のアプリはできたも同然、ぜひハッカソンで試してみましょう！
 Riotz.works は「東京A予選」でエントリー中です。チーム名「Riotz.works、進撃のPWA」と、今回こそ PWA で最優秀賞を目指します！！(エントリー結果が出てないので参戦できるかは決まってません)

@@ -38,7 +38,7 @@ Web API をはじめ、ウェブでリクエストを受け取る機能を作っ
 その「型チェック」ですが色々なやり方があります。各リクエストパラメーターごとにチェックの関数を呼び出したり、リクエストパラメーターに対応するクラスを定義してデコレーター(アノテーション)を付けたり。ｚ
 今回 [Validate Typescript](https://github.com/Grant-Zietsman/validate-typescript) に着目したのは "スキーマベース" という点で、スキーマをコード内のオブジェクトで渡せるところが良いと思い使ってみることにしました。
 
-こちらのライブラリを使おうとしたところ、インストールエラーが出てしまってプルリクを出して直してもらったことがありました。詳しくは「[Validate Typescript に インストールエラーの修正についてのプルリクを送る](https://riotz.works/articles/2019/03/13/pull-request-to-validate-typescript-about-installation-errors/)」の記事になります。こうしてプルリクで改修や機能の提案できるのが OSS のよいところですね。
+こちらのライブラリを使おうとしたところ、インストールエラーが出てしまってプルリクを出して直してもらったことがありました。詳しくは「[Validate Typescript に インストールエラーの修正についてのプルリクを送る](https://riotz.works/articles/lulzneko/2019/03/13/pull-request-to-validate-typescript-about-installation-errors/)」の記事になります。こうしてプルリクで改修や機能の提案できるのが OSS のよいところですね。
 
 
 ## Validate TypeScript のインストールとサンプルコード

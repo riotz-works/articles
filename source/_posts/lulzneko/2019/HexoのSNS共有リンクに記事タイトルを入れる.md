@@ -15,7 +15,7 @@ tags:
 
 ![](/articles/assets/lulzneko/serverless/hexo/hexo.png)
 
-これまで「[SNS 共有リンクをダイアログから展開](https://riotz.works/articles/2019/04/11/improve-sns-shared-links-usability-of-hexo-used-in-blog/)」したり、「[はてなブックのリンクを追加](https://riotz.works/articles/2019/04/10/add-hatena-bookmark-to-sns-share-link-of-hexo-used-in-blog/)」したりと強化してきました。
+これまで「[SNS 共有リンクをダイアログから展開](https://riotz.works/articles/lulzneko/2019/04/11/improve-sns-shared-links-usability-of-hexo-used-in-blog/)」したり、「[はてなブックのリンクを追加](https://riotz.works/articles/lulzneko/2019/04/10/add-hatena-bookmark-to-sns-share-link-of-hexo-used-in-blog/)」したりと強化してきました。
 今回、ブログメンターの [カック@ブロガー / k9u(@kakakakakku)さん](https://twitter.com/kakakakakku) から、ツイートボタンにタイトルが入ってないことを教えていただき、確認したところ URL だけが入っていることが確認できました。この部分を改善します。
 
 

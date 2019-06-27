@@ -20,7 +20,7 @@ Git のソースコード管理の除外指定する .gitignore。ときどき�
 
 
 ## gitignore.io での扱い
-以前、本ブログで紹介した「[.gitignore は、生成サービス gitignore.io を使って作ろう！](https://riotz.works/articles/2019/06/18/lets-create-gitignore-using-generation-service-gitignoreio/)」の [gitignore.io](https://www.gitignore.io/) は、さまざまな環境の .gitignore に対応しています。
+以前、本ブログで紹介した「[.gitignore は、生成サービス gitignore.io を使って作ろう！](https://riotz.works/articles/lulzneko/2019/06/18/lets-create-gitignore-using-generation-service-gitignoreio/)」の [gitignore.io](https://www.gitignore.io/) は、さまざまな環境の .gitignore に対応しています。
 
 たとえば [Windows の定義](https://www.gitignore.io/api/windows) では `[Dd]esktop.ini` などが設定されています。もちろん [macOS 版](https://www.gitignore.io/api/macos) もありますし、[Linux 版](https://www.gitignore.io/api/linux) もあります。また Java のビルドツール [Maven](https://www.gitignore.io/api/maven) や、IDE の [Visual Studio](https://www.gitignore.io/api/visualstudio) などといったツールに関するものもあります。
 
