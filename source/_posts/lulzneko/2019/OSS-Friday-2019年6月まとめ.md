@@ -124,6 +124,6 @@ Plugin が使っている [Browsersync](https://www.browsersync.io/) も、タ�
 
 ６月は Readify/httpstatus の新しい HTTP Status 対応があったので多くのプルリクが出せましたが、実際には１件出すのが精いっぱい、週によってはプルリクを出すことさえ難しいかなというのが正直な感想です。
 
-それでも Issues を眺めたり、コメントを返したりと、まずは日頃お世話になっている OSS へ意識を向けることができれば、まずは良いのではないでしょうか。
+それでも Issues を眺めたり、コメントを返したりと、まずは日頃お世話になっている OSS へ意識を向けることができればよいのではないでしょうか。
 
 🚲 Let's enjoy [OSS-Friday](https://opensourcefriday.com/) !!
