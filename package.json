@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "hexo": {
-    "version": "3.9.0"
+    "version": "3.8.0"
   },
   "dependencies": {
     "hexo": "^3.9.0",
@@ -33,7 +33,7 @@
   "scripts": {
     "clean": "npx rimraf db.json dist hexo-popular-related-posts-cached.json rankingSheet.txt",
     "setup": "yarn install --ignore-optional",
-    "dev": "node -r dotenv/config node_modules/hexo-cli/bin/hexo server",
+    "dev": "node -r dotenv/config node_modules/hexo-cli/bin/hexo server --drafts",
     "build": "yarn clean && hexo generate",
     "deploy": "hexo deploy"
   },
