@@ -1,7 +1,6 @@
 ---
 title: AWS で静的ウェブサイトをホスティングするための構成（S3 + CloudFront）
 permalink: hosting-static-web-page-on-aws-with-s3-and-cloudfront
-alias: /2019/07/05/hosting-static-web-page-on-aws-with-s3-and-cloudfront/index.html
 date: 2019-07-05
 author: lopburny
 categories: サーバーレス
@@ -128,7 +127,7 @@ aws s3 sync {リリース対象のディレクトリ} s3://{バケット名} --r
 引き続き、このパターンを用いた
 <br />
 - 独自ドメインとSSL/TLS証明書を利用する
-- AWS WAF を使用して IP ホワイトリストによるアクセス制御を行う
+- [AWS WAF を使用して IP ホワイトリストによるアクセス制御を行う](/articles/lopburny/2019/07/12/configuring-ip-address-access-control-with-aws-waf/)
 - Lambda@Edge を使用してベーシック認証をかける
 - カスタムエラーページを指定する
 
