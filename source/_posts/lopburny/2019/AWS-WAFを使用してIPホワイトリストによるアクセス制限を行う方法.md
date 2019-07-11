@@ -40,7 +40,8 @@ Create web ACL を選択すると以下の画面が表示されます。
 
 - Web ACL name を入力します。
 - Region については、「Global（CloudFront）」を指定します。
-- AWS resources to associate で関連付ける AWS リソースを指定することができます。ここですでに作成済みの CloudFront ディストリビューションを指定しても OK ですが、この記事では別途 CloudFront のコンソールから指定することにします。
+
+※ AWS resources to associate で関連付ける AWS リソースを指定することができます。ここですでに作成済みの CloudFront ディストリビューションを指定しても OK ですが、この記事では別途 CloudFront のコンソールから指定することにします。
 
 「Next」をクリックして次の設定に移ります。
 
