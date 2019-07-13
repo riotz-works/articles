@@ -1,5 +1,5 @@
 ---
-title: #Go_SaaS 三種の神器オンボーディングセミナー #1 〜東京〜 参加レポート
+title: Go_SaaS 三種の神器オンボーディングセミナー 1 〜東京〜 参加レポート
 permalink: take-seminar-on-go-saas1-in-tokyo
 date: 2019-07-09
 author: lulzneko
