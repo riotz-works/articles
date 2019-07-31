@@ -31,7 +31,7 @@ https://github.com/vuetifyjs/vuetify/issues/4302
 
 この問題、実は Vuetify に限った話ではなく、前からある Implicit submission （暗黙の submit）という HTML の仕様によるもので、バグということではありません。  
 
-具体的にはデフォルトボタンによる submit が適用される場合で、入力中に Enter キーが押下されたことで submit イベントが発火します。HTML の仕様書を読んでみると多少ややこしい記述にはなっていますが、少し抜粋して要約・補足すると下記のようになります。  
+具体的にはデフォルトボタンによる submit が適用される場合で、入力中に Enter キーによって submit イベントが発火します。HTML の仕様書を読んでみると多少ややこしい記述にはなっていますが、少し抜粋して要約・補足すると下記のようになります。  
 🔗https://html.spec.whatwg.org/multipage/form-control-infrastructure.html#implicit-submission
 
 > If the form has no submit button, then the implicit submission mechanism must do nothing if the form has more than one field that blocks implicit submission, and must submit the form element from the form element itself otherwise.
@@ -90,7 +90,7 @@ CodePen のサンプルはこちらです。
 form 要素の submit イベントを抑制し、ボタンを押したときのクリックイベントで対応する形です。
 
 しかし、あえて Enter キーを押した場合に submit イベントを発火したいということもあります。
-Vuetify の場合、v-form コンポーネントと各入力要素の rule 属性によるバリデーションを実装することもあるので、このケースはあまりないかと思いますが、一応上記に加え下記のように対応することで実現できます。
+Vuetify の場合、v-form コンポーネントと各入力要素の rule 属性によるバリデーションを実装することが多いので、このケースはあまりないかと思いますが、一応上記に加え下記のように対応することで実現できます。
 
 ```html
 <v-text-field @keyup.enter="customMethod()"></v-text-field>
