@@ -21,7 +21,7 @@ v-form の中に一つの v-text-field を配置し、フォーカスを当て�
 <br>
 
 - [Bug Report] v-form with single v-text-input submits on enter
-https://github.com/vuetifyjs/vuetify/issues/3032)  
+https://github.com/vuetifyjs/vuetify/issues/3032  
 
 - [Bug Report] v-form reloads the page when user press enter while editing v-text-field
 https://github.com/vuetifyjs/vuetify/issues/4302  
