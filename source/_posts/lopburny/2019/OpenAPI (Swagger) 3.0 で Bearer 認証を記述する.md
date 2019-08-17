@@ -1,5 +1,5 @@
 ---
-title: OpenAPI (Swagger) 3.0 で Bearer トークンの使用を記述する
+title: OpenAPI (Swagger) 3.0 で Bearer トークンの使用を定義する
 permalink: describe-bearer-scheme-in-openapi-3
 date: 2019-08-17
 author: lopburny
