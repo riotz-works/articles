@@ -6,6 +6,8 @@ author: lopburny
 categories: 開発
 tags:
 - OpenAPI
+- Swagger
+- WebAPI
 - AWS
 - CircleCI
 - Git
