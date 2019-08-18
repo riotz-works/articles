@@ -10,7 +10,7 @@ tags:
 - WebAPI
 ---
 
-Bearer トークンを使用して WebAPI 呼び出しをする場合、Open API (Swagger) 3.0 ではどのように記述するのでしょうか。
+Bearer トークンを使用して WebAPI 呼び出しをする場合、OpenAPI (Swagger) 3.0 ではどのように記述するのでしょうか。
 
 ![](/articles/assets/lopburny/img/lopburny_blog_7_thumbnail.jpg)
 
