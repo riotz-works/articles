@@ -1,4 +1,4 @@
-<% if (post.categories && post.categories.length){ %>
+<% if (config.authors[post.author]){ %>
   <div class="article-author">
       <% if (post.author){ %>
         <% if (!config.authors[post.author]){ %>
