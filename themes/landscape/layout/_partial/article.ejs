@@ -1,8 +1,9 @@
 <article id="<%= post.layout %>-<%= post.slug %>" class="article article-type-<%= post.layout %>" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <%- partial('post/date', {class_name: 'article-date', date_format: null}) %>
+      <%- partial('post/photo') %>
+      <%- partial('post/author') %>
+      <%- partial('post/date', {class_name: 'article-date', date_format: null}) %>
     <%- partial('post/category') %>
-    <%- partial('post/author') %>
   </div>
   <div class="article-inner">
     <%- partial('post/gallery') %>
