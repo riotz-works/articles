@@ -10,6 +10,8 @@ tags:
 - Gridsome
 - Nuxt.js
 - Hexo
+- Shifter
+- WordPress
 ---
 
 ![](/articles/assets/lulzneko/seminar/shifter/shifter.png)
@@ -19,6 +21,7 @@ tags:
 WordPress コンテンツ作成管理 ＋ スタティック・サイト・ジェネレーター ウェブ生成 ＋ Shifter 運用管理な構成っていかがでしょう？
 
 **シリーズの記事**
+- [Shiftup! JP_Getshifter Vol5！ にて「Shifter ＋ SSG の世界」について発表をしました](https://riotz.works/articles/lulzneko/2019/08/21/made-presentation-about-shifter-with-ssg-at-shiftup-vol5/)
 - [Shiftup! JP_Getshifter Vol3！ で JAMStack な サーバーレス ウェブフロント に ついて発表をしました](https://riotz.works/articles/lulzneko/2019/04/05/made-presentation-about-jamstack-at-shiftup-vol3/)
 - [Shiftup! JP_Getshifter Vol3！ 参加レポート](https://riotz.works/articles/lulzneko/2019/04/03/take-seminar-on-shiftup-vol3/)
 - **Shiftup! JP_Getshifter Vol3！ 振り返り、Shifter のヘッドレス CMS 化に思いを馳せる** (本記事)

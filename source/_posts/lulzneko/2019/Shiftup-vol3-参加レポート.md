@@ -8,6 +8,8 @@ categories: レポート
 tags:
 - JAMStack
 - Gridsome
+- Shifter
+- WordPress
 ---
 
 ![](/articles/assets/lulzneko/seminar/shifter/shifter.png)
@@ -21,6 +23,7 @@ tags:
 [4/3 Shifterミートアップ はじめてのスタティックサイト ジェネレーター まとめ - Togetter](https://togetter.com/li/1334730)
 
 **シリーズの記事**
+- [Shiftup! JP_Getshifter Vol5！ にて「Shifter ＋ SSG の世界」について発表をしました](https://riotz.works/articles/lulzneko/2019/08/21/made-presentation-about-shifter-with-ssg-at-shiftup-vol5/)
 - [Shiftup! JP_Getshifter Vol3！ で JAMStack な サーバーレス ウェブフロント に ついて発表をしました](https://riotz.works/articles/lulzneko/2019/04/05/made-presentation-about-jamstack-at-shiftup-vol3/)
 - **Shiftup! JP_Getshifter Vol3！ 参加レポート** (本記事)
 - [Shiftup! JP_Getshifter Vol3！ 振り返り、Shifter の HeadlessCMS 化 に 思いを馳せる](https://riotz.works/articles/lulzneko/2019/04/06/think-of-shifters-headlesscms-nize-on-shiftup-vol3)
