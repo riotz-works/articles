@@ -1273,10 +1273,10 @@ ee-first@1.1.1:
   resolved "https://registry.yarnpkg.com/ee-first/-/ee-first-1.1.1.tgz#590c61156b0ae2f4f0255732a158b266bc56b21d"
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
-ejs@^2.3.4:
-  version "2.6.1"
-  resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.6.1.tgz#498ec0d495655abc6f23cd61868d926464071aa0"
-  integrity sha512-0xy4A/twfrRCnkhfk8ErDi5DqdAsAqeGxht4xkCUrsvhhbQNs7E+4jV0CN7+NKIY0aHE72+XvqtBIXzD31ZbXQ==
+ejs@^2.6.1:
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/ejs/-/ejs-2.7.1.tgz#5b5ab57f718b79d4aca9254457afecd36fa80228"
+  integrity sha512-kS/gEPzZs3Y1rRsbGX4UOSjtP/CeJP0CxSNZHYxGfVM/VgLcv0ZqM7C45YyTj2DI2g7+P9Dd24C+IMIg6D0nYQ==
 
 encodeurl@~1.0.1, encodeurl@~1.0.2:
   version "1.0.2"
@@ -2073,13 +2073,12 @@ hexo-related-popular-posts@^3.0.6:
     mkdirp "^0.5.1"
     moment "^2.19.1"
 
-hexo-renderer-ejs@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/hexo-renderer-ejs/-/hexo-renderer-ejs-0.3.1.tgz#c0c1a3757532d47e5b7d9dc908b5dfd98c94be2c"
-  integrity sha512-XN8pYJU+Wr3dT8ipqEPRlOBySJpd1C5NUBBzgZpVSVBC/6L36O0YZI/Qd5NxQqwfGfSuKQ8N5iMyjmRXSR1MdA==
+hexo-renderer-ejs@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-renderer-ejs/-/hexo-renderer-ejs-1.0.0.tgz#43c4de49eeae224036a457df860eb1c14c68b4b4"
+  integrity sha512-O925i69FG4NYO62oWORcPhRZZX0sPx1SXGKUS5DaR/lzajyiXH5i2sqnkj0ya0rNLXIy/D7Xmt7WbFyuQx/kKQ==
   dependencies:
-    ejs "^2.3.4"
-    object-assign "^4.0.1"
+    ejs "^2.6.1"
 
 hexo-renderer-marked@^2.0.0:
   version "2.0.0"
