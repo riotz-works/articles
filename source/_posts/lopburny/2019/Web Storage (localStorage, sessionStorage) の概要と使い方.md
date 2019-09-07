@@ -151,8 +151,8 @@ const parsed2 = JSON.parse(item4); // {"name":"John","age":20}
 // Storage.removeItem(key)
 // Storage.clear()
 
-localStorage.removeItem('dummy_key')
-sessionStorage.removeItem('dummy_key')
+localStorage.removeItem('dummy_key');
+sessionStorage.removeItem('dummy_key');
 
 // すべて削除する
 localStorage.clear();
