@@ -8,13 +8,13 @@ categories: フロントエンド
 tags:
 - Nuxt.js
 - PWA
-- JAMStack
+- JAMstack
 - TypeScript
 - GitHub
 - CircleCI
 ---
 
-Nuxt.js を使うことで手軽に PWA なアプリを作ることができます。そして開発した PWA を世に出すためには、サーバー環境へデプロイする必要があります。Nuxt.js を SPA の JAMStack な作りにしている場合は、ウェブサイトをホスティングできる環境であれば、どこでも大丈夫です。今回は GitHub Pages でホスティングをします。
+Nuxt.js を使うことで手軽に PWA なアプリを作ることができます。そして開発した PWA を世に出すためには、サーバー環境へデプロイする必要があります。Nuxt.js を SPA の JAMstack な作りにしている場合は、ウェブサイトをホスティングできる環境であれば、どこでも大丈夫です。今回は GitHub Pages でホスティングをします。
 
 ![](/articles/assets/lulzneko/develop/nuxtjs/nuxtjs.png)
 

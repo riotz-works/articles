@@ -6,7 +6,7 @@ date: 2019-04-03
 author: lulzneko
 categories: レポート
 tags:
-- JAMStack
+- JAMstack
 - Gridsome
 - Shifter
 - WordPress
@@ -17,14 +17,14 @@ tags:
 
 2019年4月3日に開催された「Shiftup! JP_Getshifter Vol3！はじめてのスタティックサイトジェネレーター」に参加したのでレポートです。
 
-私も「JAMStack で構築・運用するサーバーレスなWeb Front」で発表をさせていただきましたが発表レポートの記事は別途。
+私も「JAMstack で構築・運用するサーバーレスなWeb Front」で発表をさせていただきましたが発表レポートの記事は別途。
 
 当日の様子まとめ
 [4/3 Shifterミートアップ はじめてのスタティックサイト ジェネレーター まとめ - Togetter](https://togetter.com/li/1334730)
 
 **シリーズの記事**
 - [Shiftup! JP_Getshifter Vol5！ にて「Shifter ＋ SSG の世界」について発表をしました](https://riotz.works/articles/lulzneko/2019/08/21/made-presentation-about-shifter-with-ssg-at-shiftup-vol5/)
-- [Shiftup! JP_Getshifter Vol3！ で JAMStack な サーバーレス ウェブフロント に ついて発表をしました](https://riotz.works/articles/lulzneko/2019/04/05/made-presentation-about-jamstack-at-shiftup-vol3/)
+- [Shiftup! JP_Getshifter Vol3！ で JAMstack な サーバーレス ウェブフロント に ついて発表をしました](https://riotz.works/articles/lulzneko/2019/04/05/made-presentation-about-jamstack-at-shiftup-vol3/)
 - **Shiftup! JP_Getshifter Vol3！ 参加レポート** (本記事)
 - [Shiftup! JP_Getshifter Vol3！ 振り返り、Shifter の HeadlessCMS 化 に 思いを馳せる](https://riotz.works/articles/lulzneko/2019/04/06/think-of-shifters-headlesscms-nize-on-shiftup-vol3)
 
@@ -60,7 +60,7 @@ Shifter の紹介やユーザーさんの話ほか、クラウドやサーバー
 - 情報共有
   利用の仕方、メリット、注意ポイント、アップデート情報などを共有する。
 - ディスカッション・課題解決
-  スタティックサイト？JAMStack？サーバーレス？などの旬の情報から、Shifter の改善、機能リクエストなど。Shifter はコミュニティドリブンで機能が追加されている。
+  スタティックサイト？JAMstack？サーバーレス？などの旬の情報から、Shifter の改善、機能リクエストなど。Shifter はコミュニティドリブンで機能が追加されている。
 
 
 **Shifter の紹介**
@@ -69,8 +69,8 @@ Shifter の紹介やユーザーさんの話ほか、クラウドやサーバー
 ![](/articles/assets/lulzneko/seminar/shifter/03-03.jpg)
 
 コンセプト
-"JAMStack にヒントを得て WordPress でやることを考えた" とのこと。
-とうの JAMStack の人たちから、WordPress は JAMStack ではないといわれているが、それを実現してるのが Shifter。このコンセプトはおもしろいです。
+"JAMstack にヒントを得て WordPress でやることを考えた" とのこと。
+とうの JAMstack の人たちから、WordPress は JAMstack ではないといわれているが、それを実現してるのが Shifter。このコンセプトはおもしろいです。
 
 なぜ、このようなサービスを提供しているのかというと "価値あることだけに集中する！" ため。
 WordPress はツールであり、WordPress 自体を使いたくて使っているわけではない。WordPress を使って価値あることをやりたくて使っているとのこと。

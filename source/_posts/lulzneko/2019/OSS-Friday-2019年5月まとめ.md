@@ -53,8 +53,8 @@ OSS-Friday のページで GitHub のアカウント連携すると自分のペ�
 本質的ではないですが、気になったのでプルリクを出すことにしました。
 
 **関連コンテンツ**
-- [Gridsome で作る JAMStack な サーバーレス Web Front | Slides | Riotz.works](https://riotz.works/slides/2019-javascript-matsuri/#1)
-- [初夏のJavaScript祭にて「Gridsome で作る JAMStack なサーバーレス Web Front」の発表をしました | Articles | Riotz.works](https://riotz.works/articles/lulzneko/2019/06/01/made-presentation-about-jamstack-with-gridsome-at-javascript-matsuri/)
+- [Gridsome で作る JAMstack な サーバーレス Web Front | Slides | Riotz.works](https://riotz.works/slides/2019-javascript-matsuri/#1)
+- [初夏のJavaScript祭にて「Gridsome で作る JAMstack なサーバーレス Web Front」の発表をしました | Articles | Riotz.works](https://riotz.works/articles/lulzneko/2019/06/01/made-presentation-about-JAMstack-with-gridsome-at-javascript-matsuri/)
 - [初夏のJavaScript祭にて発表した Gridsome のサンプルアプリ実装解説 | Articles | Riotz.works](https://riotz.works/articles/lulzneko/2019/06/03/demo-app-implementation-commentary-presented-at-javascript-matsuri/)
 
 

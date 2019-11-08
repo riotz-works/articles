@@ -6,12 +6,12 @@ date: 2019-06-03
 author: lulzneko
 categories: 開発
 tags:
-- JAMStack
+- JAMstack
 - Gridsome
 - Nuxt.js
 ---
 
-2019年6月1日の「初夏のJavaScript祭 in メンバーズキャリア」で『Gridsome で作る JAMStack なサーバーレス Web Front』の発表をした際にデモしました Gridsome のアプリについて実装を紹介します。
+2019年6月1日の「初夏のJavaScript祭 in メンバーズキャリア」で『Gridsome で作る JAMstack なサーバーレス Web Front』の発表をした際にデモしました Gridsome のアプリについて実装を紹介します。
 
 ![](/articles/assets/lulzneko/develop/gridsome/gridsome.png)
 
@@ -208,7 +208,7 @@ GitHub Pages にホスティングもしました。動作している状態を�
 当日の発表資料と、サマリーの記事はこちらです。
 もしよかったら、ご参照ください。
 
-『[Gridsome で作る JAMStack な サーバーレス Web Front](https://riotz.works/slides/2019-javascript-matsuri)』の発表資料はこちらになります。(下記、スライド埋め込み)
+『[Gridsome で作る JAMstack な サーバーレス Web Front](https://riotz.works/slides/2019-javascript-matsuri)』の発表資料はこちらになります。(下記、スライド埋め込み)
 <div class="slide"><iframe src="https://riotz.works/slides/2019-javascript-matsuri"></iframe></div>
 
 また発表のサマリー記事は、こちらになります。

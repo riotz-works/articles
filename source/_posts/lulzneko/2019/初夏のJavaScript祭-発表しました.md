@@ -1,19 +1,19 @@
 ---
-title: 初夏のJavaScript祭 in メンバーズキャリアにて「Gridsome で作る JAMStack なサーバーレス Web Front」の発表をしました
+title: 初夏のJavaScript祭 in メンバーズキャリアにて「Gridsome で作る JAMstack なサーバーレス Web Front」の発表をしました
 permalink: made-presentation-about-jamstack-with-gridsome-at-javascript-matsuri
 alias: /2019/06/01/made-presentation-about-jamstack-with-gridsome-at-javascript-matsuri/index.html
 date: 2019-06-01
 author: lulzneko
 categories: プレゼンテーション
 tags:
-- JAMStack
+- JAMstack
 - Gridsome
 - Nuxt.js
 - Hexo
 - AWS
 ---
 
-2019年6月1日に開催された「初夏のJavaScript祭 in メンバーズキャリア」で『Gridsome で作る JAMStack なサーバーレス Web Front』と題して、JAMStack の世界と、Gridsome 導入について発表しました。その発表サマリーです。
+2019年6月1日に開催された「初夏のJavaScript祭 in メンバーズキャリア」で『Gridsome で作る JAMstack なサーバーレス Web Front』と題して、JAMstack の世界と、Gridsome 導入について発表しました。その発表サマリーです。
 
 ![](/articles/assets/lulzneko/presentation/javascript-matsuri/javascript-matsuri.png)
 
@@ -25,18 +25,18 @@ tags:
 
 
 ## 発表資料
-『[Gridsome で作る JAMStack な サーバーレス Web Front](https://riotz.works/slides/2019-javascript-matsuri)』の発表資料はこちらになります。(下記、スライド埋め込み)
+『[Gridsome で作る JAMstack な サーバーレス Web Front](https://riotz.works/slides/2019-javascript-matsuri)』の発表資料はこちらになります。(下記、スライド埋め込み)
 <div class="slide"><iframe src="https://riotz.works/slides/2019-javascript-matsuri"></iframe></div>
 
 
 ## サマリー
-発表の主旨は「JAMStack は JavaScript 祭り！、JavaScript から JAMStack を広めよう！！」です。
+発表の主旨は「JAMstack は JavaScript 祭り！、JavaScript から JAMstack を広めよう！！」です。
 
-「JAMStack、好きだよね」と言われそうなほど JAMStack で発表させていただいていますが、前回の [Serverless Meetup Tokyo 12 にて「サーバーレスなウェブフロントを実現する JAMStack」について発表](https://riotz.works/articles/lulzneko/2019/05/27/made-presentation-about-jamstack-at-serverless-meetup-tokyo-12/) でふれました通り、「フロントも含めて、まるっとサーバーレスにしたい」のです。それを実現できるのが JAMStack です。
+「JAMstack、好きだよね」と言われそうなほど JAMstack で発表させていただいていますが、前回の [Serverless Meetup Tokyo 12 にて「サーバーレスなウェブフロントを実現する JAMstack」について発表](https://riotz.works/articles/lulzneko/2019/05/27/made-presentation-about-jamstack-at-serverless-meetup-tokyo-12/) でふれました通り、「フロントも含めて、まるっとサーバーレスにしたい」のです。それを実現できるのが JAMstack です。
 
 
-### JAMStack とは
-では、JAMStack とは何でしょうか。
+### JAMstack とは
+では、JAMstack とは何でしょうか。
 ![](/articles/assets/lulzneko/presentation/javascript-matsuri/02.png)
 
 「クライアントサイド JavaScript」「再利用可能な API」「構築済みのマークアップ」で構築されたサイトのことで、ざっくり言うと HTML に静的化されたされたサイトで、動的要素はブラウザ上の JavaScript から Web API を呼び出す形にしましょうというものになります。
@@ -44,13 +44,13 @@ tags:
 これによって、すべてを CDN に配置できるので、素晴らしいパフォーマンスとスケーラビリティを手に入れることができます。そして HTML が CDN にあるだけなので攻撃対象を局所化できセキュリティを高めることができます。
 また開発者の視点として、サーバー内のロジックとテンプレートエンジンが分離できます。これは表示部分とデータについて役割を明確に分離できます。役割が明確なのは開発において重要です。
 
-そんな JAMStack なサイトを作るには「構築済みのマークアップ」を用意します。これは Static Site Generator(SSG) を使います。メジャーな Static Site Generator は [StaticGen | Top Open Source Static Site Generators](https://www.staticgen.com/) から探すことができます。さまざまな Static Site Generator があるので、開発言語やフレームワークに合わせて選べます。
+そんな JAMstack なサイトを作るには「構築済みのマークアップ」を用意します。これは Static Site Generator(SSG) を使います。メジャーな Static Site Generator は [StaticGen | Top Open Source Static Site Generators](https://www.staticgen.com/) から探すことができます。さまざまな Static Site Generator があるので、開発言語やフレームワークに合わせて選べます。
 
 その中でも私たちがよく使っているのは以下です。
 - [Nuxt.js](https://nuxtjs.org/) - Vue.js ベース、アプリのフレームとして使いやすい
 - [Gridsome](https://gridsome.org/) - 同じく Vue.js ベースで、完全に静的化した情報発信サイトに向いている
 
-JAMStack の "**J**" は、JavaScript の "J"。そして **A**PI も、**M**arkdown も、JavaScript 作ることができるので、まさに JAMStack = JavaScript だったりします。そんなお話から、JavaScript 好きの皆さんと JAMStack で盛り上がりたいとのことで今回の発表に至りました。
+JAMstack の "**J**" は、JavaScript の "J"。そして **A**PI も、**M**arkdown も、JavaScript 作ることができるので、まさに JAMstack = JavaScript だったりします。そんなお話から、JavaScript 好きの皆さんと JAMstack で盛り上がりたいとのことで今回の発表に至りました。
 ![](/articles/assets/lulzneko/presentation/javascript-matsuri/01.png)
 
 
@@ -65,7 +65,7 @@ Gridsome で、情報発信サイトを作るパターンです。
 ここのでのポイントは、HTML とは異なるソースを Static Site Generator と組み合わせることで HTML 化してデプロイするという点です。あらかじめ HTML 化してしまうので、実行時に変換する必要がないので高速に動作させることができます。
 
 
-### Gridsome で作る JAMStack サイト
+### Gridsome で作る JAMstack サイト
 アーキテクチャ図で出てきた Gridsome について、具体的な使い方を紹介します。
 
 [Gridsome](https://gridsome.org/) は、Vue.js ベースのモダンで高速なウェブサイトを構築するためのフレームワークです。
@@ -86,10 +86,10 @@ Gridsome で、情報発信サイトを作るパターンです。
 ※ 猫の写真は [アメショっす！](http://ameshossu.blog58.fc2.com/) さんの [Instagram](https://www.instagram.com/ameshossumomo/) をお借りしました。私の SNS アイコンの猫さんも [アメショっす！](http://ameshossu.blog58.fc2.com/) さんに許可をいただいて使わせて頂いているものになります。ありがとうございす 😸
 
 
-### JAMStack の可能性
-基本的には、どのようなサイトでも JAMStack で作れると考えています。
-ただし、どうにもならないのが１つ、**SEO/OGP 重視で変化の激しいコンテンツ**。これは JAMStack では、どうにもならないです。SEO/OGP は HTML で `<meta>` タグを設定する必要があります。JAMStack では HTML を事前ビルドする必要があるので、変化が激しいとビルドが回り切らない。この場合は Server Side Rendaring(SSR) にしざるを得ないです。
-とはいえ、すべてがすべて SEO/OGP 重視で変化が激しいわけではないので、まずは JAMStack で作ることを考えるとよいでしょう。
+### JAMstack の可能性
+基本的には、どのようなサイトでも JAMstack で作れると考えています。
+ただし、どうにもならないのが１つ、**SEO/OGP 重視で変化の激しいコンテンツ**。これは JAMstack では、どうにもならないです。SEO/OGP は HTML で `<meta>` タグを設定する必要があります。JAMstack では HTML を事前ビルドする必要があるので、変化が激しいとビルドが回り切らない。この場合は Server Side Rendaring(SSR) にしざるを得ないです。
+とはいえ、すべてがすべて SEO/OGP 重視で変化が激しいわけではないので、まずは JAMstack で作ることを考えるとよいでしょう。
 
 
 ### まとめ
@@ -118,7 +118,7 @@ Gridsome は GraphQL を内蔵しているので別途サーバーを用意す�
 
 JavaScript のコミュニティで、お話させていただきました。
 
-さまざまなツールやライブラリが登場する中で、JAMStack の話は緊張しました。とくに Gridsome の話は、コミッターさんの前の時間で発表という(それでいてブログメンティーの先輩でもある)💦
+さまざまなツールやライブラリが登場する中で、JAMstack の話は緊張しました。とくに Gridsome の話は、コミッターさんの前の時間で発表という(それでいてブログメンティーの先輩でもある)💦
 
 そんな大先輩 [もっと@GatsbyJSとNetlify推し(@mottox2)さん](https://twitter.com/mottox2) の [SSRを検討する際にSSGも検討しませんか？ / ssr or ssg - Speaker Deck](https://speakerdeck.com/mottox2/ssr-or-ssg) の発表。より具体的に SSG の紹介と、SSG で困ったときに "Gatsby => Next.js、Gridsome => Nuxt.js" と移行のパスも説明されています。
 こちらのスライドも必見です！

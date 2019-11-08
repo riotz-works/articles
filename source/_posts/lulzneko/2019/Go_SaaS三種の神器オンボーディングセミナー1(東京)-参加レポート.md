@@ -75,7 +75,7 @@ SaaS化が求められる市場の潮流と本取り組みへの期待
 
 
 ## ユーザー事例紹介: Shifter 開発の舞台裏
-以前、[JAMStack について発表](https://riotz.works/articles/lulzneko/2019/04/05/made-presentation-about-jamstack-at-shiftup-vol3/)させていただいた Shifter さん、偶然にも SaaS のユーザー事例として小賀さんが Shifter の開発についてお話されてました。
+以前、[JAMstack について発表](https://riotz.works/articles/lulzneko/2019/04/05/made-presentation-about-jamstack-at-shiftup-vol3/)させていただいた Shifter さん、偶然にも SaaS のユーザー事例として小賀さんが Shifter の開発についてお話されてました。
 
 小島さんの既存パッケージソフトウェアを SaaS 化する話が、まさに Shifter がたどってきた道でした。
 Shifter の元になる AMIMOTO という WordPress のパッケージがあり、当初は EC2(AMI) として提供していた。それをシングルテナントの SaaS として影響を開始。最終的にマルチテナントの SaaS、Shifter へと。商品から体験へ、ユーザーの価値観が変わってきている。

@@ -5,7 +5,7 @@ date: 2019-08-21
 author: lulzneko
 categories: プレゼンテーション
 tags:
-- JAMStack
+- JAMstack
 - Gridsome
 - Nuxt.js
 - Shifter
@@ -17,7 +17,7 @@ tags:
 ![](/articles/assets/lulzneko/seminar/shifter/shifter.png)
 
 
-第３回のイベント [Shiftup! JP_Getshifter Vol3！ で JAMStack な サーバーレス ウェブフロント に ついて発表](https://riotz.works/articles/lulzneko/2019/04/05/made-presentation-about-jamstack-at-shiftup-vol3/) をした際に、[Shifter](https://www.getshifter.io/japanese/) から SSG(Static Site Generator) でサイト生成できたらよいという話で盛り上がり、[Shiftup! JP_Getshifter Vol3！ 振り返り、Shifter の HeadlessCMS 化に思いを馳せる](https://riotz.works/articles/lulzneko/2019/04/06/think-of-shifters-headlesscms-nize-on-shiftup-vol3) という記事を書きました。
+第３回のイベント [Shiftup! JP_Getshifter Vol3！ で JAMstack な サーバーレス ウェブフロント に ついて発表](https://riotz.works/articles/lulzneko/2019/04/05/made-presentation-about-jamstack-at-shiftup-vol3/) をした際に、[Shifter](https://www.getshifter.io/japanese/) から SSG(Static Site Generator) でサイト生成できたらよいという話で盛り上がり、[Shiftup! JP_Getshifter Vol3！ 振り返り、Shifter の HeadlessCMS 化に思いを馳せる](https://riotz.works/articles/lulzneko/2019/04/06/think-of-shifters-headlesscms-nize-on-shiftup-vol3) という記事を書きました。
 
 そしたら Shifter さんの神対応があり「[Shifter Webhooksで Netlify上のGatsbyサイトにWordPressコンテンツをインポート可能になりました - 株式会社デジタルキューブ](https://www.digitalcube.jp/shifter/4434/)」というアップデートが即だされました。Shifter スゴイ！
 
@@ -25,7 +25,7 @@ tags:
 
 **シリーズの記事**
 - **Shiftup! JP_Getshifter Vol5！ にて「Shifter ＋ SSG の世界」について発表をしました** (本記事)
-- [Shiftup! JP_Getshifter Vol3！ で JAMStack な サーバーレス ウェブフロント に ついて発表をしました](https://riotz.works/articles/lulzneko/2019/04/05/made-presentation-about-jamstack-at-shiftup-vol3/)
+- [Shiftup! JP_Getshifter Vol3！ で JAMstack な サーバーレス ウェブフロント に ついて発表をしました](https://riotz.works/articles/lulzneko/2019/04/05/made-presentation-about-jamstack-at-shiftup-vol3/)
 - [Shiftup! JP_Getshifter Vol3！ 参加レポート](https://riotz.works/articles/lulzneko/2019/04/03/take-seminar-on-shiftup-vol3/)
 - [Shiftup! JP_Getshifter Vol3！ 振り返り、Shifter の HeadlessCMS 化に思いを馳せる](https://riotz.works/articles/lulzneko/2019/04/06/think-of-shifters-headlesscms-nize-on-shiftup-vol3)
 
@@ -58,14 +58,14 @@ tags:
 
 そんな、すごい WordPress の世界ですが少し困り事も。WordPress サイトの立ち上げまでは、ある程度情報があるし楽しめるところもあります。しかしながら、セキュリティ対策は難しい面もありますし、なにより運用段階での各種バージョンアップ対応が大変。ウェブサイトなので、どうしても不特定多数からアクセスされるのでセキュリテ対策と継続的なバージョンアップは必須です。
 
-そうした中、Shifter は "Serverless WordPress"、"JAMStack WordPress" という形で困り事に対処してくれます。
+そうした中、Shifter は "Serverless WordPress"、"JAMstack WordPress" という形で困り事に対処してくれます。
 
 ひとつは、**Serverless WordPress** (または **Managed WordPress** や **WordPress SaaS**)。
 Shifter へサインアップしてサイトを作るだけで WordPress の環境が構築される、そして構築された環境のバージョンアップなどのメンテは Shifter がやってくれる。これにより、どれだけの困り事がなくなるか。
 ![](/articles/assets/lulzneko/seminar/shifter/05-01.png)
 
-もう１つは、**JAMStack WordPress**。
-これも Shifter のスゴイところ。「[JAMstack 公式](https://jamstack.org/)」では、WordPress は JAMSstack ではない "A site built with a server-side CMS like WordPress, Drupal, Joomla, or Squarespace. - [JAMStack](https://jamstack.org/#what)" と言っています。しかしながら Shifter は JAMSstack として実現しています。
+もう１つは、**JAMstack WordPress**。
+これも Shifter のスゴイところ。「[JAMstack 公式](https://jamstack.org/)」では、WordPress は JAMSstack ではない "A site built with a server-side CMS like WordPress, Drupal, Joomla, or Squarespace. - [JAMstack](https://jamstack.org/#what)" と言っています。しかしながら Shifter は JAMSstack として実現しています。
 これによりパフォーマンスとスケーリングを実現し、WordPress として本体をさわる人を限定することでセキュリテ問題を局所化＆**Serverless WordPress**でセキュリティ対策をしています。
 ![](/articles/assets/lulzneko/seminar/shifter/05-02.png)
 
@@ -80,7 +80,7 @@ Shifter へサインアップしてサイトを作るだけで WordPress の環�
 
 
 ### Shifter + SSG の 可能性
-ウェブフロントの世界では JAMSstack という考えが広まりつつあります。詳しくは [JAMStack、それはハイパフォーマンスなウェブフロントを実現するアーキテクチャ](https://riotz.works/articles/lulzneko/2019/01/23/jamstack-an-architecture-to-realize-fine-web-front/) を、ご参照ください。
+ウェブフロントの世界では JAMSstack という考えが広まりつつあります。詳しくは [JAMstack、それはハイパフォーマンスなウェブフロントを実現するアーキテクチャ](https://riotz.works/articles/lulzneko/2019/01/23/jamstack-an-architecture-to-realize-fine-web-front/) を、ご参照ください。
 
 一方で JAMSstack なウェブサイトとはいえデータソースは必要です。JAMSstack が、一番得意なのは情報発信サイト。つまり WordPress のような CMS に投稿された情報発信するようなサイト。
 

@@ -11,18 +11,18 @@ tags:
 - DynamoDB
 - Gridsome
 - Hexo
-- JAMStack
+- JAMstack
 - Serverless Framework
 ---
 
 ![](/articles/assets/lulzneko/presentation/jawsdays-2019/01.png)
 
-JAWS DAYS 2019 で『AWS x JAMStack で構築・運用するサーバーレスな Web Front』のお話をした後に頂きました QA をまとめます。
+JAWS DAYS 2019 で『AWS x JAMstack で構築・運用するサーバーレスな Web Front』のお話をした後に頂きました QA をまとめます。
 
 頂いた質問は要点のみを一般化して書いている部分がります。背景などが入っていないので若干わかりにくい部分がありますが、ご了承ください。
 
 **シリーズの記事**
-- [JAWS DAYS 2019 で AWS x JAMStack なサーバーレス Web Front について発表をしました](https://riotz.works/articles/lulzneko/2019/03/01/made-presentation-about-jamstack-with-aws-at-jawsdays2019/)
+- [JAWS DAYS 2019 で AWS x JAMstack なサーバーレス Web Front について発表をしました](https://riotz.works/articles/lulzneko/2019/03/01/made-presentation-about-JAMstack-with-aws-at-jawsdays2019/)
 - **JAWS DAYS 2019 で頂いた QA まとめ**（本記事）
 - [発表者は、その日何をしていたのか - 発表の舞台裏 JAWS DAYS 2019 編](https://riotz.works/articles/lulzneko/2019/02/23/backstage-of-presentation-at-jawsdays2019/)
 
@@ -65,7 +65,7 @@ Attribute の名前と型、こちらは変えたいとなるとどうにもな�
 - [DynamoDB のベストプラクティス - Amazon DynamoDB](https://docs.aws.amazon.com/ja_jp/amazondynamodb/latest/developerguide/best-practices.html)
 
 
-## 2. WordPress の静的化に JAMStack は有効なの？
+## 2. WordPress の静的化に JAMstack は有効なの？
 ![](/articles/assets/lulzneko/presentation/jawsdays-2019/10.png)
 何件か質問をいただきました。
 
@@ -91,7 +91,7 @@ SSR はブラウザからのリクエストを受けて、サーバー側で HTM
 - セキュリティ、仮に HTML だけを返すとしても AP サーバが存在するので攻撃対象になります
 - スケーラビリティ、AP サーバをスケールするのは大変です
 
-ただし、開発者フレンドリーは、JAMStack としては良いとしていますが、一概に言えないかもしれません。Web API から取得したデータを JavaScript で HTML を変化させるのは開発者によっては苦痛かもしれない。
+ただし、開発者フレンドリーは、JAMstack としては良いとしていますが、一概に言えないかもしれません。Web API から取得したデータを JavaScript で HTML を変化させるのは開発者によっては苦痛かもしれない。
 私は [Vue.js](https://vuejs.org/) や [Nuxt.js](https://nuxtjs.org/) が気に入っていて、JavaScript で値を設定するのは、楽しいです。
 
 ![](/articles/assets/lulzneko/presentation/jawsdays-2019/11.png)
@@ -123,31 +123,31 @@ SSG では CI などを使ってビルドを回す必要があります。これ
 ## 5. JAMstack でも Lambda や DynamoDB は必須なのか？
 ![](/articles/assets/lulzneko/presentation/jawsdays-2019/12.png)
 "俺の満漢全席" を想定されての質問と考えます。
-こちらは JAMStack で作ったアプリ全体像としてのアーキテクチャ図になります。
+こちらは JAMstack で作ったアプリ全体像としてのアーキテクチャ図になります。
 
-JAMStack の要件はざっくり言うと「HTML を事前ビルドして CDN に置くこと」なので、Lambda や DynamoDB は JAMStack とは関係ないものになります。
+JAMstack の要件はざっくり言うと「HTML を事前ビルドして CDN に置くこと」なので、Lambda や DynamoDB は JAMstack とは関係ないものになります。
 
 ![](/articles/assets/lulzneko/presentation/jawsdays-2019/13.png)
-JAMStack の要件だけの図としては "満漢ミニ席" または "WordPress リプレース席" をイメージしていただけるとよいです。
+JAMstack の要件だけの図としては "満漢ミニ席" または "WordPress リプレース席" をイメージしていただけるとよいです。
 "満漢ミニ席" では、ブログなどの情報発信サイトをイメージしていて、記事を Markdown などのファイルに書き、それを HTML として出力、CDN へ配置する形になっています。
 ここには Lambda や DynamoDB は登場しません。純粋にウェブサイトだけになります。
 
 
 ## 6. "俺の満漢全席" で Lambda/DynamoDB は EC2/RDS にしてもよいか？
 ![](/articles/assets/lulzneko/presentation/jawsdays-2019/12.png)
-Lambda/DynamoDB を EC2/RDS へ変えても構いません。JAMStack の要件としては「再利用可能な API」なので、Web API 提供できれば大丈夫です。
+Lambda/DynamoDB を EC2/RDS へ変えても構いません。JAMstack の要件としては「再利用可能な API」なので、Web API 提供できれば大丈夫です。
 
 ですが、せっかくなのでサーバーレスで作ってほしいです。
 
-JAMStack は SSG を使うことで、HTML の生成を事前に行います。
+JAMstack は SSG を使うことで、HTML の生成を事前に行います。
 そして CDN に配置するだけで運用するので、言わばフロントエンドのサーバーレスともいえるでしょう。
 
 Web API をサーバーレスで作ってきても、フロントエンドで SSR するからインスタンスが欲しいとなって、全体でサーバーレスになれなかったケースなどもあり、フロントエンドのサーバーレス化も重要だと思ったことがあります。
 
-CDN に配置するだけのことをサーバーレスと言うのは、ちょっと苦しいですが、全体をサーバーレスで作りたい撮った時に「JAMStack で、フロントもサーバーレスで」って言いたいのもあります。
+CDN に配置するだけのことをサーバーレスと言うのは、ちょっと苦しいですが、全体をサーバーレスで作りたい撮った時に「JAMstack で、フロントもサーバーレスで」って言いたいのもあります。
 
 最後のまとめ「名前が付き、認識されることで、伝わる」はまさにそんな思いからになります。
-むしろ「JAMStack で、フロントもサーバーレスで」って書いたほうが良かったですね。
+むしろ「JAMstack で、フロントもサーバーレスで」って書いたほうが良かったですね。
 
 
 

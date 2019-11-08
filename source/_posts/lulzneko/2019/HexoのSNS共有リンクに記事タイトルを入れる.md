@@ -6,7 +6,7 @@ date: 2019-05-22
 author: lulzneko
 categories: フロントエンド
 tags:
-- JAMStack
+- JAMstack
 - Hexo
 - Visual Studio Code
 ---

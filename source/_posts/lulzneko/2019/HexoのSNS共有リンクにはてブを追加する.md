@@ -6,7 +6,7 @@ date: 2019-04-10
 author: lulzneko
 categories: フロントエンド
 tags:
-- JAMStack
+- JAMstack
 - Hexo
 ---
 
@@ -22,7 +22,7 @@ tags:
 
 ## Hexo とは
 まず、本ブログで使っている [Hexo](https://hexo.io/) を紹介します。
-Hexo は "A fast, simple & powerful blog framework" を謳うブログサイトを作るためのフレームワーク、というかツールです。公式サイトでは言及していませんが JAMStack なサイトを作るための Static Site Generator です。
+Hexo は "A fast, simple & powerful blog framework" を謳うブログサイトを作るためのフレームワーク、というかツールです。公式サイトでは言及していませんが JAMstack なサイトを作るための Static Site Generator です。
 
 Markdown で書いた記事をもとにウェブサイトの HTML を生成し、生成後は静的なサイトとしてデプロイできウェブサーバーだけで運用できます。簡易的なサイトでよければ [GitHub Pages](https://pages.github.com/) が使えますし、[Netlify](https://www.netlify.com/) や [AWS](https://aws.amazon.com/) の S3+CloudFront などでしっかりと運用もできます。
 静的サイトなのでコメント機能は持っていませんが [Disqus](https://disqus.com/) と連携する機能が組み込み済みなので簡単に設置できます。テーマやプラグインが豊富にあり、また日本語での情報も多く使いやすいのが特徴です。

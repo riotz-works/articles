@@ -8,11 +8,11 @@ categories: フロントエンド
 tags:
 - Nuxt.js
 - PWA
-- JAMStack
+- JAMstack
 - TypeScript
 ---
 
-Nuxt.js を使うことで JAMStack なアプリを高速に構築できます。それに加えて Vue.js のフレームワークであるため Vue コンポーネントが使えるというメリットがあります。UI のパーツをコンポーネントとして切り出すことで実装をシンプルにし、また再利用性を高めることができます。
+Nuxt.js を使うことで JAMstack なアプリを高速に構築できます。それに加えて Vue.js のフレームワークであるため Vue コンポーネントが使えるというメリットがあります。UI のパーツをコンポーネントとして切り出すことで実装をシンプルにし、また再利用性を高めることができます。
 
 ![](/articles/assets/lulzneko/develop/nuxtjs/nuxtjs.png)
 

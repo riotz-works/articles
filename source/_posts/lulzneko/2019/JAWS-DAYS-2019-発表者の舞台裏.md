@@ -20,10 +20,10 @@ JAWS DAYS での発表の朝を迎えて、発表者 lulzneko は絶望してい
 
 ----
 
-2019年2月23日に開催された JAWS DAYS 2019 で『AWS x JAMStack で構築・運用するサーバーレスな Web Front』と題して JAMStack にまつわる発表をしました。その発表の舞台裏ということで、発表者が当日何をしていたのかを綴ります。
+2019年2月23日に開催された JAWS DAYS 2019 で『AWS x JAMstack で構築・運用するサーバーレスな Web Front』と題して JAMstack にまつわる発表をしました。その発表の舞台裏ということで、発表者が当日何をしていたのかを綴ります。
 
 **シリーズの記事**
-- [JAWS DAYS 2019 で AWS x JAMStack なサーバーレス Web Front について発表をしました](https://riotz.works/articles/lulzneko/2019/03/01/made-presentation-about-jamstack-with-aws-at-jawsdays2019/)
+- [JAWS DAYS 2019 で AWS x JAMstack なサーバーレス Web Front について発表をしました](https://riotz.works/articles/lulzneko/2019/03/01/made-presentation-about-JAMstack-with-aws-at-jawsdays2019/)
 - [JAWS DAYS 2019 で頂いた QA まとめ](https://riotz.works/articles/lulzneko/2019/02/24/summary-of-qa-at-jawsdays2019/)
 - **発表者は、その日何をしていたのか - 発表の舞台裏 JAWS DAYS 2019 編**（本記事）
 
@@ -35,7 +35,7 @@ JAWS DAYS での発表の朝を迎えて、発表者 lulzneko は絶望してい
 
 
 ## 会場入り
-ストーリーとスライドの配置は完成していて、そこに載せる図 [AWS における JAMStack の配置](https://riotz.works/slides/2019-jaws-days#18) の章で使うものが間に合ってなかったレベルなのですが、慌てて PowerPoint を操作する朝から始まりました。
+ストーリーとスライドの配置は完成していて、そこに載せる図 [AWS における JAMstack の配置](https://riotz.works/slides/2019-jaws-days#18) の章で使うものが間に合ってなかったレベルなのですが、慌てて PowerPoint を操作する朝から始まりました。
 なんか、前回の [デブサミ舞台裏](https://riotz.works/articles/lulzneko/2019/02/15/backstage-of-presentation-at-devsumi-2019-winter/) でも同じことを書いた気がします。
 
 なお、前日の 22日には発表用資料をうっかり消し飛ばす事故を起こしました。
@@ -87,7 +87,7 @@ JAWS DAYS での発表の朝を迎えて、発表者 lulzneko は絶望してい
 プロジェクターが大きく、普段は投影画像を直接指さすタイプなのですが、さすがに届かない感じです。そろそろマイ・レーザーポインターを用意したほうが良いと思いつつ、準備完了。
 
 発表用スライドの URL をツイート。
-<blockquote class="twitter-tweet" data-cards="hidden" data-lang="ja"><p lang="ja" dir="ltr">この後の JAWS DAYS 2019　Aトラック　15:10～<br>『[Serverless 前半] AWS x JAMStack で構築・運用するサーバーレスなWeb Front』の 資料はこちらになります。<a href="https://t.co/LLflOVhGSk">https://t.co/LLflOVhGSk</a><a href="https://twitter.com/hashtag/jawsug?src=hash&amp;ref_src=twsrc%5Etfw">#jawsug</a> <a href="https://twitter.com/hashtag/jawsdays?src=hash&amp;ref_src=twsrc%5Etfw">#jawsdays</a> <a href="https://twitter.com/hashtag/jd2019_a?src=hash&amp;ref_src=twsrc%5Etfw">#jd2019_a</a></p>&mdash; lulzneko (@lulzneko) <a href="https://twitter.com/lulzneko/status/1099187884748300288?ref_src=twsrc%5Etfw">2019年2月23日</a></blockquote>
+<blockquote class="twitter-tweet" data-cards="hidden" data-lang="ja"><p lang="ja" dir="ltr">この後の JAWS DAYS 2019　Aトラック　15:10～<br>『[Serverless 前半] AWS x JAMstack で構築・運用するサーバーレスなWeb Front』の 資料はこちらになります。<a href="https://t.co/LLflOVhGSk">https://t.co/LLflOVhGSk</a><a href="https://twitter.com/hashtag/jawsug?src=hash&amp;ref_src=twsrc%5Etfw">#jawsug</a> <a href="https://twitter.com/hashtag/jawsdays?src=hash&amp;ref_src=twsrc%5Etfw">#jawsdays</a> <a href="https://twitter.com/hashtag/jd2019_a?src=hash&amp;ref_src=twsrc%5Etfw">#jd2019_a</a></p>&mdash; lulzneko (@lulzneko) <a href="https://twitter.com/lulzneko/status/1099187884748300288?ref_src=twsrc%5Etfw">2019年2月23日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
@@ -101,7 +101,7 @@ JAWS DAYS での発表の朝を迎えて、発表者 lulzneko は絶望してい
 [2019/02/23(土) JAWS DAYS 2019 <7> 15:10～ #jawsug #jawsdays - Togetter](https://togetter.com/li/1322142)
 
 [@kondoyuko](https://twitter.com/kondoyuko) さんに、グラレコを作っていただきました。ありがとうございます！
-<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">[Serverless] AWS x JAMStack で構築・運用するサーバーレスなWeb Front のメモです <a href="https://twitter.com/hashtag/jd2019_a?src=hash&amp;ref_src=twsrc%5Etfw">#jd2019_a</a> <a href="https://twitter.com/hashtag/jawsdays?src=hash&amp;ref_src=twsrc%5Etfw">#jawsdays</a> <a href="https://t.co/WbrGcQ062l">pic.twitter.com/WbrGcQ062l</a></p>&mdash; 近藤佑子🐱技術書典6 か66 (@kondoyuko) <a href="https://twitter.com/kondoyuko/status/1099195738116870144?ref_src=twsrc%5Etfw">2019年2月23日</a></blockquote>
+<blockquote class="twitter-tweet" data-lang="ja"><p lang="ja" dir="ltr">[Serverless] AWS x JAMstack で構築・運用するサーバーレスなWeb Front のメモです <a href="https://twitter.com/hashtag/jd2019_a?src=hash&amp;ref_src=twsrc%5Etfw">#jd2019_a</a> <a href="https://twitter.com/hashtag/jawsdays?src=hash&amp;ref_src=twsrc%5Etfw">#jawsdays</a> <a href="https://t.co/WbrGcQ062l">pic.twitter.com/WbrGcQ062l</a></p>&mdash; 近藤佑子🐱技術書典6 か66 (@kondoyuko) <a href="https://twitter.com/kondoyuko/status/1099195738116870144?ref_src=twsrc%5Etfw">2019年2月23日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ※ QA は後ほどまとめます。
@@ -111,7 +111,7 @@ JAWS DAYS での発表の朝を迎えて、発表者 lulzneko は絶望してい
 Ask the Speaker はないので終了。
 発表用スライドの URL を再度ツイート。
 
-<blockquote class="twitter-tweet" data-cards="hidden" data-lang="ja"><p lang="ja" dir="ltr">JAWS DAYS 2019 Aトラック 15:10<br>『[Serverless 前半] AWS x JAMStack で構築・運用するサーバーレスなWeb Front』ご清聴ありがとうございました。<br>資料はこちらになります。質問やフィードバックありましたら気軽にお声がけやDMいただけたらと。<a href="https://t.co/LLflOVhGSk">https://t.co/LLflOVhGSk</a><a href="https://twitter.com/hashtag/jawsug?src=hash&amp;ref_src=twsrc%5Etfw">#jawsug</a> <a href="https://twitter.com/hashtag/jawsdays?src=hash&amp;ref_src=twsrc%5Etfw">#jawsdays</a> <a href="https://twitter.com/hashtag/jd2019_a?src=hash&amp;ref_src=twsrc%5Etfw">#jd2019_a</a></p>&mdash; lulzneko (@lulzneko) <a href="https://twitter.com/lulzneko/status/1099197322246770688?ref_src=twsrc%5Etfw">2019年2月23日</a></blockquote>
+<blockquote class="twitter-tweet" data-cards="hidden" data-lang="ja"><p lang="ja" dir="ltr">JAWS DAYS 2019 Aトラック 15:10<br>『[Serverless 前半] AWS x JAMstack で構築・運用するサーバーレスなWeb Front』ご清聴ありがとうございました。<br>資料はこちらになります。質問やフィードバックありましたら気軽にお声がけやDMいただけたらと。<a href="https://t.co/LLflOVhGSk">https://t.co/LLflOVhGSk</a><a href="https://twitter.com/hashtag/jawsug?src=hash&amp;ref_src=twsrc%5Etfw">#jawsug</a> <a href="https://twitter.com/hashtag/jawsdays?src=hash&amp;ref_src=twsrc%5Etfw">#jawsdays</a> <a href="https://twitter.com/hashtag/jd2019_a?src=hash&amp;ref_src=twsrc%5Etfw">#jd2019_a</a></p>&mdash; lulzneko (@lulzneko) <a href="https://twitter.com/lulzneko/status/1099197322246770688?ref_src=twsrc%5Etfw">2019年2月23日</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 

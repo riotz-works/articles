@@ -9,7 +9,7 @@ tags:
 - TypeScript
 - Nuxt.js
 - PWA
-- JAMStack
+- JAMstack
 ---
 
 ウェブの技術を使い、またウェブサイトとしてホスティングしながらも、モバイルやデスクトップのアプリとして振る舞うことができる PWA。最近では Google Play Store でも配信できるようになったり、iOS での対応強化など話題に事欠きません。
@@ -69,7 +69,7 @@ tags:
 - シングルページアプリ - SPA(Single Page Applications)
 - 静的サイト(プレレンダリング)
 
-SSR と JAMStack の両方を１つのソースから生成できるため、アプリ特性に合わせてモードを切り替えられます。
+SSR と JAMstack の両方を１つのソースから生成できるため、アプリ特性に合わせてモードを切り替えられます。
 
 [Vue.js](https://jp.vuejs.org/) は、ウェブフロントを開発するためのフレームワークです。"The Progressive JavaScript Framework" と題しており、ウェブ UI に対して少しずつ適用でき、コンポーネントへの分離と再利用がしやすくなっています。
 
@@ -82,11 +82,11 @@ Vue.js は強力なフレームワークですが、あらゆるウェブサイ�
 ## Nuxt.js で、アプリ開発
 さっそく Nuxt.js で PWA のベースアプリを作っていきます。
 今回のアプリはベースなので以下の仕様としました。今後、このアプリをもとにさまざまな機能の検証などをします。
-- SPA の JAMStack として作成
+- SPA の JAMstack として作成
 - TypeScript 化
 
-今回は PWA アプリで、SPA の JAMStack で作成します。SSR(Universal) にするとサーバーサイドの処理を同時に実装できるので便利ですが、SEO 重視で CGM(Consumer Generated Media) や変化の激しいコンテンツでもない限り JAMStack にして、フロントとサーバーサイドは分離し Web API 経由でデータアクセスするほうが良いでしょう。
-詳しくは [JAWS DAYS 2019 で AWS x JAMStack な、サーバーレス Web Front について発表をしました](https://riotz.works/articles/lulzneko/2019/03/01/made-presentation-about-jamstack-with-aws-at-jawsdays2019/) をご参照ください。
+今回は PWA アプリで、SPA の JAMstack で作成します。SSR(Universal) にするとサーバーサイドの処理を同時に実装できるので便利ですが、SEO 重視で CGM(Consumer Generated Media) や変化の激しいコンテンツでもない限り JAMstack にして、フロントとサーバーサイドは分離し Web API 経由でデータアクセスするほうが良いでしょう。
+詳しくは [JAWS DAYS 2019 で AWS x JAMstack な、サーバーレス Web Front について発表をしました](https://riotz.works/articles/lulzneko/2019/03/01/made-presentation-about-JAMstack-with-aws-at-jawsdays2019/) をご参照ください。
 
 [TypeScript](https://www.typescriptlang.org/) は JavaScript に型定義とクラスを導入する AltJS のプログラミング言語(正確にはスーパーセット)です。型定義を導入することで開発効率や不具合回避ができるため注目されており、最近で導入されるケースが多いようです。今回はゼロから作るので導入しておきます。
 ※ Nuxt.js は、バージョン 2.6 からオフィシャルに TypeScript 対応したのですが、2019年5月現在 CLI から簡単に導入できないため詳細は次回の記事で書きます。
@@ -110,7 +110,7 @@ $ npx create-nuxt-app <project-name>
 ? Project description (My majestic Nuxt.js project)
 ```
 
-サーバーのフレームワークを聞かれますが JAMStack でいくので `none` を選択します。
+サーバーのフレームワークを聞かれますが JAMstack でいくので `none` を選択します。
 ```console
 ? Use a custom server framework (Use arrow keys)
 ❯ none
@@ -156,7 +156,7 @@ UI のフレームワークを選択します。ここはお好みで。
   ava
 ```
 
-Nuxt.js のモードを選択します。JAMStack にするので `Single Page App` を選択します。
+Nuxt.js のモードを選択します。JAMstack にするので `Single Page App` を選択します。
 ```console
 ? Choose rendering mode (Use arrow keys)
   Universal

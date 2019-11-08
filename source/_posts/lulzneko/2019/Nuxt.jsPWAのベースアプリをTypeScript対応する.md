@@ -9,7 +9,7 @@ tags:
 - TypeScript
 - Nuxt.js
 - PWA
-- JAMStack
+- JAMstack
 ---
 
 Nuxt.js を使うことで簡単に PWA なアプリを作ることができます。そのアプリを作る際に TypeScript を使うとコードの品質を高めることができ、また複数人やチームでの開発生産性を向上させることができます。今回は Nuxt.js で作ったアプリに TypeScript を導入する方法を紹介します。

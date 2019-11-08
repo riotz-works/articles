@@ -6,11 +6,11 @@ date: 2019-04-19
 author: lulzneko
 categories: フロントエンド
 tags:
-- JAMStack
+- JAMstack
 - Hexo
 ---
 
-ブログによくある「人気の記事」のリストが欲しい。しかしながら本ブログは JAMStack で動的なことができません。ところが、スゴイ Plugin があって静的なサイトなのに「人気の記事」ができてしますのです！！
+ブログによくある「人気の記事」のリストが欲しい。しかしながら本ブログは JAMstack で動的なことができません。ところが、スゴイ Plugin があって静的なサイトなのに「人気の記事」ができてしますのです！！
 
 ![](/articles/assets/lulzneko/serverless/hexo/hexo.png)
 
@@ -26,18 +26,18 @@ tags:
 - hexo-related-popular-posts 3.0.4
 
 
-## JAMStack なサイトの強み/弱み
-スゴイ Plugin の紹介の前に、少し JAMStack について整理します。
+## JAMstack なサイトの強み/弱み
+スゴイ Plugin の紹介の前に、少し JAMstack について整理します。
 
-本ブログは Static Site Generator の Hexo を使って静的なサイト、つまり JAMStack として作っています。静的なサイトなのでプログラムを動かせるようなサーバーは持っていません。
+本ブログは Static Site Generator の Hexo を使って静的なサイト、つまり JAMstack として作っています。静的なサイトなのでプログラムを動かせるようなサーバーは持っていません。
 
-JAMStack にすることでパフォーマンスが良く、安全性を高めたサイトを作ることができます。詳しくは本ブログの記事 [JAMStack、それは ハイパフォーマンスなウェブフロントを実現するアーキテクチャ](https://riotz.works/articles/lulzneko/2019/01/23/jamstack-an-architecture-to-realize-fine-web-front/) をご参照ください。
+JAMstack にすることでパフォーマンスが良く、安全性を高めたサイトを作ることができます。詳しくは本ブログの記事 [JAMstack、それは ハイパフォーマンスなウェブフロントを実現するアーキテクチャ](https://riotz.works/articles/lulzneko/2019/01/23/JAMstack-an-architecture-to-realize-fine-web-front/) をご参照ください。
 
-メリットがあれば、デメリットもあります。静的なサイトになるので動的なこと、たとえばコメント欄などは実現できません。今回のテーマである「人気の記事」も同様で、実現するには各記事へのアクセスを集計しアクセスが多いものを人気として動的にリストを作る必要があります。つまり JAMStack ができない、動的な機能が必要となります。(なお JAMStack で動的な要素が必要な場合は SaaS などのサービスと連携して実現することが多いです)
+メリットがあれば、デメリットもあります。静的なサイトになるので動的なこと、たとえばコメント欄などは実現できません。今回のテーマである「人気の記事」も同様で、実現するには各記事へのアクセスを集計しアクセスが多いものを人気として動的にリストを作る必要があります。つまり JAMstack ができない、動的な機能が必要となります。(なお JAMstack で動的な要素が必要な場合は SaaS などのサービスと連携して実現することが多いです)
 
 
 ## hexo-related-popular-posts plugin！
-この動的なことができない JAMStack ですが、[tea3/hexo-related-popular-posts](https://github.com/tea3/hexo-related-popular-posts) plugin が「人気の記事」を実現してくれます！
+この動的なことができない JAMstack ですが、[tea3/hexo-related-popular-posts](https://github.com/tea3/hexo-related-popular-posts) plugin が「人気の記事」を実現してくれます！
 
 作者 [ᴛ ᴇ ᴀ 🍵(@tea0828)さん](https://twitter.com/tea0828) のサイト [Hexoブログで関連記事や人気記事を生成するプラグインを作った(node.js製hexo)|おちゃカメラ。](https://photo-tea.com/p/hexo-related-popular-posts/) によると、Google Analitycs のページビューを取得して、人気の記事を作るとのことです。確かに Google Analitycs は設置しているケースは多いですし、本ブログでも設定しています。また各ページごとのアクセス数もしっかり取ってくれています。そこに注目して Plugin として実現してしまうのがスゴイ！
 
@@ -208,7 +208,7 @@ popularPosts:
 
 ----
 
-JAMStack なのに、アクセス解析が必要な「人気の記事」を作ることができました！
+JAMstack なのに、アクセス解析が必要な「人気の記事」を作ることができました！
 [hexo-related-popular-posts](https://github.com/tea3/hexo-related-popular-posts)、Google Analytics を使う着眼点と、それを実現する実装力、素晴らしいです！！
 
 累計アクセスも取得できているので拡張することで、いわゆる「殿堂入り」リストも作れそうです。

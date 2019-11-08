@@ -1,12 +1,12 @@
 ---
-title: Riots.works での JAMStack の利用
+title: Riots.works での JAMstack の利用
 permalink: how-jamstack-is-used-in-riotsworks
 alias: /2019/01/29/how-jamstack-is-used-in-riots.works/index.html
 date: 2019-01-29
 author: lulzneko
 categories: フロントエンド
 tags:
-- JAMStack
+- JAMstack
 - Gridsome
 - Nuxt.js
 - Hexo
@@ -14,13 +14,13 @@ tags:
 
 ![](/articles/assets/lulzneko/serverless/jamstack.jpg)
 
-最近注目を集め始めている "JAMStack"、より良いパフォーマンス、より高いセキュリティ、より安価で簡単なスケーリング、より良質な開発者エクスペリエンスを提供するアーキテクチャ。
+最近注目を集め始めている "JAMstack"、より良いパフォーマンス、より高いセキュリティ、より安価で簡単なスケーリング、より良質な開発者エクスペリエンスを提供するアーキテクチャ。
 
-Riotz.works でも注目しており、実際に活用しています。今回は、この JAMStack を Riotz.works でどのように使っているかをご紹介します。
+Riotz.works でも注目しており、実際に活用しています。今回は、この JAMstack を Riotz.works でどのように使っているかをご紹介します。
 
 
 ## Riotz.works 公式ウェブサイト
-公式ウェブサイトのトップページ [https://riotz.works](https://riotz.works/)、Works ページ、Engineers ページが [Gridsome](https://gridsome.org/) で JAMStack なサイト作りをしています。
+公式ウェブサイトのトップページ [https://riotz.works](https://riotz.works/)、Works ページ、Engineers ページが [Gridsome](https://gridsome.org/) で JAMstack なサイト作りをしています。
 
 [Gridsome](https://gridsome.org/) は 2019年1月現在バージョン 0.4.5 で速いペースで開発が行われておりますが、必要な機能が未実装だったり、実行環境によってはさまざまな準備や設定が必要だったりします。
 [StaticGen](https://www.staticgen.com/) では 30位あたりになります。
@@ -53,7 +53,7 @@ Riotz.works でも注目しており、実際に活用しています。今回�
 
 
 ## Riotz.works Articles ページ
-[Articles](https://riotz.works/articles/) ページは、[Hexo](https://hexo.io/) で作られた JAMStack なサイトです。
+[Articles](https://riotz.works/articles/) ページは、[Hexo](https://hexo.io/) で作られた JAMstack なサイトです。
 
 この Articles こそ [Gridsom](https://gridsome.org/) が活用できる場所ではあるのですが、[Gridsom](https://gridsome.org/) が登場する以前に [Hexo](https://hexo.io/) で作ったものになり、いずれは [Gridsom](https://gridsome.org/) へ移行したいと考えてはいますが、[Gridsom](https://gridsome.org/) はまだ初期開発中で Category や Tags などのページを自前で作る必要があり、作りこみができてないです。（いずれ公式でサポートされるとは思うので待ちたいのもあり。。）
 
@@ -66,48 +66,48 @@ Riotz.works でも注目しており、実際に活用しています。今回�
 
 日本語の情報も多いので、比較的簡単にやりたいことや、困りごとを解決できます。
 
-JAMStack なブログサイトをつくり始めるには、よい入口と言えるでしょう。
+JAMstack なブログサイトをつくり始めるには、よい入口と言えるでしょう。
 
 
 ## Riotz.works Slides ページ
-[Slides](https://riotz.works/slides/ ページは、静的サイトではありますが完全に手組の HTML で、"構築済みの HTML" とはなっておらず、アクセスを受けてから JavaScript で HTML を構築しているので JAMStack なサイトではありません。
+[Slides](https://riotz.works/slides/ ページは、静的サイトではありますが完全に手組の HTML で、"構築済みの HTML" とはなっておらず、アクセスを受けてから JavaScript で HTML を構築しているので JAMstack なサイトではありません。
 
 こちらは、Markdown ファイルをソースとしたプレゼンスライドを作れる [remark.js](https://remarkjs.com/) を使っています。
 
-仕組みとしては事前に用意された Markdown ファイルを、スライド形式の HTML に変換して表示なので、JAMStack とは相性が良く、JAMStack なスライドシステムがあったら使いたいと考えています。
+仕組みとしては事前に用意された Markdown ファイルを、スライド形式の HTML に変換して表示なので、JAMstack とは相性が良く、JAMstack なスライドシステムがあったら使いたいと考えています。
 
 Markdown からスライドを作るライブラリとしては [reveal.js](https://revealjs.com/) と [remark.js](https://remarkjs.com/) ぐらいで、どちらも事前構築の HTML には対応しておらず、現時点では現状のままか、時間を作って自前開発をしたいところです。
 
 
-JAMStack なスライドシステムがあったら使いたいと考えていますが、現時点ではなさそうなので、しばらくは現状のままでしょう。
+JAMstack なスライドシステムがあったら使いたいと考えていますが、現時点ではなさそうなので、しばらくは現状のままでしょう。
 
 スライドシステムについては時間を作って自前開発にチャレンジしたいとも思っています。
 ソースは Markdown で書きたいのがありますし、カジュアルな勉強会ではリアルタイムなフィードバック機能を動かしてみたいなど、いろいろとやってみたいことがあります。
 
 
 ## ラップ、タップ、アップ 🎶
-最後にハッカソンで作った [ラップ、タップ、アップ 🎶](https://riotz.works/rap-tap-app/) ですが、こちらも JAMStack なアプリです。
+最後にハッカソンで作った [ラップ、タップ、アップ 🎶](https://riotz.works/rap-tap-app/) ですが、こちらも JAMstack なアプリです。
 
-技術としては [Nuxt.js](https://nuxtjs.org/) を使っていて SPA で静的サイトとして生成、ホスティングしています。（SSR、サーバサイドレンダリングにすると JAMStack ではなくなります）
+技術としては [Nuxt.js](https://nuxtjs.org/) を使っていて SPA で静的サイトとして生成、ホスティングしています。（SSR、サーバサイドレンダリングにすると JAMstack ではなくなります）
 これにより基本的な画面は "構築済みの HTML" となり、CDN に配置した際のメリットを出せます。
 
 ラップ対戦のルーム作成はクライアントサイドのJavaScript から Web API を呼出しています。
 また動画の中継と配信も JavaScript のライブラリからサービスを呼び出しています。
 
-ハッカソンの 24時間という限られた時間の中で、フロントエンドとサーバサイドを分離し HTML をツールを使って生成する JAMStack のアーキテクチャがまさに活かせた瞬間といえるのではないでしょうか。
+ハッカソンの 24時間という限られた時間の中で、フロントエンドとサーバサイドを分離し HTML をツールを使って生成する JAMstack のアーキテクチャがまさに活かせた瞬間といえるのではないでしょうか。
 
 サーバサイドの機能が Web API 形式で提供されているため、ロジックの変更や UI の変更といったものが相互に依存せず最小限の修正で組み込みできました。
 
 
 ----
 
-JAMStack は公式ウェブサイトのような完全な静的サイトのほか、ブログやアナウンスなどのニュースといった緩やかな更新が発生するサイト、そしてアプリといったさまざまなサイトが実現でき、Riotz.works の中でも多様な使い方をしています。
+JAMstack は公式ウェブサイトのような完全な静的サイトのほか、ブログやアナウンスなどのニュースといった緩やかな更新が発生するサイト、そしてアプリといったさまざまなサイトが実現でき、Riotz.works の中でも多様な使い方をしています。
 
 とくに [ラップ、タップ、アップ 🎶](https://riotz.works/rap-tap-app/) のような、サイト・ジェネレーターで静的ホスティングなサイトを作っていて、Web API を呼び出しているようなケースは意外とあったりするのではないでしょうか。
 
-実は JAMStack なサイトを作っていたけど、JAMStack のキーワードが知られてなく、そんな名前がついていたんだというケースがいろいろありそうです。（実は [ラップ、タップ、アップ 🎶](https://riotz.works/rap-tap-app/) 作成時点では JAMStack の言葉は知らなかったです）
+実は JAMstack なサイトを作っていたけど、JAMstack のキーワードが知られてなく、そんな名前がついていたんだというケースがいろいろありそうです。（実は [ラップ、タップ、アップ 🎶](https://riotz.works/rap-tap-app/) 作成時点では JAMstack の言葉は知らなかったです）
 
 
-ただ、これだけ JAMStack な サイトと書いてきましたが 実はホスティングが GitHub Pages で、JAMStack ベスト プラクティスの CDN に 乗ってなかったりも。。
+ただ、これだけ JAMstack な サイトと書いてきましたが 実はホスティングが GitHub Pages で、JAMstack ベスト プラクティスの CDN に 乗ってなかったりも。。
 
 これまでの経緯から GitHub Pages を使ってて、またカスタムドメインを使っているほか、４サイト（リポジトリ）がのっかっているので一斉に引っ越しする必要があり、作業時間を作るのに苦慮しているためです。

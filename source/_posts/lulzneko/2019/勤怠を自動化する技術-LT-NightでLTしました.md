@@ -5,7 +5,7 @@ date: 2019-07-20
 author: lulzneko
 categories: プレゼンテーション
 tags:
-- JAMStack
+- JAMstack
 - PWA
 - Nuxt.js
 ---

@@ -8,7 +8,7 @@ categories: ハッカソン
 tags:
 - SPAJAM
 - Nuxt.js
-- JAMStack
+- JAMstack
 - AWS Lambda
 ---
 
@@ -159,7 +159,7 @@ https://riotz.works/slides/2019-spajam-qualification
 (ちょうど別件で Web NFC が欲しくて勉強する予定でしたが、ぶつけ本番となってしまった)
 
 アーキテクチャは以下ですが、詳細記事を書きます。
-- Nuxt.js の PWA。JAMStack になります。
+- Nuxt.js の PWA。JAMstack になります。
 - サーバーサイドは AWS で、サーバーレス(API Gateway, AWS Lambda, DynamoDB)。
 
 

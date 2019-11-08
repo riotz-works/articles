@@ -6,7 +6,7 @@ date: 2019-04-20
 author: lulzneko
 categories: プルリク / OSS-Friday
 tags:
-- JAMStack
+- JAMstack
 - Hexo
 ---
 
@@ -20,7 +20,7 @@ Static Site Generator の Hexo で「人気の記事」を実現する Plugin、
 [tea3/hexo-related-popular-posts](https://github.com/tea3/hexo-related-popular-posts) は [Hexo](https://hexo.io/) の Plugin で、Google Analytics からアクセス解析のデータを取得して各記事のランキングを作成してくれます。
 ![](/articles/assets/lulzneko/develop/pullreq/hexo-related-popular-posts/01.png)
 
-Hexo は Static Site Generator で JAMStack サイトを作ります。JAMStack は静的なサイトで、アクセス解析のようなことはできず、通常は「人気の記事」のような動的な要素が必要なことはできません。
+Hexo は Static Site Generator で JAMstack サイトを作ります。JAMstack は静的なサイトで、アクセス解析のようなことはできず、通常は「人気の記事」のような動的な要素が必要なことはできません。
 
 ところが tea3/hexo-related-popular-posts は冒頭に書きました通り Google Analytics と連携することで実現してくれる、最高にスゴイ Plugin です。
 

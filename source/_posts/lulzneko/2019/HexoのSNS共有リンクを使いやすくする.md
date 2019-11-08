@@ -6,7 +6,7 @@ date: 2019-04-11
 author: lulzneko
 categories: フロントエンド
 tags:
-- JAMStack
+- JAMstack
 - Hexo
 ---
 

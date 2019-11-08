@@ -6,7 +6,7 @@ date: 2019-04-06
 author: lulzneko
 categories: レポート
 tags:
-- JAMStack
+- JAMstack
 - Gridsome
 - Nuxt.js
 - Hexo
@@ -22,7 +22,7 @@ WordPress コンテンツ作成管理 ＋ スタティック・サイト・ジ�
 
 **シリーズの記事**
 - [Shiftup! JP_Getshifter Vol5！ にて「Shifter ＋ SSG の世界」について発表をしました](https://riotz.works/articles/lulzneko/2019/08/21/made-presentation-about-shifter-with-ssg-at-shiftup-vol5/)
-- [Shiftup! JP_Getshifter Vol3！ で JAMStack な サーバーレス ウェブフロント に ついて発表をしました](https://riotz.works/articles/lulzneko/2019/04/05/made-presentation-about-jamstack-at-shiftup-vol3/)
+- [Shiftup! JP_Getshifter Vol3！ で JAMstack な サーバーレス ウェブフロント に ついて発表をしました](https://riotz.works/articles/lulzneko/2019/04/05/made-presentation-about-jamstack-at-shiftup-vol3/)
 - [Shiftup! JP_Getshifter Vol3！ 参加レポート](https://riotz.works/articles/lulzneko/2019/04/03/take-seminar-on-shiftup-vol3/)
 - **Shiftup! JP_Getshifter Vol3！ 振り返り、Shifter のヘッドレス CMS 化に思いを馳せる** (本記事)
 
@@ -37,7 +37,7 @@ Shiftup! JP_Getshifter Vol3！ にて Shifter Webhooks の発表がありまし�
 ![](/articles/assets/lulzneko/seminar/shifter/03-21.png)
 
 
-ざっくり言うと Shifter の WordPress エディターとコンテンツ管理・運用を利用ターゲットとし、WordPress で作成したコンテンツのソースを任意のスタティック・サイト・ジェネレーターにかけて JAMStack なサイト生成するということができるのではないかという話です。
+ざっくり言うと Shifter の WordPress エディターとコンテンツ管理・運用を利用ターゲットとし、WordPress で作成したコンテンツのソースを任意のスタティック・サイト・ジェネレーターにかけて JAMstack なサイト生成するということができるのではないかという話です。
 
 スタティック・サイト・ジェネレーターを使う場合、コンテンツ管理をヘッドレス CMS というエディターとコンテンツ管理のためだけのサービスを使い、そこからコンテンツを取得してスタティック・サイト・ジェネレーターでサイト生成するという手法があります。
 この手法を Shifter で実現すると、とても良いことが起こるのではないかという考えになります。
@@ -49,12 +49,12 @@ Shiftup! JP_Getshifter Vol3！ にて Shifter Webhooks の発表がありまし�
 ## ヘッドレス CMS とは
 ここで "ヘッドレス CMS" という概念が急に登場したので、整理しておきます。
 
-JAMStack なブログや記事を配信するサイトを作る際に、その記事のソースをどのように管理するのかという話があります。スタティック・サイト・ジェネレーター自体は記事を管理する機能はなく、特定のソースから JAMStack なサイトを作ることに特化しています。そのため記事のソースを管理する方法が必要となってくるからです。
+JAMstack なブログや記事を配信するサイトを作る際に、その記事のソースをどのように管理するのかという話があります。スタティック・サイト・ジェネレーター自体は記事を管理する機能はなく、特定のソースから JAMstack なサイトを作ることに特化しています。そのため記事のソースを管理する方法が必要となってくるからです。
 
 １つは、ローカルにある Markdown などのファイルをソースとし使う方法になります。
-サイトの構成と一緒に記事も管理する方法になります。たとえば、この記事自体は Markdown ファイルとして Git で管理されていて、同じリポジトリ内にサイト生成のテンプレート類も入っています。これを Hexo というツールで JAMStack なサイトとして生成し、GitHub Pages でホスティングしています。
+サイトの構成と一緒に記事も管理する方法になります。たとえば、この記事自体は Markdown ファイルとして Git で管理されていて、同じリポジトリ内にサイト生成のテンプレート類も入っています。これを Hexo というツールで JAMstack なサイトとして生成し、GitHub Pages でホスティングしています。
 
-もう１つは、CMS で管理されているソースをもとに JAMStack なサイトを生成する方法です。
+もう１つは、CMS で管理されているソースをもとに JAMstack なサイトを生成する方法です。
 この方法で使う CMS はエディター とコンテンツ管理が主体になります。コンテンツの作成と管理に特化していて、ウェブサイトは別で持ってくださいという形です。
 
 このエディターとコンテンツ管理に特化した CMS をヘッドレス CMS と呼びます。
@@ -115,7 +115,7 @@ Shiftup! JP_Getshifter Vol3！ 参加記三部作、最後の記事になりま�
 本記事の主題としては「Shifter さん、ぜひ作ってください」にはなりますが、WordPress の運用部分は発生するものの Gridsome などと WordPress を組み合わせて同様のこともできますし、実際にやったことがある案件で Nuxt.js から WordPress REST API を呼び出してモバイル対応してない既存 WordPress サイトのモバイル対応するというのもやったことがあります。
 
 WordPress とスタティック・サイト・ジェネレーターの組み合わせは、応用力が高いと考えています。
-そのためアーキテクチャや考え方などについて発信したく、またヘッドレス CMS ＋ スタティック・サイト・ジェネレーターという JAMStack のアーキテクチャの１つを広めたく書いたものになります。
+そのためアーキテクチャや考え方などについて発信したく、またヘッドレス CMS ＋ スタティック・サイト・ジェネレーターという JAMstack のアーキテクチャの１つを広めたく書いたものになります。
 
 そして勉強会に参加すると、こういった使い方や新しいアーキテクチャについての議論ができたりします。今回はかなりカジュアルでお話しやすいイベントだったというのもありますが、実際にサービスを展開されている方や発表者さんとディスカスできるのは、とても素晴らしく、よいですね。
 
