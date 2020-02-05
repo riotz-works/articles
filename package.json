@@ -1,14 +1,20 @@
 {
   "name": "riotz-website-articles",
-  "version": "0.0.1",
   "private": true,
-  "hexo": {
-    "version": "4.1.1"
+  "scripts": {
+    "clean": "rimraf db.json dist hexo-popular-related-posts-cached.json rankingSheet.txt",
+    "setup": "yarn install --ignore-optional",
+    "dev": "node -r dotenv/config node_modules/hexo-cli/bin/hexo server --drafts",
+    "build": "yarn clean && hexo generate",
+    "deploy": "hexo deploy"
   },
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "dotenv": "^8.2.0",
     "hexo": "^4.1.1",
     "hexo-browsersync": "^0.3.0",
-    "hexo-clean-css": "1.0.0",
+    "hexo-clean-css": "^1.0.0",
+    "hexo-cli": "^3.1.0",
     "hexo-deployer-git": "^2.1.0",
     "hexo-generator-alias": "^0.1.3",
     "hexo-generator-archive": "^1.0.0",
@@ -17,25 +23,18 @@
     "hexo-generator-index": "^1.0.0",
     "hexo-generator-sitemap": "^2.0.0",
     "hexo-generator-tag": "^1.0.0",
-    "hexo-html-minifier": "1.0.0",
+    "hexo-html-minifier": "^1.0.0",
     "hexo-pwa": "^0.1.3",
     "hexo-related-popular-posts": "^4.0.0",
     "hexo-renderer-ejs": "^1.0.0",
     "hexo-renderer-marked": "^2.0.0",
     "hexo-renderer-stylus": "^1.1.0",
     "hexo-server": "^1.0.0",
-    "hexo-uglify": "1.1.0"
+    "hexo-uglify": "^1.1.0",
+    "rimraf": "^3.0.1"
   },
-  "devDependencies": {
-    "dotenv": "*",
-    "hexo-cli": "*"
-  },
-  "scripts": {
-    "clean": "npx rimraf db.json dist hexo-popular-related-posts-cached.json rankingSheet.txt",
-    "setup": "yarn install --ignore-optional",
-    "dev": "node -r dotenv/config node_modules/hexo-cli/bin/hexo server --drafts",
-    "build": "yarn clean && hexo generate",
-    "deploy": "hexo deploy"
+  "hexo": {
+    "version": "4.1.1"
   },
   "homepage": "https://github.com/riotz-works/articles#readme",
   "repository": {
