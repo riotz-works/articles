@@ -12,18 +12,22 @@ commands:
   attach:
     steps:
       - attach_workspace:
-          at: ~/workspace
+          at: .
   persist:
     steps:
       - persist_to_workspace:
-          root: ~/workspace
+          root: .
           paths:
-            - ./*
+            - "*"
+  ssh_keys:
+    steps:
+      - add_ssh_keys:
+          fingerprints:
+            - "8a:33:c6:ef:c2:7c:b2:e7:8d:4a:2f:90:6d:89:e0:b1"
 
 jobs:
   setup:
-    executor:
-      name: default
+    executor: default
     steps:
       - run:
           name: System information
@@ -32,21 +36,18 @@ jobs:
             echo "Yarn v$(yarn -v)"
       - checkout
       - restore_cache:
-          name: Restore Yarn Package Cache
           key: yarn-packages-{{ checksum "yarn.lock" }}
       - run:
           name: Setup
           command: |
             yarn setup
       - save_cache:
-          name: Save Yarn Package Cache
           key: yarn-packages-{{ checksum "yarn.lock" }}
           paths:
             - ~/.cache/yarn
       - persist
   build:
-    executor:
-      name: default
+    executor: default
     steps:
       - attach
       - run:
@@ -57,15 +58,11 @@ jobs:
           path: dist
       - persist
   deploy:
-    executor:
-      name: default
+    executor: default
     steps:
       - attach
-      - add_ssh_keys:
-          fingerprints:
-            - "8a:33:c6:ef:c2:7c:b2:e7:8d:4a:2f:90:6d:89:e0:b1"
+      - ssh_keys
       - deploy:
-          name: Deploy
           command: |
             ssh-keyscan github.com >> ~/.ssh/known_hosts
             git config --global user.name "CircleCI"
