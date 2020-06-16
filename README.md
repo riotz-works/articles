@@ -1,11 +1,11 @@
-# Articles | Riotz Works
+# Articles | Riotz.works
 
 これは http://riotz.works/articles の ウェブサイトを生成するためのソースを管理するリポジトリです。  
 デフォルトで設定している `source` ブランチがウェブサイトのソースで、 `master` ブランチは GitHub Pages で 公開しているウェブサイトそのものになります。  
 
 ## 概要
-これは Riotz Works の 記事を公開する「Articles | Riotz Works」のウェブサイトのソース管理です。 Riotz Worksの内部で使用しているリポジトリです。  
-ツールの利用の仕方などを参考にすることは可能ですが、Riotz Works の エンジニア以外の方が直接利用することは想定していません。  
+これは Riotz.works の 記事を公開する「Articles | Riotz.works」のウェブサイトのソース管理です。 Riotz.worksの内部で使用しているリポジトリです。  
+ツールの利用の仕方などを参考にすることは可能ですが、Riotz.works の エンジニア以外の方が直接利用することは想定していません。  
 
 
 ## 必要な環境
@@ -114,15 +114,15 @@ git push
 
 
 ### Disqus の アカウント設定
-「Articles | Riotz Works」のウェブサイトは [Disqus](https://disqus.com/) の コメント・サービスを利用しています。コメントについて通知を受けるために Disqus の アカウント設定をします。  
+「Articles | Riotz.works」のウェブサイトは [Disqus](https://disqus.com/) の コメント・サービスを利用しています。コメントについて通知を受けるために Disqus の アカウント設定をします。  
 Disqus [https://disqus.com/profile/signup/](https://disqus.com/profile/signup/) の アカウントを取得してください。  
 そして登録済みアカウントを既存のコミッターへ連絡し、サイトへ追加してもらってください。  
 
 
 ## コントリビューション
-このリポジトリは Riotz Works の エンジニアが使うことを想定しています。  
+このリポジトリは Riotz.works の エンジニアが使うことを想定しています。  
 しかしながら、私たちのウェブサイトを改善するためのフィードバックを歓迎しています。詳細はこちら [CONTRIBUTING](/.github/CONTRIBUTING.md) を ご確認ください。
 
 
 ----
-© Riots Works  
+© Riots.works  
