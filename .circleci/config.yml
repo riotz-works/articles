@@ -66,8 +66,8 @@ jobs:
       - ssh_keys
       - deploy:
           command: |
-            git config --global user.name "CircleCI"
-            git config --global user.email "contact@riotz.works"
+            git config --global user.name `git --no-pager show -s --format='%cn' HEAD`
+            git config --global user.email `git --no-pager show -s --format='%ce' HEAD`
             yarn deploy
 
 
