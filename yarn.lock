@@ -1997,10 +1997,10 @@ hexo-pwa@^0.1.3:
   dependencies:
     lodash.template "^4.4.0"
 
-hexo-related-popular-posts@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/hexo-related-popular-posts/-/hexo-related-popular-posts-4.0.0.tgz#529085634c328756a9c00b46de141c0676f1a43c"
-  integrity sha512-oudCAf8VjjQGwU/Q9BT5KkbvU5JGfC/Glz1hW+jUHTgYvo+oNQZ58IYTe4eVcJ8WeEhzPGT2AfEV7TsFRRfjWw==
+hexo-related-popular-posts@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-related-popular-posts/-/hexo-related-popular-posts-5.0.0.tgz#49f44c19d232bd12bd8c1b69a9864efac5849bf1"
+  integrity sha512-wZBGyKU1uBMKPHd4cwyJQcf+/qZJPrWZ3TXZ7mIACcLvB677ku09Z6c/EfFPRKkdcq98eJc+MofxYyzVnIcq1w==
   dependencies:
     cheerio "^1.0.0-rc.2"
     columnify "^1.5.4"
