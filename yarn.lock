@@ -2050,14 +2050,13 @@ hexo-server@^1.0.0:
     open "^6.3.0"
     serve-static "^1.14.1"
 
-hexo-uglify@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/hexo-uglify/-/hexo-uglify-1.1.0.tgz#b99350dfdd6f3ce429159c09213fc70c491d808d"
-  integrity sha512-lj2vjm+hTmedfkMDVP8qpL7MX6RrKggSGchlQ0xdt6gIqva20imjVp1hZ5PzDiopfHGTDVEOJ4z6vIbBypbfLw==
+hexo-uglify@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/hexo-uglify/-/hexo-uglify-2.0.0.tgz#1345dd207d230c577c88b597c78e7d78b607d228"
+  integrity sha512-pxKBWhe+WUkITVcFUKY8o3A16Zh8t9XRgmvuZD54HFOwApCxlJmWNSh7kMT1nsrElozpSzMPpFgsRG7yz7j92Q==
   dependencies:
     micromatch "^4.0.2"
-    terser "^4.3.9"
-    uglify-js "^3.6.0"
+    terser "^5.3.0"
 
 hexo-util@1.0.0:
   version "1.0.0"
@@ -4305,10 +4304,10 @@ symbol-observable@1.0.1:
   resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.0.1.tgz#8340fc4702c3122df5d22288f88283f513d3fdd4"
   integrity sha1-g0D8RwLDEi310iKI+IKD9RPT/dQ=
 
-terser@^4.3.9:
-  version "4.6.3"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-4.6.3.tgz#e33aa42461ced5238d352d2df2a67f21921f8d87"
-  integrity sha512-Lw+ieAXmY69d09IIc/yqeBqXpEQIpDGZqT34ui1QWXIUpR2RjbqEkT8X7Lgex19hslSqcWM5iMN2kM11eMsESQ==
+terser@^5.3.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-5.3.0.tgz#c481f4afecdcc182d5e2bdd2ff2dc61555161e81"
+  integrity sha512-XTT3D3AwxC54KywJijmY2mxZ8nJiEjBHVYzq8l9OaYuRFWeQNBwvipuzzYEP4e+/AVcd1hqG/CqgsdIRyT45Fg==
   dependencies:
     commander "^2.20.0"
     source-map "~0.6.1"
@@ -4453,7 +4452,7 @@ uglify-js@2.6.0:
     uglify-to-browserify "~1.0.0"
     yargs "~3.10.0"
 
-uglify-js@^3.5.1, uglify-js@^3.6.0:
+uglify-js@^3.5.1:
   version "3.7.7"
   resolved "https://registry.yarnpkg.com/uglify-js/-/uglify-js-3.7.7.tgz#21e52c7dccda80a53bf7cde69628a7e511aec9c9"
   integrity sha512-FeSU+hi7ULYy6mn8PKio/tXsdSXN35lm4KgV2asx00kzrLU9Pi3oAslcJT70Jdj7PHX29gGUPOT6+lXGBbemhA==
