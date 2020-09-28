@@ -7,4 +7,4 @@ updates:
       interval: weekly
       time: "02:00"
       timezone: Asia/Tokyo
-    open-pull-requests-limit: 99
+    open-pull-requests-limit: 0
