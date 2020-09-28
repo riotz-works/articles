@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/05/10/typescripting-base-app-of-nuxtjs-pwa/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/06/29/book-review-of-fun-programming-drill-4402391474/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/03/30/take-seminar-on-how-to-make-meishi-in-tokyo/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/07/20/made-lt-about-Attendance-tec/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/07/07/book-review-of-presentation-drill-4798157716/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lopburny/2019/08/28/using-typescript-re-export-and-import-syntax-to-improve-module-arrangement/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lopburny/2019/07/21/efficient-way-to-manage-api-definition/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lopburny/2019/07/26/v-banner-introduction-of-vuetify-2.0/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lopburny/2019/09/13/notes-when-using-web-storage/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lopburny/2019/07/31/page-reload-issue-by-implicit-submission/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lopburny/2019/09/29/book-review-of-developing-secure-web-applications/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lopburny/2019/08/24/3-ways-to-use-draw-io/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lopburny/2019/09/06/introduction-and-use-of-web-storage/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lopburny/2019/09/15/introduce-http-archive-file-and-viewer/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lopburny/2019/10/07/review-my-blog-mentoring-experience/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lopburny/2019/08/12/arrange-vuetify-components-with-spacing-helper/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2017/12/01/Hello-World-!!/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2018/12/22/implement-chat-using-websocket-of-api-gateway-with-serverless-framework/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2018/12/31/review-of-2018/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2018/02/01/beginning-serverless-dev-with-serverless-framework-and-typescript/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/04/27/manage-personal-tasks-with-asana/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2017/12/07/csv-batch-can-also-realized-with-serverless-impl-using-lambda/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/05/02/make-asana-app-window-with-google-chrome/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2018/02/03/develop-hello-and-version-web-api-with-serverless-framework-and-typescript/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/05/03/make-asana-app-with-nativefier/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/07/14/temporarily-ignore-change-tracking-for-files-managed-by-git/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/03/10/cto-vs-hackers-hackathon-chronicle/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/07/26/made-presentation-about-serverless-at-cloudnative-days-2019/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/06/08/automatically-swich-git-configuration-for-each-repository/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/04/17/programmatically-access-google-analytics/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/07/09/take-seminar-on-go-saas1-in-tokyo/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/04/19/want-to-display-list-of-popular-posts-on-hexo-used-in-blog/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/04/10/add-hatena-bookmark-to-sns-share-link-of-hexo-used-in-blog/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/05/22/add-article-title-to-sns-share-link-of-hexo-used-in-blog/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/03/03/google-domains-mail-forwarding-and-gmail-sender-settings/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/04/11/improve-sns-shared-links-usability-of-hexo-used-in-blog/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/03/01/made-presentation-about-JAMstack-with-aws-at-jawsdays2019/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/02/24/summary-of-qa-at-jawsdays2019/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/02/23/backstage-of-presentation-at-jawsdays2019/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/01/23/JAMstack-an-architecture-to-realize-fine-web-front/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/09/23/deploy-to-netlify-via-cli-for-cicd/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/05/09/develop-base-app-for-pwa-with-nuxtjs/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/06/01/made-presentation-about-jamstack-with-gridsome-at-javascript-matsuri/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/05/13/deploy-nuxtjs-pwa-base-app-to-github-pages/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/07/06/summary-of-oss-friday-activities-in-2019-06/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/06/26/where-is-gitignore-of-os-and-ide-specific-setting/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/06/15/use-of-vue-components-in-nuxtjs-and-cross-call-with-it/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/06/05/summary-of-oss-friday-activities-in-2019-05/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/08/23/always-put-my-address-in-cc-in-outlook/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/05/20/spajam-2019-tokyo-a-pre-hackathon-chronicle/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/01/29/how-jamstack-is-used-in-riotsworks/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/12/31/review-of-2019/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/12/24/first-website-with-shifter-webhooks-and-gridsome-on-netlify/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/05/27/made-presentation-about-jamstack-at-serverless-meetup-tokyo-12/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/04/03/take-seminar-on-shiftup-vol3/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/04/06/think-of-shifters-headlesscms-nize-on-shiftup-vol3/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/08/21/made-presentation-about-shifter-with-ssg-at-shiftup-vol5/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/03/28/thinking-about-prefer-function-over-method-rule-of-tslint/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/04/05/made-presentation-about-jamstack-at-shiftup-vol3/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/05/17/easy-poc-with-sandbox-for-typescript-project/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/03/13/pull-request-to-validate-typescript-about-installation-errors/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/03/22/trial-input-data-validation-with-validate-typescript/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/06/18/lets-create-gitignore-using-generation-service-gitignoreio/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/05/24/pull-request-to-ga-analytics-about-support-nodejs10/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/10/07/ideal-as-a-mock-server-of-webapi-jsonboxio/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/06/12/httpstatus-makes-http-client-testing-easy/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/04/20/pull-request-to-hexo-related-popular-posts-about-subpath-enablement/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/04/23/write-easy-to-read-sentences-using-text-proofreading/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/06/24/serverless-weather-report-slack-bot-sora-kagami/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/02/18/summary-of-qa-at-ask-the-speaker-of-devsumi-2019-winter/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/02/15/backstage-of-presentation-at-devsumi-2019-winter/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/02/27/made-presentation-about-enjoyment-of-serverless-at-devsumi-2019-winter/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/04/09/review-of-k9us-blog-mentee-first-week/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/05/26/review-of-k9us-blog-mentee-8th-week/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/06/09/review-of-k9us-blog-mentee-10th-week/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/04/01/k9us-blog-mentoring-to-lulzneko/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/04/28/review-of-k9us-blog-mentee-4th-week/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/06/17/automatically-swich-environment-variables-to-working-directory-of-shell/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lulzneko/2019/06/03/demo-app-implementation-commentary-presented-at-javascript-matsuri/</loc>
+    
+    <lastmod>2020-09-28T04:38:12.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lopburny/2019/07/12/configuring-ip-address-access-control-with-aws-waf/</loc>
+    
+    <lastmod>2020-09-28T04:38:11.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lopburny/2019/08/17/describe-bearer-scheme-in-openapi-3/</loc>
+    
+    <lastmod>2020-09-28T04:38:11.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lopburny/2019/09/20/introduce-iso-8601-time-interval-spec/</loc>
+    
+    <lastmod>2020-09-28T04:38:11.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lopburny/2019/07/05/hosting-static-web-page-on-aws-with-s3-and-cloudfront/</loc>
+    
+    <lastmod>2020-09-28T04:38:11.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://riotz.works/articles/lopburny/2018/12/29/what-we-did-in-2018/</loc>
+    
+    <lastmod>2020-09-28T04:38:11.000Z</lastmod>
+    
+  </url>
+  
+</urlset>
